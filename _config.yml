@@ -46,5 +46,5 @@ timezone: Asia/Singapore
 # Liquid options
 liquid:
   error_mode: warn
-  strict_variables: true
-  strict_filters: true
+  strict_variables: false
+  strict_filters: false
