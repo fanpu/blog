@@ -49,3 +49,6 @@ liquid:
   strict_filters: false
 
 comments: true
+
+# Allow showing of future posts
+future: true
