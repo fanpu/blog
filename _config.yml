@@ -19,7 +19,6 @@ description: >- # this means to ignore newlines until "baseurl:"
   My thoughts and musings on work, code, and life.
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "http://fanpu.io" # the base hostname & protocol for your site, e.g. http://example.com
-twitter_username: ""
 github_username:  fanpu
 
 # Build settings
