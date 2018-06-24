@@ -47,3 +47,5 @@ liquid:
   error_mode: warn
   strict_variables: false
   strict_filters: false
+
+comments: true
