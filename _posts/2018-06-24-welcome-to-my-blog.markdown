@@ -5,7 +5,7 @@ tags: [jekyll, blog]
 It has been a while since I had intended to start my own technical blog. The idea began seriously floating in my mind after my one-on-one with my senior colleague Javier in Saleswhale. Starting a technical blog was one of the valuable pieces of advice that he gave to me, and it was something that he regretted not doing earlier. From an engineer's point of view, writing a blog has many benefits:
 1. Improving your written communication skills
 2. Synthesizing newly-learned concepts
-3. Increase your influence in the programing community
+3. Increase your influence in the programming community
 4. Employability
 
 The realities of life and the need to maintain a professional front has become more relevant now that I have been engaged in working life for nearly 8 months now. Charting your own professional development and career plans is something that I now can (and should) take charge of, and it has opened unprecendented windows of opportunity to me in terms of what I could do and pursue. On top of that, the idea of owning and maintaining my own webfront is very excitable to me (yes, even as someone
