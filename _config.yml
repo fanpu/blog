@@ -52,3 +52,6 @@ comments: true
 
 # Allow showing of future posts
 future: true
+
+# Show excepts
+show_excerpts: true
