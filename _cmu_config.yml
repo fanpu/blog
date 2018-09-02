@@ -17,8 +17,8 @@ title: Zeng Fan Pu's Blog
 email: zengfanpu [at] gmail [dot] com
 description: >- # this means to ignore newlines until "baseurl:"
   My thoughts and musings on work, code, and life.
-baseurl: "" # the subpath of your site, e.g. /blog
-url: "https://fanpu.io" # the base hostname & protocol for your site, e.g. http://example.com
+baseurl: "/user/fzeng" # the subpath of your site, e.g. /blog
+url: "http://www.andrew.cmu.edu" # the base hostname & protocol for your site, e.g. http://example.com
 github_username:  fanpu
 linkedin_username:  zengfanpu
 
