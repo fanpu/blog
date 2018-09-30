@@ -15,7 +15,7 @@ The following guide is tailored for Ubuntu as that is what most people would use
 Kerberos is what AFS uses for authentication. Before we mount AFS, we must ensure that we are authenticated with a Kerberos ticket with the server. To install the Kerberos client:
 
 ```
-apt-get install krb5-user
+$ apt-get install krb5-user
 
 ------TRUNCATED OUTPUT------
 ------TRUNCATED OUTPUT------
@@ -51,7 +51,7 @@ Valid starting     Expires            Service principal
 Kerberos authentication requires GSSAPI (Generic Security Services Application Programming Interface). To set this up, in your `~/.ssh/config` file (create it if it does not exist), add
 
 {% highlight bash %}
-# CMU Linux Timeshare Server
+# Inside ~/.ssh/config
 Host andrew   # Replace with name of your choice
   HostName linux.andrew.cmu.edu   # Replace with your school's timeshare server hostname
   User fzeng # Replace with your username
@@ -63,7 +63,7 @@ Host andrew   # Replace with name of your choice
 You should now be able to SSH to AFS without entering your credentials!
 
 ```
-ssh andrew   # Replace with the Host name you defined in ~/.ssh/config
+$ ssh andrew   # Replace with the Host name you defined in ~/.ssh/config
 ```
 
 This concludes Part 1 of the tutorial. In Part 2 we will discuss how we can mount AFS locally with OpenAFS.
