@@ -1,0 +1,8 @@
+#!/bin/sh
+mv _config.yml _config_orig.yml
+mv _config_cmu.yml _config.yml
+JEKYLL_ENV=production bundle exec jekyll build
+mv _config.yml _config_cmu.yml
+mv _config_orig.yml _config.yml
+rsync -crvz --rsh='ssh -p22' --delete-after --delete-excluded  _site/ cmu:www
+curl http://www.andrew.cmu.edu/cgi-bin/publish?FLAG=0&NAME=fzeng
