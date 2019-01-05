@@ -23,7 +23,6 @@ my own reference. You may find some of these helpful as well.
 curl -H "Content-Type: application/json" -d '{"text": "Hello world"}' http://localhost:3000/api
 ```
 
-
 ### Postgres
 #### > Connecting
 
@@ -54,6 +53,17 @@ psql -h <hostname> -U <username> -d <database>
 ```
 docker build -t <image_name>
 ```
+- Run a Docker image. Tag name is defaulted to `latest` if unspecified.
+```
+docker run <image_name>:<tag_name>
+```
+
+- To run a Docker container inside a Docker container, pass in the Docker
+  socket as a volume
+```
+docker run -v /var/run/docker.sock:/var/run/docker.sock
+```
+
 
 #### > Docker Compose
 - Bring up containers in detached mode:
@@ -101,4 +111,28 @@ JEKYLL_ENV=production bundle exec jekyll build
 - Execute chef cookbook with config file and JSON data
 ```
 chef-solo -c <config_file> -j <json_file>
+```
+
+### NPM
+- Install a package globally
+```
+npm install -g <package_name>
+```
+
+### dpkg
+- Build package
+```
+dpkg-deb --build myapp_1.0
+```
+- Get information about package
+```
+dpkg-deb -I myapp_1.0.deb
+```
+- Get contents of package
+```
+dpkg-deb -c myapp_1.0.deb
+```
+- Install package
+```
+dpkg-deb -i myapp_1.0.deb
 ```

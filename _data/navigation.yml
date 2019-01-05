@@ -18,3 +18,8 @@ docs:
 - title: Chef
   url: cheat_sheets#chef
 
+- title: NPM
+  url: cheat_sheets#npm
+
+- title: dpkg
+  url: cheat_sheets#dpkg
