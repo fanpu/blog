@@ -42,6 +42,15 @@ psql -h <hostname> -U <username> -d <database>
 - `create role <user>`: Create role with existing username
 
 ### Docker
+#### > Docker Compose
+- Bring up containers in detached mode:
+```
+docker-compose up -d
+```
+- Bring down containers
+```
+docker-compose down
+```
 ### Jekyll
 - Serve a Jekyll project locally:
 ```
