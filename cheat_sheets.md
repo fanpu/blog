@@ -61,3 +61,9 @@ bundle exec jekyll serve
 ```
 JEKYLL_ENV=production bundle exec jekyll build
 ```
+
+### Chef
+- Execute chef cookbook with config file and JSON data
+```
+chef-solo -c <CONFIG_FILE> -j <JSON_FILE>
+```
