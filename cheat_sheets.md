@@ -16,6 +16,13 @@ my own reference. You may find some of these helpful as well.
    {% endfor %}
 </ul>
 
+### Linux
+#### > Curl
+- `curl` an application with JSON payload
+```shell
+curl -H "Content-Type: application/json" -d '{"text": "Hello world"}' http://localhost:3000/api
+```
+
 
 ### Postgres
 #### > Connecting
@@ -42,6 +49,12 @@ psql -h <hostname> -U <username> -d <database>
 - `create role <user>`: Create role with existing username
 
 ### Docker
+#### > Docker
+- Build a Docker image
+```
+docker build -t <image_name>
+```
+
 #### > Docker Compose
 - Bring up containers in detached mode:
 ```
@@ -87,5 +100,5 @@ JEKYLL_ENV=production bundle exec jekyll build
 ### Chef
 - Execute chef cookbook with config file and JSON data
 ```
-chef-solo -c <CONFIG_FILE> -j <JSON_FILE>
+chef-solo -c <config_file> -j <json_file>
 ```

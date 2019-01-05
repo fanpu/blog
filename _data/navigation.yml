@@ -1,5 +1,8 @@
 docs_cheatsheet_title: Contents
 docs:
+- title: Linux
+  url: cheat_sheets#linux
+
 - title: Postgres
   url: cheat_sheets#postgres
 
