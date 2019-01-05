@@ -23,3 +23,6 @@ docs:
 
 - title: dpkg
   url: cheat_sheets#dpkg
+
+- title: apt
+  url: cheat_sheets#apt

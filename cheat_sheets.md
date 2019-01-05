@@ -136,3 +136,19 @@ dpkg-deb -c myapp_1.0.deb
 ```
 dpkg-deb -i myapp_1.0.deb
 ```
+
+### apt
+- List installed packages
+```
+apt list --installed
+```
+- Get information about package
+```
+apt show <package_name>
+```
+
+### Gem
+- Install package without ri and rdoc
+```
+gem install --no-ri --no-rdoc <name>
+```
