@@ -52,6 +52,28 @@ docker-compose up -d
 docker-compose down
 ```
 
+### Vagrant
+- Create a Vagrant configuration file for Ubuntu 14.04 (Trusty Tahr) 64-bit virtual machine image, and boot it
+```shell
+vagrant init ubuntu/trusty64
+vagrant up
+```
+
+- SSH into virtual machine
+```shell
+vagrant ssh
+```
+- Type `exit` to quit the SSH session
+- To output SSH connection details
+```shell
+vagrant ssh-config
+```
+- SSH from command line using information above
+```
+ssh vagrant@127.0.0.1 -p 2222 -i /path/to/private/key
+```
+
+
 ### Jekyll
 - Serve a Jekyll project locally:
 ```

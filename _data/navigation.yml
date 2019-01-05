@@ -6,6 +6,9 @@ docs:
 - title: Docker
   url: cheat_sheets#docker
 
+- title: Vagrant
+  url: cheat_sheets#vagrant
+
 - title: Jekyll
   url: cheat_sheets#jekyll
 
