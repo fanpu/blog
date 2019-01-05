@@ -26,3 +26,6 @@ docs:
 
 - title: apt
   url: cheat_sheets#apt
+
+- title: Gem
+  url: cheat_sheets#gem
