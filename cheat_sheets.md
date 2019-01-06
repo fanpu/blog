@@ -69,6 +69,18 @@ docker run -d -p <container_port>:<host_port> --name <name> <image_name>:<tag_na
 ```
 docker ps -a
 ```
+- Stop a container
+```
+docker stop <name>
+```
+- Remove a container
+```
+docker rm <name>
+```
+- Remove an image
+```
+docker rmi <image_name>:<tag_name>
+```
 - To run a Docker container inside a Docker container, pass in the Docker
   socket as a volume
 ```
