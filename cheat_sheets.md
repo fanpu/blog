@@ -17,6 +17,21 @@ my own reference. You may find some of these helpful as well.
 </ul>
 
 ### Linux
+#### > General
+- Re-index `locate` database
+```
+updatedb
+```
+
+#### > Arch Linux
+- Installation without prompts (usually for AUR)
+```
+pacman -S --noconfirm <package>
+```
+- Manage `.pacnew` and `.pacsave` files
+```
+pacdiffviewer
+```
 #### > Curl
 - `curl` an application with JSON payload
 ```shell
@@ -131,6 +146,14 @@ vagrant ssh-config
 - SSH from command line using information above
 ```
 ssh vagrant@127.0.0.1 -p 2222 -i /path/to/private/key
+```
+- Get status of machines
+```
+vagrant status
+```
+- Destroy VM
+```
+vagrant destroy <vm_name>
 ```
 - Sample Vagrantfile
 
