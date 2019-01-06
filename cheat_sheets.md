@@ -53,11 +53,22 @@ psql -h <hostname> -U <username> -d <database>
 ```
 docker build -t <image_name>
 ```
-- Run a Docker image. Tag name is defaulted to `latest` if unspecified.
+- List Docker images
 ```
-docker run <image_name>:<tag_name>
+docker images
 ```
-
+- Pull a Docker image
+```
+docker pull <image_name>
+```
+- Run a Docker image in the background, with port mapping and name provided. Tag name is defaulted to `latest` if unspecified.
+```
+docker run -d -p <container_port>:<host_port> --name <name> <image_name>:<tag_name>
+```
+- List containers. The `-a` flag shows all containers.
+```
+docker ps -a
+```
 - To run a Docker container inside a Docker container, pass in the Docker
   socket as a volume
 ```
