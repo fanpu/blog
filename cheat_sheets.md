@@ -61,9 +61,13 @@ docker images
 ```
 docker pull <image_name>
 ```
-- Run a Docker image in the background, with port mapping and name provided. Tag name is defaulted to `latest` if unspecified.
+- Run a Docker container in the background, with port mapping and name provided. Tag name is defaulted to `latest` if unspecified.
 ```
 docker run -d -p <container_port>:<host_port> --name <name> <image_name>:<tag_name>
+```
+- Run a Docker container interactively, `bash` in this example
+```
+docker run -it <name> bash
 ```
 - List containers. The `-a` flag shows all containers.
 ```
@@ -99,15 +103,25 @@ docker-compose down
 ```
 
 ### Vagrant
-- Create a Vagrant configuration file for Ubuntu 14.04 (Trusty Tahr) 64-bit virtual machine image, and boot it
+- Create a Vagrant configuration file for Ubuntu 14.04 (Trusty Tahr) 64-bit virtual machine image
 ```shell
 vagrant init ubuntu/trusty64
+```
+- Start VM based on Vagrantfile
+```
 vagrant up
 ```
-
-- SSH into virtual machine
+- SSH into VM
 ```shell
 vagrant ssh
+```
+- SSH into named VM
+```shell
+vagrant ssh <vm_name>
+```
+- Get port forwarding information of a machine
+```
+vagrant port <vm_name>
 ```
 - Type `exit` to quit the SSH session
 - To output SSH connection details
@@ -117,6 +131,30 @@ vagrant ssh-config
 - SSH from command line using information above
 ```
 ssh vagrant@127.0.0.1 -p 2222 -i /path/to/private/key
+```
+- Sample Vagrantfile
+
+```
+# -*- mode: ruby -*-
+# # vi: set ft=ruby :
+
+Vagrant.configure("2") do |config|
+
+  config.vm.define "web" do |web|
+    web.vm.box = "bento/ubuntu-14.04"
+    web.vm.network "forwarded_port", guest: 80, host: 8080
+    web.vm.synced_folder "./html", "/var/www/html/class"
+    web.vm.provision :shell, path: "bootstrap.sh"
+  end
+
+  config.vm.define "db" do |db|
+    db.vm.box = "bento/ubuntu-12.04"
+    db.vm.network "forwarded_port", guest: 3306, host: 3306
+    db.vm.hostname = "dbserver"
+    db.vm.provision :shell, path: "db-bootstrap.sh"
+  end
+
+end
 ```
 
 
@@ -189,4 +227,14 @@ aws ec2 describe-instances --region us-east-1
 ```
 aws ec2 run-instances --image-id <ami_id> --instance-type t2.micro --region
 us-east-1
+```
+- Validate CloudFormation template
+```
+aws --region us-east-1 cloudformation validate-template --template-body
+file://./ec2.yml
+```
+- Create CloudFormation stack
+```
+aws --region us-east-1 cloudformation create-stack --stack-name <name>
+--parameters file://./ec2-parameters.json --template-body file://./ec2.yml
 ```
