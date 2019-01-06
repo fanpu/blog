@@ -29,3 +29,6 @@ docs:
 
 - title: Gem
   url: cheat_sheets#gem
+
+- title: AWS
+  url: cheat_sheets#aws

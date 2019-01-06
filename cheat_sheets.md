@@ -152,3 +152,18 @@ apt show <package_name>
 ```
 gem install --no-ri --no-rdoc <name>
 ```
+
+### AWS
+- Configure AWS credentials
+```
+aws configure
+```
+- Get information about EC2 instances in `us-east-1` region
+```
+aws ec2 describe-instances --region us-east-1
+```
+- Run an EC2 instance with specified AMI
+```
+aws ec2 run-instances --image-id <ami_id> --instance-type t2.micro --region
+us-east-1
+```
