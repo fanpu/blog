@@ -192,9 +192,25 @@ JEKYLL_ENV=production bundle exec jekyll build
 ```
 
 ### Chef
-- Execute chef cookbook with config file and JSON data
+- Generate new cookbook
+```
+chef generate cookbook <name>
+```
+- Execute cookbook with config file and JSON data
 ```
 chef-solo -c <config_file> -j <json_file>
+```
+- Converge based on cookbook
+```
+kitchen converge
+```
+- Get instances convergence status
+```
+kitchen list
+```
+- Remove instances
+```
+kitchen destroy
 ```
 
 ### NPM
