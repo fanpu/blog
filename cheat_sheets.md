@@ -374,3 +374,51 @@ file://./ec2.yml
 aws --region us-east-1 cloudformation create-stack --stack-name <name>
 --parameters file://./ec2-parameters.json --template-body file://./ec2.yml
 ```
+
+### Kubernetes
+#### > Minikube
+- Start up Minikube
+```
+minikube start
+```
+- Read in Minikube env vars
+```
+eval $(minikube docker-env)
+```
+- Open service in browser
+```
+minikube service <service_name>
+```
+- Open dashboard
+```
+minikube dashboard
+```
+
+#### > kubectl
+- Create deployment from deployment file
+```
+kubectl create -f <deployment_file>
+```
+- Create deployment from Docker image
+```
+kubectl run <deploy_name> --image=<docker_image>:<tag> --port=<port>
+```
+- Update resources
+```
+kubectl apply -f <deployment_file>
+```
+- Get deployments
+```
+kubectl get deployments
+```
+- Get pods
+```
+kubectl get pods
+```
+- Get services
+```
+kubectl get services
+```
+- Create service from deployment and expose outwards
+```
+kubectl expose deployment <deploy_name> --type=LoadBalancer

@@ -32,3 +32,6 @@ docs:
 
 - title: AWS
   url: cheat_sheets#aws
+
+- title: Kubernetes
+  url: cheat_sheets#kubernetes
