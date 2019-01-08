@@ -26,6 +26,13 @@ updatedb
 ```
 zcat <file>
 ```
+
+#### > Development
+- `curl` an application with JSON payload
+```shell
+curl -H "Content-Type: application/json" -d '{"text": "Hello world"}' http://localhost:3000/api
+```
+
 #### > Administration
 - Get uptime of system
 ```
@@ -39,6 +46,11 @@ who
 ```
 id <user>
 ```
+- Get group information about a user
+```
+groups <user>
+```
+
 #### > System
 - Get hostname information
 ```
@@ -56,6 +68,7 @@ lscpu
 ```
 lspci
 ```
+
 #### > Logging
 - Get kernel ring buffer logs
 ```
@@ -93,11 +106,6 @@ pacdiffviewer
 - Get pacman logs
 ```
 cat /var/log/pacman.log
-```
-#### > Curl
-- `curl` an application with JSON payload
-```shell
-curl -H "Content-Type: application/json" -d '{"text": "Hello world"}' http://localhost:3000/api
 ```
 
 ### Postgres
