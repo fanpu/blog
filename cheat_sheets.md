@@ -22,6 +22,64 @@ my own reference. You may find some of these helpful as well.
 ```
 updatedb
 ```
+- cat `gzip` file without decompressing
+```
+zcat <file>
+```
+#### > Administration
+- Get uptime of system
+```
+uptime
+```
+- Get users who are logged on
+```
+who
+```
+- Get info about a user
+```
+id <user>
+```
+#### > System
+- Get hostname information
+```
+hostnamectl
+```
+- Get release information
+```
+cat /etc/*-release
+```
+- List CPU architecture information
+```
+lscpu
+```
+- List PCI devices
+```
+lspci
+```
+#### > Logging
+- Get kernel ring buffer logs
+```
+dmesg -H
+```
+- Get boot logs
+```
+cat /var/log/boot.log
+```
+- Get systemd logs
+```
+journalctl
+```
+- Security logs
+```
+cat /var/log/secure # or /var/log/auth.log
+```
+
+#### > Security
+- Checking/modifying sudo users
+```
+visudo
+```
+
 
 #### > Arch Linux
 - Installation without prompts (usually for AUR)
@@ -32,6 +90,10 @@ pacman -S --noconfirm <package>
 ```
 pacdiffviewer
 ```
+- Get pacman logs
+```
+cat /var/log/pacman.log
+```
 #### > Curl
 - `curl` an application with JSON payload
 ```shell
@@ -41,12 +103,12 @@ curl -H "Content-Type: application/json" -d '{"text": "Hello world"}' http://loc
 ### Postgres
 #### > Connecting
 
-- To connect to a Postgres server locally:
+- To connect to a Postgres server locally
 ```
 psql -U <username>
 ```
 
-- To connect to a Postgres server on a remote machine:
+- To connect to a Postgres server on a remote machine
 ```
 psql -h <hostname> -U <username> -d <database>
 ```
@@ -105,16 +167,36 @@ docker rmi <image_name>:<tag_name>
 ```
 docker run -v /var/run/docker.sock:/var/run/docker.sock
 ```
+- Remove all stopped containers
+```
+docker container prune
+```
+- Remove dangling images that are not tagged and being used by any containers
+```
+docker image prune
+```
+- Remove all images not referenced by an existing container
+```
+docker image prune -a
+```
 
 
 #### > Docker Compose
-- Bring up containers in detached mode:
+- Bring up containers in detached mode
 ```
 docker-compose up -d
+```
+- Build components and bring containers up in detached mode
+```
+docker-compose up --build -d
 ```
 - Bring down containers
 ```
 docker-compose down
+```
+- Get status
+```
+docker-compose ps
 ```
 
 ### Vagrant
