@@ -26,6 +26,11 @@ updatedb
 ```
 zcat <file>
 ```
+- Read in environment variables with eval (ssh-agent example)
+```
+eval $(ssh-agent)
+
+```
 
 #### > Development
 - `curl` an application with JSON payload
@@ -146,9 +151,11 @@ docker images
 ```
 docker pull <image_name>
 ```
-- Run a Docker container in the background, with port mapping and name provided. Tag name is defaulted to `latest` if unspecified.
+- Run a Docker container in the background, with port mapping, container name,
+  and environment variables. Tag name is defaulted to `latest` if unspecified.
 ```
-docker run -d -p <container_port>:<host_port> --name <name> <image_name>:<tag_name>
+docker run -d -p <container_port>:<host_port> --name <name> -e
+<env_name>:<env_value> <image_name>:<tag_name>
 ```
 - Run a Docker container interactively, `bash` in this example
 ```
