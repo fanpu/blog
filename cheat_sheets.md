@@ -139,9 +139,9 @@ psql -h <hostname> -U <username> -d <database>
 
 ### Docker
 #### > Docker
-- Build a Docker image
+- Build a Docker image with Dockerfile in the current directory
 ```
-docker build -t <image_name>
+docker build -t <image_name> .
 ```
 - List Docker images
 ```
