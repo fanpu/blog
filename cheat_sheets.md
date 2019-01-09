@@ -7,7 +7,10 @@ nav: sidebar-sample
 Even the best of us sometimes forget common administrative commands on the
 terminal when we
 haven't used them in a while. I record down those that I find useful here for
-my own reference. You may find some of these helpful as well.
+my own reference. You may find some of these helpful as well. You may notice
+that some extremely common commands for some services are not listed here, this
+is because they are usually remembered from heart and are not listed to avoid
+cluttering the space.
 
 <h2>{{ site.data.navigation.docs_cheatsheet_title }}</h2>
 <ul>
