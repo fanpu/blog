@@ -39,6 +39,15 @@ eval $(ssh-agent)
 ```shell
 curl -H "Content-Type: application/json" -d '{"text": "Hello world"}' http://localhost:3000/api
 ```
+- Get exit code of last command
+```
+echo $?
+```
+- Set the exit code of a pipeline to the first command with non-zero status
+  and result in immediate exit
+```
+set -o pipefail && <other commands> | <more commands>
+```
 
 #### > Administration
 - Get uptime of system
@@ -165,6 +174,10 @@ docker run -it <name> bash
 - List containers. The `-a` flag shows all containers.
 ```
 docker ps -a
+```
+- Monitor logs from container
+```
+docker logs <name>
 ```
 - Stop a container
 ```
