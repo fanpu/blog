@@ -35,3 +35,10 @@ docs:
 
 - title: Kubernetes
   url: cheat_sheets#kubernetes
+
+- title: Vim
+  url: cheat_sheets#vim
+
+- title: ImageMagick
+  url: cheat_sheets#imagemagick
+

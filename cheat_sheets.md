@@ -438,6 +438,7 @@ kubectl get services
 - Create service from deployment and expose outwards
 ```
 kubectl expose deployment <deploy_name> --type=LoadBalancer
+```
 
 ### Vim
 - Add new mapping with leader key (example: ack)
@@ -449,3 +450,8 @@ map <Leader>g :Ack<space>
 map <C-f> :CtrlP<cr>
 ```
 
+### ImageMagick
+- Resize image by 50% of original size
+```
+convert input.png -resize 50% output.png
+```

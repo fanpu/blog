@@ -1,7 +1,7 @@
 ---
 layout: post
 tags: [life, startup, saleswhale]
-cover: assets/images/saleswhale/saleswhale_team_photo_fun.jpg
+cover: assets/images/saleswhale/saleswhale_team_photo_fun_resize.jpg
 class: post-template
 navigation: True
 author: fanpu

@@ -1,7 +1,7 @@
 ---
 layout: post
 tags: [startup, saleswhale]
-cover: assets/images/saleswhale/saleswhale_laser_tag.jpg
+cover: assets/images/saleswhale/saleswhale_laser_tag_resize.jpg
 class: post-template
 navigation: True
 author: fanpu
