@@ -16,15 +16,24 @@
 title: Zeng Fan Pu's Blog
 email: zengfanpu [at] gmail [dot] com
 description: >- # this means to ignore newlines until "baseurl:"
-  My thoughts and musings on work, code, and life.
-baseurl: "/user/fzeng" # the subpath of your site, e.g. /blog
+  My thoughts and musings on code, programming, and startups
+cover: assets/images/scs_dark.jpg
+logo: assets/images/logo-white.png
+logo_dark: assets/images/logo-gray.png
+favicon: assets/images/favicon.ico
+baseurl: "/user/fzeng/" # the subpath of your site, e.g. /blog
 url: "https://fanpu.io" # the base hostname & protocol for your site, e.g. http://example.com
 github_username:  fanpu
 linkedin_username:  zengfanpu
 
+# Social info
+navigation: True # show the navbar links
+
 # Build settings
 markdown: kramdown
-theme: minima
+highlighter: rouge
+paginate: 100 # it will paginate after this number
+language: 'en-uk'
 plugins:
   - jekyll-feed
 
@@ -32,6 +41,23 @@ plugins:
 # The following items will not be processed, by default. Create a custom list
 # to override the default setting.
 exclude:
+  - assets/css
+  - node_modules
+  - vendor
+  - .travis.yml
+  - Gemfile
+  - Gemfile.lock
+  - GHOST.txt
+  - gulpfile.js
+  - LICENSE
+  - package.json
+  - Rakefile
+  - README.md
+  - script.py
+  - changelog.md
+  - "*.Rmd"
+  - .git*
+  - deploy
 #   - Gemfile
 #   - Gemfile.lock
 #   - node_modules
@@ -39,15 +65,14 @@ exclude:
 #   - vendor/cache/
 #   - vendor/gems/
 #   - vendor/ruby/
-    - deploy
 
 timezone: Asia/Singapore
 
 # Liquid options
-liquid:
-  error_mode: warn
-  strict_variables: false
-  strict_filters: false
+# liquid:
+#   error_mode: warn
+#   strict_variables: false
+#   strict_filters: false
 
 comments: true
 
@@ -57,8 +82,26 @@ disqus:
     # Disable comments for any post by adding `comments: false` to that post's YAML Front Matter.
     shortname: fanpu-blog
 
+# Google Analytics
+google_analytics: UA-121364861-1
+
 # Allow showing of future posts
-future: true
+future: false
 
 # Show excepts
 show_excerpts: true
+
+# Permalinks
+permalink: /:title
+# permalink: /author/:author
+# permalink: /tag/:tag
+
+# Authors' info in `_data/authors.yml`
+# Tags' info in `_data/tags_info.yml`
+
+# gems and other configs
+plugins_dir: [_plugins]
+plugins: [jekyll-paginate, jekyll-feed]
+
+feed:
+  path: feed.xml
