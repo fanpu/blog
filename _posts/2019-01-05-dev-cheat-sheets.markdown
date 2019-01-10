@@ -1,6 +1,6 @@
 ---
 layout: post
-tags: [Linux, Code, DevOps]
+tags: [Linux, code, DevOps]
 cover: assets/images/posts/college_of_engineering.jpg
 class: post-template
 navigation: True

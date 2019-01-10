@@ -1,6 +1,6 @@
 ---
 layout: post
-tags: [devops, code]
+tags: [DevOps, code]
 cover: assets/images/posts/rsync.png
 class: post-template
 navigation: True
