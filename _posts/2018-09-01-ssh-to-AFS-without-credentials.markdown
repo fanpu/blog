@@ -18,7 +18,7 @@ The following guide is tailored for Ubuntu as that is what most people would use
 ### Setting up Kerberos
 Kerberos is what AFS uses for authentication. Before we mount AFS, we must ensure that we are authenticated with a Kerberos ticket with the server. To install the Kerberos client:
 
-```
+{% highlight shell %}
 $ apt-get install krb5-user
 
 ------TRUNCATED OUTPUT------
@@ -31,25 +31,25 @@ Configuring Kerberos Authentication
 When users attempt to use Kerberos and specify a principal or user name without specifying what administrative Kerberos realm that principal belongs to, the system appends the default realm.  The default realm may also be used as the realm of a Kerberos service running on the local machine.  Often, the default realm is the uppercase version of the local DNS domain.
 
 Default Kerberos version 5 realm: andrew.cmu.edu   # Replace with your school's realm
-```
+{% endhighlight %}
 
 After installing Kerberos, you are now ready to authenticate.
 
-```
+{% highlight bash %}
 $ kinit <YOUR_USERNAME>   # i.e. kinit fzeng
 Password for fzeng@ANDREW.CMU.EDU:
-```
+{% endhighlight %}
 
 You can run `klist` to check the status of your tickets. Take note of their expiry date; in the case of CMU, it is valid for 24 hours and so you need to re-authenticate with Kerberos every 24 hours.
 
-```
+{% highlight shell %}
 $ klist
 Ticket cache: FILE:/tmp/krb5cc_0
 Default principal: fzeng@ANDREW.CMU.EDU
 
 Valid starting     Expires            Service principal
 09/30/18 04:49:17  10/01/18 04:49:15  krbtgt/ANDREW.CMU.EDU@ANDREW.CMU.EDU
-```
+{% endhighlight %}
 
 ### Setting up GSSAPI Authentication
 Kerberos authentication requires GSSAPI (Generic Security Services Application Programming Interface). To set this up, in your `~/.ssh/config` file (create it if it does not exist), add
@@ -66,8 +66,8 @@ Host andrew   # Replace with name of your choice
 ### Trying it out
 You should now be able to SSH to AFS without entering your credentials!
 
-```
+{% highlight shell %}
 $ ssh andrew   # Replace with the Host name you defined in ~/.ssh/config
-```
+{% endhighlight %}
 
 This concludes Part 1 of the tutorial. In Part 2 we will discuss how we can mount AFS locally with OpenAFS.
