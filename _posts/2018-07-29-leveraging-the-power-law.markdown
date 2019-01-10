@@ -1,6 +1,10 @@
 ---
 layout: post
 tags: [software engineering, tooling, productivity]
+cover: assets/images/posts/drama.jpg
+class: post-template
+navigation: True
+author: fanpu
 ---
 It was three years ago that I was introduced the concept of the "power law" in Peter Thiel's book, [Zero to One: Notes on Startups, Or How To Build The Future](http://zerotoonebook.com/). Thiel stated that "We don't live in a normal world, we live under a power law. Exponential equations describe severely unequal distributions". This, in effect, is very similar to the 80/20 rule that I discussed in my previous post, and observations of such a distribution can be found ranging from income
 distributions to the fact that the best venture capital fund investments grow to a value that eclipses the rest of their portfolios combined. The power law is extremely unintuitive for humans as we are accustomed to seeing things in a linear fashion. However, we ignore the power law at our own peril. A single outlier performs much better than a large average sample combined, and it is precisely the power law that we must understand in order to unlock this phenomenom. However, I will not go into
@@ -10,7 +14,7 @@ The focus of today's post is on how you as someone ordinary can leverage the pow
 is its most important application, and I would like to show you that there are many other ways that you can leverage this law in a manner that is accessible to everyone.
 
 ### Invest in Tooling
-Tooling refers to the tools, workflow, and setups that you use in order to get your work done. In a software engineering context, it means your text editor or IDE, your mastery of the language, your development environment, and scripts and automated task runners that you write to help to boost your productivity. 
+Tooling refers to the tools, workflow, and setups that you use in order to get your work done. In a software engineering context, it means your text editor or IDE, your mastery of the language, your development environment, and scripts and automated task runners that you write to help to boost your productivity.
 
 #### Your Editor
 A good mastery of your text editor or IDE is one of the best ways to improve your output as a programmer. If you find yourself making repetitive edits, try to find out if there is already a plugin available that solves the problem, because chances are that someone else has also faced the same problem before. If you have difficulty navigating and orientating yourself in a large codebase in your text editor, see if there are suitable plugins that implements IDE-like code browsing and tracing

@@ -1,7 +1,7 @@
 ---
 layout: post
 tags: [jekyll, blog]
-cover: assets/images/posts/summit.jpg
+cover: assets/images/posts/marina.jpg
 class: post-template
 navigation: True
 author: fanpu
@@ -20,7 +20,7 @@ There are some tips and advice that I would like to give my future self, and any
 ### The development of your site is an incremental process
 Do not feel stressed or hurry to get everything right at once. Begin with a minimum viable product, and iterate, iterate, iterate towards your platonic ideal of your blog.
 
-For me, it means that on the first day, I have a simple NGINX configuration to serve the blog, a basic rsync deploy script, and just minimal configuration of Jekyll to get it up and running. Unfortunately, I was quite tempted to find a theme and spent an hour scrolling through [jekyllthemes.org](jekyllthemes.org). I ended up having a lot of reservations about whether it would fit in with the content of the blog, whether it was simple to maintain and extend, and whether it was something that I
+[For](For) me, it means that on the first day, I have a simple NGINX configuration to serve the blog, a basic rsync deploy script, and just minimal configuration of Jekyll to get it up and running. Unfortunately, I was quite tempted to find a theme and spent an hour scrolling through [jekyllthemes.org](jekyllthemes.org). I ended up having a lot of reservations about whether it would fit in with the content of the blog, whether it was simple to maintain and extend, and whether it was something that I
 felt reflected my personality. All in all, it was basically signalling that it was too early yet to decide, and I would do better to have more content before the "feel" of this website can be determined.
 
 ### Things are not perfect and never will be

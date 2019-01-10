@@ -1,7 +1,11 @@
 ---
 layout: post
-tags: [AFS, CMU, Andrew]
+tags: [AFS, DevOps, code]
 title: SSH to Andrew File System (AFS) Without Credentials
+cover: assets/images/posts/lawn.jpg
+class: post-template
+navigation: True
+author: fanpu
 ---
 This is the first part of a 2-part guide on how you can SSH to the Andrew File System without keying in your credentails, as well as mounting the Andrew File System (AFS) locally on your Linux machine. This is highly useful if you are a student or faculty member from one of the many universities around the world whose computing systems runs on AFS, such as CMU, MIT, Stanford, Caltech, to list a few. If you have long passwords and wish to open multiple SSH sessions (although you probably would want to check [tmux](https://www.ocf.berkeley.edu/~ckuehl/tmux/) out), this will come in useful. By mounting AFS locally, you no longer have to SSH in to edit, manage, or copy your files; everything can be done natively in your file explorer or via the command line.
 
