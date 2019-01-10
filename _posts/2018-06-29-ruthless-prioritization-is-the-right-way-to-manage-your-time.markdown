@@ -1,6 +1,6 @@
 ---
 layout: post
-tags: [life, saleswhale]
+tags: [life, startup, saleswhale]
 cover: assets/images/saleswhale/saleswhale_team_photo_fun.jpg
 class: post-template
 navigation: True

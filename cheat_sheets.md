@@ -2,7 +2,6 @@
 layout: page
 title: Dev Cheat Sheets
 class: page-template
-nav: sidebar-sample
 navigation: true
 ---
 Even the best of us sometimes forget common administrative commands on the

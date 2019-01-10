@@ -1,6 +1,6 @@
 ---
 layout: post
-tags: [software engineering, tooling, productivity]
+tags: [software engineering, startup, productivity]
 cover: assets/images/posts/drama.jpg
 class: post-template
 navigation: True

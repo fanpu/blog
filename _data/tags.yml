@@ -2,7 +2,7 @@ code:
   name: code
   description: On software development, Linux, DevOps
   cover: assets/images/posts/wean_hall.jpg
-startups:
-  name: startups
+startup:
+  name: startup
   description: Lessons on Startups
   cover: assets/images/posts/wean_hall.jpg
