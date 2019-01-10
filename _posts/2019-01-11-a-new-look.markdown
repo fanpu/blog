@@ -6,7 +6,12 @@ class: post-template
 navigation: True
 author: fanpu
 ---
-My Jekyll blog has been on the default [minima](https://github.com/jekyll/minima) theme since its creation. It was functional and served its purpose, but it was bland and did not make for a very pleasant reading experience, and its layout did not encourage retention. Since I had some time over the winter break, I decided to migrate its theme over to [jasper2](https://github.com/jekyller/jasper2), based on Ghost's default theme Casper v2.
+My Jekyll blog has been on the default [minima](https://github.com/jekyll/minima) theme since its inception. It was functional and served its purpose, but as someone who has extensive web development experience having designed and implemented sophisticated web interfaces back when I was working at [Saleswhale](https://saleswhale.com), I felt like I could definitely do much better.
+
+![Old look](/assets/images/posts/old_look.png)
+
+As you can see above, the original look was bland and did not make for a very pleasant reading experience, and its layout did not encourage retention. Since I had some time over the winter break, I decided to migrate its theme over to [jasper2](https://github.com/jekyller/jasper2), based on Ghost's default theme Casper v2.
+
 
 I settled on this theme as I liked its simple and modern look, and came with a related articles card section at the bottom of each page. The typography was also clean and professional. Migrating my blog to jasper2 required a bit of reverse-engineering to find out what had to be changed and how it worked, mainly by understanding what the files in the `_includes` and `_layouts` folder was doing.
 
@@ -29,6 +34,6 @@ Finally, I checked that Google Analytics and Disqus was working, and that everyt
 
 ![New look](/assets/images/posts/new_look.png)
 
-And you can see the new look of the blog above! I would say that it was mission success. The cover photo on the homepage is of the Gates-Hillman Center in Carnegie Mellon, home to the School of Computer Science.
+And you can see the new look of the blog above! I would say that it was mission success. The cover photo on the homepage is of the Gates-Hillman Center in Carnegie Mellon, home to the School of Computer Science. I would also definitely be taking many more candid pictures of my campus in the coming semester, since they will now be directly useful as a cover photo for my upcoming posts. I hope that the pictures of my school would also convey the love and feelings that I have for it to my readers. It is truly a very remarkable place to be studying at.
 
 
