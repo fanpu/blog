@@ -1,7 +1,7 @@
 ---
 layout: post
 tags: [software engineering, startups, saleswhale]
-cover: assets/images/posts/taiwan_canoe.jpg
+cover: assets/images/saleswhale/saleswhale_offsite_resize.jpg
 class: post-template
 navigation: True
 author: fanpu
