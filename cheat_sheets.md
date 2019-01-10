@@ -1,8 +1,10 @@
 ---
 layout: page
 title: Dev Cheat Sheets
+current: cheat_sheets
 class: page-template
 navigation: true
+permalink: /cheat_sheets/
 ---
 Even the best of us sometimes forget common administrative commands on the
 terminal when we
