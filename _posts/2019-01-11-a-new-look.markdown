@@ -1,0 +1,34 @@
+---
+layout: post
+tags: [Jekyll, blog]
+cover: assets/images/posts/wean_hall.jpg
+class: post-template
+navigation: True
+author: fanpu
+---
+My Jekyll blog has been on the default [minima](https://github.com/jekyll/minima) theme since its creation. It was functional and served its purpose, but it was bland and did not make for a very pleasant reading experience, and its layout did not encourage retention. Since I had some time over the winter break, I decided to migrate its theme over to [jasper2](https://github.com/jekyller/jasper2), based on Ghost's default theme Casper v2.
+
+I settled on this theme as I liked its simple and modern look, and came with a related articles card section at the bottom of each page. The typography was also clean and professional. Migrating my blog to jasper2 required a bit of reverse-engineering to find out what had to be changed and how it worked, mainly by understanding what the files in the `_includes` and `_layouts` folder was doing.
+
+I copied over my code for the [Disqus](https://disqus.com) integration since the one provided did not appear to be working. I had to update the `yaml` front matter of my posts as well to reflect the class that should be applied to the page, and to find a suitable cover photo. This was fun, as I looked through my photos from [Saleswhale](https://saleswhale.com) and pictures that I took during my first semester in Carnegie Mellon, and selected those that were interesting.
+
+One change in this theme was that the URL of the posts generated did not end with `.html` and resulted in 404 errors on production, and I had to add the following to my Nginx server block for it to recognize that.
+
+{% highlight nginx %}
+location / {
+  if ($request_uri ~ ^/(.*)\.html$) {
+    return 302 /$1;
+  }
+  try_files $uri $uri.html $uri/ =404;
+}
+{% endhighlight %}
+
+Some readers may also know that my website is also ported on Carnegie Mellon's web servers at [http://www.andrew.cmu.edu/user/fzeng/](http://www.andrew.cmu.edu/user/fzeng/). It was harder to deal with the fact that the URLs generated did not have the trailing `.html` here, as I cannot control the behavior of the web server on CMU's servers. As a result, I had to perform a search of all the areas in the code where `post.url` appeared, and manually append `.html` to it. I found it a bit of an ugly hack, but it was a simple one to perform as there were only 6 areas where it was used.
+
+Finally, I checked that Google Analytics and Disqus was working, and that everything was rendering properly. I also resized some of the larger images with ImageMagick in order to decrease load time and save bandwidth.
+
+![New look](/assets/images/posts/new_look.png)
+
+And you can see the new look of the blog above! I would say that it was mission success. The cover photo on the homepage is of the Gates-Hillman Center in Carnegie Mellon, home to the School of Computer Science.
+
+
