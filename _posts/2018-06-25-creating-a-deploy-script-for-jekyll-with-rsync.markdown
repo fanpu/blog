@@ -3,7 +3,6 @@ layout: post
 tags: [devops, code]
 cover: assets/images/posts/rsync.png
 class: post-template
-subclass: 'post tag-code'
 navigation: True
 author: fanpu
 ---
