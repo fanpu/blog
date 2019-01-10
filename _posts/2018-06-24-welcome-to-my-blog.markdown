@@ -1,6 +1,10 @@
 ---
 layout: post
 tags: [jekyll, blog]
+cover: assets/images/posts/summit.jpg
+class: post-template
+navigation: True
+author: fanpu
 ---
 It has been a while since I had intended to start my own technical blog. The idea began seriously floating in my mind after my one-on-one with my senior colleague Javier in Saleswhale. Starting a technical blog was one of the valuable pieces of advice that he gave to me, and it was something that he regretted not doing earlier. From an engineer's point of view, writing a blog has many benefits:
 1. Improving your written communication skills
@@ -22,7 +26,7 @@ felt reflected my personality. All in all, it was basically signalling that it w
 ### Things are not perfect and never will be
 This is to push aside any perfectionist tendencies that you might have. It is understandable to be anxious that this is a platform that people will be judging you for, but the trade-off is analysis paralysis.
 
-Don't bother rewriting and rephrasing all your sentences before hitting save. Don't ponder too much about what it is that you're writing about and whether it will be good enough. By following the 80/20 and accepting that you are just aiming for something good enough, it relieves a lot of stress off your shoulders and allows you to write more, getting progressively better with time. 
+Don't bother rewriting and rephrasing all your sentences before hitting save. Don't ponder too much about what it is that you're writing about and whether it will be good enough. By following the 80/20 and accepting that you are just aiming for something good enough, it relieves a lot of stress off your shoulders and allows you to write more, getting progressively better with time.
 
 ### Make updating your blog a habit
 You started a blog because you want to share your thoughts with the world. It is not something you pick up for a few weeks and then leave to collect dust. Set yourself a commitment to publish something once a week until it becomes routine.

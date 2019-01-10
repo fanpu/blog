@@ -1,8 +1,9 @@
 ---
 layout: page
 title: Dev Cheat Sheets
-permalink: /cheat_sheets/
+class: page-template
 nav: sidebar-sample
+navigation: true
 ---
 Even the best of us sometimes forget common administrative commands on the
 terminal when we
@@ -438,7 +439,12 @@ kubectl get services
 kubectl expose deployment <deploy_name> --type=LoadBalancer
 
 ### Vim
-- Add new mapping with leader key
+- Add new mapping with leader key (example: ack)
 ```
-map <Leader>g :<command_to_replace><space>
+map <Leader>g :Ack<space>
 ```
+- Add new mapping with control key (example: Ctrl-F)
+```
+map <C-f> :CtrlP<cr>
+```
+

@@ -1,6 +1,10 @@
 ---
 layout: page
+current: about
 title: About
+navigation: true
+class: page-template
+subclass: 'post page'
 permalink: /about/
 ---
 Hello! I am Zeng Fan Pu from Singapore, and I am currently based in Pittsburgh.

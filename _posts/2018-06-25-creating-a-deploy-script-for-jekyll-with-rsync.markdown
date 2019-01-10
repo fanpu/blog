@@ -1,6 +1,11 @@
 ---
 layout: post
-tags: [devops, rsync, centos, nginx]
+tags: [devops, code]
+cover: assets/images/posts/rsync.png
+class: post-template
+subclass: 'post tag-code'
+navigation: True
+author: fanpu
 ---
 Static site generators like [Jekyll](https://jekyllrb.com) makes it easy to write and build static websites. However, this still comes with the problem of a suitable deployment method. I will share about my thought process and the best approach I found for tackling this problem.
 
@@ -25,7 +30,7 @@ is that if setup correctly, deploying will be as simple as pushing my code. Give
 >
 > Maintainability: 3/5
 
-The second approach is largely inspired by [this post](https://www.digitalocean.com/community/tutorials/how-to-deploy-a-jekyll-site-using-git-hooks-on-ubuntu-16-04) and it centers on using Git hooks to build and deploy. You first create a bare Git repository (a bare Git repository is one used by a server machine to host the code and contains no working tree, more information [here](http://www.saintsjd.com/2011/01/what-is-a-bare-git-repository/)) on the server, and create a **git** user and  an ssh key pair for that user. Then, create a post-receive hook in the `hooks` directory with the following contents: 
+The second approach is largely inspired by [this post](https://www.digitalocean.com/community/tutorials/how-to-deploy-a-jekyll-site-using-git-hooks-on-ubuntu-16-04) and it centers on using Git hooks to build and deploy. You first create a bare Git repository (a bare Git repository is one used by a server machine to host the code and contains no working tree, more information [here](http://www.saintsjd.com/2011/01/what-is-a-bare-git-repository/)) on the server, and create a **git** user and  an ssh key pair for that user. Then, create a post-receive hook in the `hooks` directory with the following contents:
 
 {% highlight bash %}
 #!/usr/bin/env bash
@@ -43,7 +48,7 @@ rm -rf $TMP_GIT_CLONE
 exit
 {% endhighlight %}
 
-The script clones the repository to the `/tmp` directory, and then builds the site at the directory where it is served. The temporary directory is then deleted. `pushd` functions similarly to `cd` by pushing to the command line directory stack, and `popd` pops from this stack and returns to the directory at the top of the stack. 
+The script clones the repository to the `/tmp` directory, and then builds the site at the directory where it is served. The temporary directory is then deleted. `pushd` functions similarly to `cd` by pushing to the command line directory stack, and `popd` pops from this stack and returns to the directory at the top of the stack.
 
 An interesting concept that I learned from the post is on the creation of non-interactive shells, which seemed quite smart to me. Basically, you create a shell script that prints a helpful message that the ssh attempt was successful, and then exit.
 
@@ -123,4 +128,4 @@ Set deploy as executable with `chmod +x deploy`, and run `./deploy`. You will se
 I personally like this method very much due to its ease of setup and extensibility, and give it a 5 for simplicity without recommendations. I would downgrade its ease of use slightly to 4 simply because I have to run the deploy script separately from pushing the code, however this can be easily solved via a post-commit hook. I did not opt for this however as I would rather not have to wait a while for it to build and copy each commit as I tend to commit multiple times at once. Maintainability
 gets a 5 as there is no tight coupling between the client and server, and the setup is easy enough to make any transfer friction negligible. This method of deployment is in fact what I am currently using and I am very happy with it.
 
-Using **rsync** for deploying static sites keeps things simple and taking advantage of the 80/20 rule. Let me know in the comments what are your thoughts, and if there are other deployment methods that you would use and recommend. Thanks for reading! 
+Using **rsync** for deploying static sites keeps things simple and taking advantage of the 80/20 rule. Let me know in the comments what are your thoughts, and if there are other deployment methods that you would use and recommend. Thanks for reading!
