@@ -29,13 +29,9 @@ GEM
       safe_yaml (~> 1.0)
     jekyll-feed (0.11.0)
       jekyll (~> 3.3)
+    jekyll-paginate (1.1.0)
     jekyll-sass-converter (1.5.2)
       sass (~> 3.4)
-    jekyll-seo-tag (2.5.0)
-      jekyll (~> 3.3)
-    jekyll-theme-midnight (0.1.1)
-      jekyll (~> 3.5)
-      jekyll-seo-tag (~> 2.0)
     jekyll-watch (2.0.0)
       listen (~> 3.0)
     kramdown (1.17.0)
@@ -66,7 +62,7 @@ PLATFORMS
 DEPENDENCIES
   jekyll (~> 3.8.3)
   jekyll-feed (~> 0.6)
-  jekyll-theme-midnight
+  jekyll-paginate
   tzinfo-data
 
 BUNDLED WITH

@@ -436,3 +436,9 @@ kubectl get services
 - Create service from deployment and expose outwards
 ```
 kubectl expose deployment <deploy_name> --type=LoadBalancer
+
+### Vim
+- Add new mapping with leader key
+```
+map <Leader>g :<command_to_replace><space>
+```
