@@ -68,6 +68,18 @@ id <user>
 ```
 groups <user>
 ```
+- Get current time zone
+```
+timedatectl status
+```
+- List available time zones
+```
+timedatectl list-timezones
+```
+- Update time zone of system
+```
+timedatectl set-timezone Zone/SubZone
+```
 
 #### > System
 - Get hostname information
