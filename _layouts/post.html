@@ -108,23 +108,23 @@ into the {body} of the default.hbs template -->
             <!-- If you use Disqus comments, just uncomment this block.
             The only thing you need to change is "test-apkdzgmqhj" - which
             should be replaced with your own Disqus site-id. -->
-            <!-- {% if site.disqus or page.disqus %} -->
-            <!--     <section class="post-full-comments"> -->
-            <!--         <div id="disqus_thread"></div> -->
-            <!--         <script> -->
-            <!--             var disqus_config = function () { -->
-            <!--                 this.page.url = '{{ site.url }}{{ site.baseurl }}'; -->
-            <!--                 this.page.identifier = '{{ site.title }}'; -->
-            <!--             }; -->
-            <!--             (function() { -->
-            <!--                 var d = document, s = d.createElement('script'); -->
-            <!--                 s.src = 'https://{{ site.disqus_shortname }}.disqus.com/embed.js'; -->
-            <!--                 s.setAttribute('data-timestamp', +new Date()); -->
-            <!--                 (d.head || d.body).appendChild(s); -->
-            <!--             })(); -->
-            <!--         </script> -->
-            <!--     </section> -->
-            <!-- {% endif %} -->
+            {% if site.disqus or page.disqus %}
+                <section class="post-full-comments">
+                    <div id="disqus_thread"></div>
+                    <script>
+                        var disqus_config = function () {
+                            this.page.url = '{{ site.url }}{{ site.baseurl }}';
+                            this.page.identifier = '{{ site.title }}';
+                        };
+                        (function() {
+                            var d = document, s = d.createElement('script');
+                            s.src = 'https://{{ site.disqus_shortname }}.disqus.com/embed.js';
+                            s.setAttribute('data-timestamp', +new Date());
+                            (d.head || d.body).appendChild(s);
+                        })();
+                    </script>
+                </section>
+            {% endif %}
 
         </article>
 
