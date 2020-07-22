@@ -1,0 +1,40 @@
+---
+layout: post
+tags: [Linux, code]
+cover: assets/images/posts/college_of_engineering.jpg
+class: post-template
+navigation: True
+author: fanpu
+---
+
+### Breakpoints
+Shorthand: `b`
+
+Break on `main`
+```gdb
+break main
+```
+
+Get info about breakpoints
+```gdb
+info breakpoints
+# or
+i b
+```
+
+Clear breakpoint
+```
+clear main
+```
+
+Enable/disable breakpoint (based on breakpoint number from `i b`)
+```
+enable 1
+```
+
+### Stepping through Code
+Proceed to next statement in function. Note that `next` steps over function calls.
+```
+next
+```
+
