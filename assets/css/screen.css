@@ -1,4 +1,4 @@
-/* Table of Contents
+/ Table of Contents
 /* ------------------------------------------------------------
 
 This is a development CSS file which is built to a minified
@@ -71,7 +71,7 @@ body {
 /* Centered content container blocks */
 .inner {
     margin: 0 auto;
-    max-width: 1440px;
+    max-width: 1040px;
     width: 100%;
 }
 
