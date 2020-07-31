@@ -1,0 +1,65 @@
+---
+layout: post
+tags: [ctf, code]
+cover: assets/images/posts/something.jpg
+class: post-template
+navigation: True
+author: fanpu
+---
+
+### Visualize the heap
+{% highlight raw %}
+pwndbg> vis
+
+0x56239e4ad000	0x0000000000000000	0x0000000000000021	........!.......
+0x56239e4ad010	0x0000000000000000	0x0000000000000000	................
+0x56239e4ad020	0x0000000000000000	0x0000000000020fe1	................	<-- Top chunk
+{% endhighlight %}
+
+
+### Get info on chunks
+{% highlight raw %}
+pwndbg> heap
+Allocated chunk | PREV_INUSE
+Addr: 0x55f03158a000
+Size: 0x21
+
+Allocated chunk | PREV_INUSE
+Addr: 0x55f03158a020
+Size: 0x21
+
+Allocated chunk | PREV_INUSE
+Addr: 0x55f03158a040
+Size: 0xfd1
+
+Top chunk | PREV_INUSE
+Addr: 0x55f03158b010
+Size: 0x1fff1
+{% endhighlight %}
+
+
+{% highlight raw %}
+
+{% endhighlight %}
+
+
+{% highlight raw %}
+
+{% endhighlight %}
+
+
+{% highlight raw %}
+
+{% endhighlight %}
+
+
+{% highlight raw %}
+
+{% endhighlight %}
+
+
+{% highlight raw %}
+
+{% endhighlight %}
+
+
