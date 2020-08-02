@@ -2,7 +2,7 @@
 title: "Breaking CMU's Bomblab with Angr for Fun and Profit - Part 1"
 layout: post
 tags: [rev, ctf, code]
-cover: assets/images/posts/angr.png
+cover: assets/images/posts/angr_1.png
 class: post-template
 navigation: True
 author: fanpu
@@ -239,7 +239,7 @@ End of assembler dump.
 The point here is that we don't want to reverse precisely what `read_line` does, and just rely on our intuition that it basically reads in a line. We also see that there are a couple of checks in the loops, which can potentially lead to state explosion. 
 
 ### State Explosion
-State explosion is an extremely important concept in symbolic execution, and it is the primary reason why achieving general symbolic execution is hard. With every branch, our number of states double. This exponential growth in the number of states can quickly render our search infeasible, which is why it is important for us to limit the number of potential paths as much as possible.
+State explosion is an extremely important concept in symbolic execution, and it is the primary reason why achieving general symbolic execution is hard. With every branch, our number of states double. This exponential growth in the number of states can quickly render our search infeasible, which is why it is important for us to limit the number of potential paths as much as possible. Doing this automatically is currently an area of active research. There is a great paper from CMU titled [Enhancing Symbolic Execution with Veritesting](https://users.ece.cmu.edu/~aavgerin/papers/veritesting-icse-2014.pdf), which introduces the idea of veritesting in order to mitigate state explosion. This is achieved by combining both static and dynamic symbolic execution to produce heuristics to avoid states which are likely to lead to failure, and by combining branches. Angr does support veritesting in its simulation manager, but this is out of scope for this series. Do read the paper if you are interested for more!
 
 In order to prevent that, we will inject our own symbolic memory for the input instead, and bypass the `read_line` function entirely.
 
@@ -350,6 +350,7 @@ We are now done with the basic set-up. Add the following lines to create a simul
 {% endraw %}
 {% endhighlight %}
 
+### Find and Avoid
 Now we are faced with the question of how to tell Angr what we want it to do. 
 
 {% highlight python linenos %}
@@ -415,6 +416,7 @@ Finally, we check if we are able to find a solution:
 
 Here, if a solution was found, we convert our symbolic `phase_1_input` value into bytes and print it, and if not, an exception is raised.
 
+### Full Solution Script
 The full solution script for Phase 1 is below:
 
 {% highlight python linenos %}
