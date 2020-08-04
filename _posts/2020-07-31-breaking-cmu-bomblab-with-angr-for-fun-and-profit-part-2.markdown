@@ -8,7 +8,7 @@ navigation: True
 author: fanpu
 ---
 
-Welcome to Part 2 of this series on cracking CMU's Bomblab using Angr! If you are new, I would recommend starting with part 1 [here](https://fanpu.io/breaking-cmu-bomblab-with-angr-for-fun-and-profit).
+Welcome to Part 2 of this series on cracking CMU's Bomblab using Angr! If you are new, I would recommend starting with part 1 [here](breaking-cmu-bomblab-with-angr-for-fun-and-profit).
 
 ### Phase 2
 
@@ -256,4 +256,4 @@ That's number 2.  Keep going!
 
 Awesome! We got the solution without even having to deal with the headache of figuring what Phase 2 is actually doing. While Phase 1 was relatively trivial and Angr solving it was probably not really impressive, this is something that should be making you excited now! :) 
 
-Thanks for reading, and I hope you've enjoyed the journey so far.
+Thanks for reading, and I hope you've enjoyed the journey so far. You can go straight to the next part [here](breaking-cmu-bomblab-with-angr-for-fun-and-profit-part-3).

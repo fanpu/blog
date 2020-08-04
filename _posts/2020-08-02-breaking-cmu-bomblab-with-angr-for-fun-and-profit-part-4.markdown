@@ -8,7 +8,7 @@ navigation: True
 author: fanpu
 ---
 
-Welcome back to Part 4 of cracking CMU's Bomblab using Angr! If you just stumbled upon this, I would recommend starting with part 1 [here](https://fanpu.io/breaking-cmu-bomblab-with-angr-for-fun-and-profit).
+Welcome back to Part 4 of cracking CMU's Bomblab using Angr! If you just stumbled upon this, I would recommend starting with part 1 [here](breaking-cmu-bomblab-with-angr-for-fun-and-profit).
 
 ### Phase 4
 
@@ -178,4 +178,4 @@ So you got that one.  Try this one.
 {% endraw %}
 {% endhighlight %}
 
-Easy peasy lemon squeezy! This took basically no effort at all.
+Easy peasy lemon squeezy! This took basically no effort at all. You can continue on to Part 5 [here](breaking-cmu-bomblab-with-angr-for-fun-and-profit-part-5).

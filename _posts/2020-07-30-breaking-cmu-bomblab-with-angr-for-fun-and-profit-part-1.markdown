@@ -31,9 +31,9 @@ Suppose we want Angr to figure out how how to reach line 5 (`print_flag`) of the
 Of course, this is a very contrived example, and in practice the constraints are usually in ranges (i.e `x > 0`), and you can end up with a lot of potential inputs for a desired output (maybe even infinitely many). When situations like this happens, you can ask Angr to return an arbitrary valid input, or return `n` such inputs, and many other options which you can refer to [here](https://docs.angr.io/core-concepts/solver#more-solving-methods).
 
 ### Bomblab
-Now that we have a basic understanding of what Angr is and what symbolic execution is about, let's put our newfound skills to the test! I decided to try it out with Carnegie Mellon's Bomb Lab (you can download it [here](http://csapp.cs.cmu.edu/3e/bomb.tar)). It is the second lab for the class 15-213 Introduction to Computer Systems in CMU which I took last year, and which is a required class for all computer science majors. Back then when I took the class, I printed out the disassembly from `objdump` onto paper and traced all of the function calls and loops manually. I also did some basic dynamic analysis with `gdb` to debug my inputs and confirm that my intuition for what was happening was correct. It was a slow but fun and rewarding process. Of course, you could just open it in a decompiler and trivialize the whole assignment, but you'll lose the learning value of the assignment.
+Now that we have a basic understanding of what Angr is and what symbolic execution is about, let's put our newfound skills to the test! I decided to try it out with Carnegie Mellon's Bomb Lab (you can download it [here](http://csapp.cs.cmu.edu/3e/bomb.tar)). It is the second lab for the class 15-213 Introduction to Computer Systems in CMU which I took last year, and which is a required class for all computer science majors. Back then when I took the class, I printed out the disassembly from `objdump` onto paper and traced all of the function calls and loops manually. I also did some basic dynamic analysis with `gdb` to debug my inputs and confirm that my intuition for what was happening was correct. It was a slow but fun and rewarding process.
 
-Let's see how easily we can solve Bomblab with Angr together! I have structured this walkthrough into 6 separate posts, one post for each phase of the bomb. I will also approach it without relying on any prior knowledge of the phases. Without further ado, let's get started!
+Let's see how easily we can solve Bomblab with Angr together! I have structured this walkthrough into 7 separate posts, one post for each phase of the bomb (including the secret phase). I will also approach it without relying on any prior knowledge of the phases. Without further ado, let's get started!
 
 ### Phase 1
 It's always good to first check the attributes of the binary. The main thing I am concerned about is PIE (position independent code), because that would potentially make referencing addresses more difficult (Angr does have support for PIE though):
@@ -519,4 +519,4 @@ Phase 1 defused. How about the next one?
 {% endraw %}
 {% endhighlight %}
 
-Awesome! I hope you have enjoyed the first part of this series and that it was helpful to you :). 
+Awesome! I hope you have enjoyed the first part of this series and that it was helpful to you :). You can continue on to the second part [here](breaking-cmu-bomblab-with-angr-for-fun-and-profit-part-2).

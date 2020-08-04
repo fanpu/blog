@@ -8,7 +8,7 @@ navigation: True
 author: fanpu
 ---
 
-This is Part 5 on cracking CMU's Bomblab with Angr. If you just stumbled upon this, I would recommend starting with part 1 [here](https://fanpu.io/breaking-cmu-bomblab-with-angr-for-fun-and-profit).
+This is Part 5 on cracking CMU's Bomblab with Angr. If you just stumbled upon this, I would recommend starting with part 1 [here](breaking-cmu-bomblab-with-angr-for-fun-and-profit).
 
 ### Phase 5
 
@@ -200,4 +200,4 @@ Good work!  On to the next...
 {% endraw %}
 {% endhighlight %}
 
-Looks like it worked! Thanks for reading so far, and I hope you enjoyed it!
+Looks like it worked! Thanks for reading so far, and I hope you enjoyed it! You can continue on to Part 6 [here](breaking-cmu-bomblab-with-angr-for-fun-and-profit-part-6).

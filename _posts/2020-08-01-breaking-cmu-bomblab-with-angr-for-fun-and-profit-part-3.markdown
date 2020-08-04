@@ -8,7 +8,7 @@ navigation: True
 author: fanpu
 ---
 
-We're back now at Part 3 of this series on cracking CMU's Bomblab using Angr! If you are new, I would recommend starting with part 1 [here](https://fanpu.io/breaking-cmu-bomblab-with-angr-for-fun-and-profit).
+We're back now with Part 3 of this series on cracking CMU's Bomblab using Angr! If you are new, I would recommend starting with part 1 [here](breaking-cmu-bomblab-with-angr-for-fun-and-profit).
 
 ### Phase 3
 
@@ -215,4 +215,4 @@ Halfway there!
 {% endraw %}
 {% endhighlight %}
 
-Nice, it worked, and this was pretty fast too given how similar it was to phase 2! 
+Nice, it worked, and this was pretty fast too given how similar it was to phase 2! You can continue to Part 4 [here](breaking-cmu-bomblab-with-angr-for-fun-and-profit-part-4)
