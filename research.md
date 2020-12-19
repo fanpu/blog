@@ -12,3 +12,6 @@ Research Topic: <b>Implementation of Unconditionally Secure MPC with Guaranteed 
 ### Research Proposal
 Access it [here]({% link /assets/research/proposal.pdf %})
 
+### Research Milestone
+Access it [here]({% link /assets/research/milestone.pdf %})
+
