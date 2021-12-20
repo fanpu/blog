@@ -2,7 +2,7 @@
 title: "Breaking CMU's Bomblab with Angr for Fun and Profit - Part 3"
 layout: post
 tags: [rev, ctf, code]
-cover: assets/images/posts/angr_3.png
+cover: assets/images/posts/lily_mountain.jpg
 class: post-template
 navigation: True
 author: fanpu

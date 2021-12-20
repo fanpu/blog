@@ -2,7 +2,7 @@
 title: "Breaking CMU's Bomblab with Angr for Fun and Profit - Part 5"
 layout: post
 tags: [rev, ctf, code]
-cover: assets/images/posts/angr_5.png
+cover: assets/images/posts/niagara_falls.jpg
 class: post-template
 navigation: True
 author: fanpu
