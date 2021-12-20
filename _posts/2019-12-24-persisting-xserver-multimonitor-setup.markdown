@@ -1,7 +1,7 @@
 ---
 layout: post
 tags: [Linux]
-cover: assets/images/posts/cut_winter.jpg
+cover: assets/images/posts/cut_winter.jpg_resized
 class: post-template
 navigation: True
 author: fanpu

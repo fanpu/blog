@@ -32,7 +32,7 @@ Some readers may also know that my website is also ported on Carnegie Mellon's w
 
 Finally, I checked that Google Analytics and Disqus was working, and that everything was rendering properly. I also resized some of the larger images with ImageMagick in order to decrease load time and save bandwidth.
 
-![New look](/assets/images/posts/new_look.png)
+![New look](/assets/images/posts/new_look.png_resized)
 
 And you can see the new look of the blog above! I would say that it was mission success. The cover photo on the homepage is of the Gates-Hillman Center in Carnegie Mellon, home to the School of Computer Science. I would also definitely be taking many more candid pictures of my campus in the coming semester, since they will now be directly useful as a cover photo for my upcoming posts. I hope that the pictures of my school would also convey the love and feelings that I have for it to my readers. It is truly a very remarkable place to be studying at.
 
