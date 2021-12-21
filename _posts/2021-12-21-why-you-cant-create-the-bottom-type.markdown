@@ -1,5 +1,5 @@
 ---
-title: "Why you can't create a value with the Bottom type (and why it is still useful)"
+title: "Why you can't create a value with the Bottom type (and why it's still useful)"
 layout: post
 tags: [code]
 cover: assets/images/posts/coyote_valley.jpg_resized
