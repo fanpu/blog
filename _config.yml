@@ -35,6 +35,7 @@ paginate: 100 # it will paginate after this number
 language: 'en-uk'
 plugins:
   - jekyll-feed
+  - jekyll-spaceship
 
 # Exclude from processing.
 # The following items will not be processed, by default. Create a custom list
