@@ -1,0 +1,11 @@
+---
+title: "Why you can't create the Bottom type (and why it is still useful)"
+layout: post
+tags: [code]
+cover: assets/images/posts/coyote_valley.jpg_resized
+class: post-template
+navigation: True
+author: fanpu
+---
+
+baba
