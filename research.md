@@ -7,11 +7,13 @@ navigation: true
 permalink: /research/
 ---
 
-Research Topic: <b>Implementation of Unconditionally Secure MPC with Guaranteed Output Delivery with Communication Complexity O(Cnφ) Bits</b>
+### Efficient Adversarial Attacks against Machine Learning Algorithms: HopSkipJumpAttack
+You can access the [paper here]({% link /assets/research/hop_skip_jump_attack.pdf %}). Written in collaboration with Joelle Lim and Albert Gao.
 
-### Research Proposal
-Access it [here]({% link /assets/research/proposal.pdf %})
+### Playing Atari with Deep Reinforcement Learning
+You can access the [paper here]({% link /assets/research/atari_deeprl.pdf %}). Written in collaboration with Joelle Lim and Albert Gao.
 
-### Research Milestone
-Access it [here]({% link /assets/research/milestone.pdf %})
+### Implementation of Unconditionally Secure MPC with Guaranteed Output Delivery with Communication Complexity O(Cnφ) Bits
+
+The research proposal can be found [here]({% link /assets/research/proposal.pdf %}). The milestones are found [here]({% link /assets/research/milestone.pdf %})
 
