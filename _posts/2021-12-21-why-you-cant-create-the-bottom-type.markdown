@@ -46,4 +46,5 @@ If we cannot create a value with the $$\bot$$ type, what good can it be? It can 
 
 I hope that you learned something from this post and found it useful. Let me know about your thoughts in the comments below!
 
+*Banner picture: View from Coyote Valley Trail, Rocky Mountain National Park*
 

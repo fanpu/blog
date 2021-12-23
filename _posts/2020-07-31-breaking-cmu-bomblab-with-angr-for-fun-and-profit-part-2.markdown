@@ -1,7 +1,7 @@
 ---
 title: "Breaking CMU's Bomblab with Angr for Fun and Profit - Part 2"
 layout: post
-tags: [rev, ctf, code]
+tags: [rev, ctf]
 cover: assets/images/posts/emerald_lake.jpg_resized
 class: post-template
 navigation: True

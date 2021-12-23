@@ -14,4 +14,4 @@ I am a senior in [Carnegie Mellon University](https://www.cmu.edu/) studying Com
 
 This blog was started on 24 June 2018 and is built using [jekyll](https://github.com/jekyll/jekyll).
 
-I write mainly about code, school, interesting new things that I recently learned, and anything else that might be of interest to the reader. I hope you enjoy your stay here!
+I write mainly about code, school, interesting new things that I recently learned, and anything else that might be of interest to the reader. The pictures on the banners are all taken by yours truly during my hiking trips. I hope you enjoy your stay here!
