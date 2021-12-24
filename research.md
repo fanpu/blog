@@ -7,6 +7,8 @@ navigation: true
 permalink: /research/
 ---
 
+Just kidding, I realized that research is not really for me. I can't really see myself devoting 6 years to a PhD at this point, and my current plan is to make an impact in industry. But here are some research-like papers that I wrote or co-wrote.
+
 ### Efficient Adversarial Attacks against Machine Learning Algorithms: HopSkipJumpAttack
 You can access the [paper here]({% link /assets/research/hop_skip_jump_attack.pdf %}). Written in collaboration with Joelle Lim and Albert Gao.
 
