@@ -2,7 +2,7 @@
 title: "Playing Atari using Deep Reinforcement Learning"
 layout: post
 tags: [machine learning]
-cover: assets/images/posts/devils_postpile.jpg
+cover: assets/images/posts/devils_postpile.jpg_resized
 class: post-template
 navigation: True
 author: fanpu
