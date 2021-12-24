@@ -173,7 +173,7 @@ into the {body} of the default.hbs template -->
                         {% if post.tags contains primary %}
                         {% if post.title != page.title %}
                         {% assign count = count | plus: 1 %}
-                        {% if count <= 3 %} <li><a href="{{ site.baseurl }}{{ post.url | remove_first: '/' }}.html">{{
+                        {% if count <= 3 %} <li><a href="{{ site.baseurl }}{{ post.url | remove_first: '/' }}">{{
                                 post.title }}</a></li>
                             {% endif %}
                             {% endif %}
