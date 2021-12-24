@@ -30,15 +30,3 @@ Nodoka and Mai swaps bodies in this arc because of Nodoka's jealousy of Mai's su
 
 ## Thoughts
 Apart from the botched quantum justifications, I felt that everything else in the anime was really well done, and would definitely recommend it if you haven't watched it (although you have already been spoiled quite a bit). I believe that studios should pay greater care to the scientific accuracy of the claims made in their shows, to avoid perpetuating wrong information that is difficult to reverse once captured in the public imagination. In any case, I heard that the movie is really good too, and I am looking forward to watching it!
-
-<!-- proposed to raise the question of when a quantum state collapses to a particular 
-
-originally used to demonstrate that the state of a quantum particle with probabilistic states cannot be known until you measure it. -->
-
- <!-- A quantum bit (qubit) can be represented by the following state in the \|$$ 0 \rangle$$ and \|$$ 1 \rangle$$ (pronounced ket zero and ket one respectively) basis:
-
-$$ a | 0 \rangle + b | 1 \rangle \text{ subject to } a, b \in \mathbb{C}, a^2 + b^2 = 1$$
-
-For instance, a possible quantum state can be $$a = 0.8, b = -0.6$$, since $$0.8^2 + 0.6^2 = 0.64 + 0.36 = 1$$.
-
-If you are given a qubit with unknown state \|$$\varphi \rangle$$, the only thing that you can do to gain more information about it is to measure it in a particular orthogonal basis (the 0/1 basis mentioned previously being one choice).  -->
