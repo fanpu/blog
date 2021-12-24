@@ -93,6 +93,7 @@ show_excerpts: true
 
 # Permalinks
 permalink: /:title
+permalink: pretty
 # permalink: /author/:author
 # permalink: /tag/:tag
 
