@@ -1,7 +1,7 @@
 ---
 title: "Universal types, and why your type checker doesn't suck as much as you think"
 layout: post
-tags: [general]
+tags: [code]
 cover: assets/images/posts/horse_lake_2.jpg_resized
 class: post-template
 navigation: True
