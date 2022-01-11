@@ -1,0 +1,11 @@
+---
+title: "Theorems for Free!"
+layout: post
+tags: [general]
+cover: assets/images/posts/horse_lake_2.jpg_resized
+class: post-template
+navigation: True
+author: fanpu
+---
+
+While there is no such thing as a free lunch, there are some things that come pretty close. In this post we take a look at parametricity, which allows us to deduce theorems about a polymorphic function without even looking at the definition of the function itself (and thus the notion that it comes for 'free'). If you were originally thinking about how you could financially profit off this, I hope you are not too disappointed!
