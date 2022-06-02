@@ -28,7 +28,7 @@ connected by two vertices \(u\) and \(v\), and combine them to form a new vertex
 
 ## Quasi-Orders and Well-Quasi Orders
 <div>
-A quasi-order is a relation that is reflexive, anti-symmetric, and transitive.
+A quasi-order is a relation that is reflexive and transitive.
 We build on this to define a well-quasi-order:
 </div>
 
