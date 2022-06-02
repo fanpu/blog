@@ -7,10 +7,12 @@ class: page-template
 subclass: 'post page'
 permalink: /about/
 ---
-Hello! I am Fan Pu Zeng from Singapore, and I am currently based in Pittsburgh.
-Please call me Fan Pu. 
-I am a senior in [Carnegie Mellon University](https://www.cmu.edu/) studying Computer Science. I used to work as a software engineer at
-[Saleswhale](https://saleswhale.com) before I enrolled in college. In the following summer, I interned at [Asana](https://asana.com/) under the Infrastructure Management team. I then spent my next summer interning at [Facebook](https://about.facebook.com/meta) on the Tupperware Scheduler Production Engineering team. Most recently, I interned at [Jane Street](https://www.janestreet.com/) as a Linux Engineer Intern. 
+Hello! I am Fan Pu Zeng from Singapore, and I am currently based in Pittsburgh. I go by my first name Fan Pu. My amateur radio callsign is KC3UFE.
+
+I recently graduated with a degree in Computer Science from [Carnegie Mellon University](https://www.cmu.edu/), and will be pursuing another year of Master's in Computer Science at the same place.
+
+I used to work as a software engineer at [Saleswhale](https://saleswhale.com) before I enrolled in college. 
+I have interned at [Asana](https://asana.com/) under the Infrastructure Management team, [Facebook](https://about.facebook.com/meta) on the Tupperware Scheduler Production Engineering team, and twice at [Jane Street](https://www.janestreet.com/) as a Linux Engineer Intern. 
 
 This blog was started on 24 June 2018 and is built using [jekyll](https://github.com/jekyll/jekyll).
 
