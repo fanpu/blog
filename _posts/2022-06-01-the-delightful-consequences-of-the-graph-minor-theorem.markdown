@@ -9,8 +9,8 @@ author: fanpu
 ---
 
 The graph minor theorem, also known as the Robertson–Seymour theorem, is generally regarded as the most important result in graph theory. 
-In this post we will introduce the graph minor theorem and any necessary background,
-and show its delightfully deep algorithmic and philosophical implications.
+In this post we introduce the graph minor theorem, provide the necessary background,
+and discover its delightfully deep algorithmic and philosophical implications.
 
 ## Graph Minors
 
