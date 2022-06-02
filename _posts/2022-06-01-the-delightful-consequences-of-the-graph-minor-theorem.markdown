@@ -27,41 +27,53 @@ connected by two vertices \(u\) and \(v\), and combine them to form a new vertex
 ![Edge Contraction](/assets/images/posts/edge_contraction.png){: width="300px" }
 
 ## Quasi-Orders and Well-Quasi Orders
+<div>
 A quasi-order is a relation that is reflexive, anti-symmetric, and transitive.
 We build on this to define a well-quasi-order:
+</div>
 
 <div class="definition">
 A well-quasi-order is a quasi-order such that in any infinite sequence \(x_0, x_1, \cdots\) of elements, there exists a good pair in the sequence. 
 A good pair \(x_i, x_j\) is one where \(i < j\) and \(x_i \leq x_j\). 
 </div>
 
-An implication of a well-quasi-order that is not hard to see is that there cannot be any infinite decreasing
-sequences or infinite anti-chains (meaning that all elements are incomparable). 
-This fact will be very useful later!
+<div>
+A very useful implication of a well-quasi-order that is not hard to show is the following:
+</div>
+<div class="lemma">
+A well-quasi-order cannot form any infinite decreasing sequences or infinite anti-chains.
+</div>
+
+<div>
+We will make use of the fact that it cannot have infinite anti-chains later.
+</div>
 
 ## The Graph Minor Theorem
+<div>
 In 1960, Kruskal had already proved that finite trees are well-quasi-ordered by the topological minor relation (instead of allowing edge contractions, a topological minor allows edge subdivision). 
 In contrast, proving the graph minor theorem was a Herculean effort that took over 20 years (1983-2004), involving over 500 pages. It says the following:
+</div>
 
 <div class="theorem">
 (Graph Minor Theorem) Graphs are well-quasi-ordered by the minor relation.
 </div>
 
+<div>
 At first glance, the statement may not seem very impressive. However, we get a lot of mileage out of it if we consider its implications on minor-closed properties:
+</div>
 
 <div class="definition">
 A property \(\mathcal{P}\) of graphs is minor-closed if every minor of a graph with \(\mathcal{P}\) has \(\mathcal{P}\).
 </div>
 
-Many interesting graph properties are minor-closed, such as planarity (whether a graph is drawable on a plane without any intersecting edges) and the tree-width of a graph (the tree-width of a graph roughly speaking is how much it resembles a tree; trees have tree-width 1).
-
 <div>
+Many interesting graph properties are minor-closed, such as planarity (whether a graph is drawable on a plane without any intersecting edges) and the tree-width of a graph (the tree-width of a graph roughly speaking is how much it resembles a tree; trees have tree-width 1).
+<br>
+<br>
 Now consider any minor-closed property \(\mathcal{P}\) that we are interested in.
 We can define the (possibly infinite) set \(\mathsf{Forb(\mathcal{P})} \) to contain all graphs without property \(\mathcal{P}\). We can think of these as all the bad graphs
 where if a graph \(G\) contained any of them as a minor, then we are sad as \(G\) will not have property \(\mathcal{P}\). 
-</div>
-
-<div>
+<br>
 <br>
 Furthermore, we can further reduce the characterization of this bad set by only considering keeping the
 smallest representative of each chain (i.e pairwise comparable elements).
