@@ -31,7 +31,7 @@ navigation: True # show the navbar links
 # Build settings
 markdown: kramdown
 highlighter: rouge
-paginate: 100 # it will paginate after this number
+paginate: 8 # it will paginate after this number 
 language: 'en-uk'
 plugins:
   - jekyll-feed
