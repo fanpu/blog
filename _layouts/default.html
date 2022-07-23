@@ -38,6 +38,8 @@
     <!-- This tag outputs SEO meta+structured data and other important settings -->
     {% include head.html %}
 
+    {% include mathjax_support.html %}
+
 </head>
 
 <body
@@ -112,26 +114,6 @@
         integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4=" crossorigin="anonymous">
         </script>
     <script type="text/javascript" src="{{ site.baseurl }}assets/js/jquery.fitvids.js"></script>
-
-    <!-- Mathjax -->
-    <script>
-        MathJax = {
-            tex: {
-                inlineMath: [['$', '$'], ['\\(', '\\)']]
-            },
-            svg: {
-                fontCache: 'global'
-            },
-            loader: { load: ['[tex]/bussproofs'] },
-            tex: { packages: { '[+]': ['bussproofs'] } }
-        };
-    </script>
-    <script type="text/javascript" id="MathJax-script" async
-        src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-svg.js">
-        </script>
-    <!-- <script src="https://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML"
-        type="text/javascript"></script> -->
-
 
     <!-- Paginator increased to "infinit" in _config.yml -->
     <!-- if paginator.posts  -->
