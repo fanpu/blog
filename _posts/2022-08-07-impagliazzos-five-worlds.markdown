@@ -9,56 +9,86 @@ author: fanpu
 toc: true
 ---
 
-<div>
+<div> 
+
 Most people have probably heard of the \(\P = \NP? \) problem in some shape or
 form, which asks whether the class of languages decidable in deterministic
 polynomial time is the same as the class of languages decidable in
 non-deterministic polynomial time. An affirmative answer in either direction
-will have profound implications on complexity theory and on our world, as we will soon see.
+will have profound implications on complexity theory and on our world, as we
+will soon see.
 
-<br>
-<br>
+<br> <br>
 
 It is generally believed that \( \P \neq \NP \) among complexity theorists, and
 in fact, it is not uncommon for many theorems to make use of even stronger
-assumptions such as the Exponential Time Hypothesis (ETH) 
-in order to push some theorems through.
-<br>
-<br>
+assumptions such as the Exponential Time Hypothesis (ETH) in order to push some
+theorems through.  <br> <br>
 
-In this post, we extend the discussion to other possible possible outcomes based on Impagliazzo's influential 1995 paper [A personal view of average-case complexity](https://ieeexplore.ieee.org/document/514853).
 
 </div>
+
+In this post, we extend the discussion to other possible possible outcomes based
+on Impagliazzo's influential 1995 paper [A personal view of average-case
+complexity](https://ieeexplore.ieee.org/document/514853).
+
 
 # A Primer on Complexity Classes
 
 <div>
+This is a short primer on some common complexity classes that will be repeatedly mentioned through the article,
+meant for people without much complexity exposure.
+Feel free to skip it if you already know what they are.
 
-\( BPP \) (bounded-error probabilistic polynomial time) is the class of
+<br> <br>
+
+\( \P \) (polynomial time) is the class of languages that can be solved
+deterministically by a Turing machine in polynomial time with respect to the
+size of the input. This means that there exists an algorithm that can solve the
+problem with an input of length \(n\) in time \( O(n^c) \) for some constant
+\(c\).
+
+<br> <br>
+\( \NP \) (non-deterministic polynomial time) is the class of languages that can
+be solved by a non-deterministic Turing machine in polynomial time. A helpful
+way of looking at it is that the Turing machine is able to branch on all
+possibilities in parallel (non-determinism), and therefore it can simply try all
+solutions in parallel and check if it works. Therefore, an equivalent
+formulation is that a problem is in \( \NP \) if it is easy to verify the
+solution to an input in polynomial time.
+
+<br> <br>
+
+\( \BPP \) (bounded-error probabilistic polynomial time) is the class of
 languages that can be solved in polynomial time by a Turing machine that has
 access to random coins, and returns results with a constant error (say 1/3 of
 the time). The exact constant does not matter since execution can be simply
-repeated an additional polynomial number of times to bring the error down exponentially, without
-changing the total polytime execution time. A language in \(BPP\) means that we
-can have a very efficient algorithm in practice since the error can 
+repeated an additional polynomial number of times to bring the error down
+exponentially, without changing the total polytime execution time. A language in
+\(\BPP\) means that we can have a very efficient algorithm in practice since the
+error can be reduced to become negligible using the aforementioned technique.
 
 </div>
+
+<br>
 
 # The Five Worlds
 
-<div>
 
-Here, we discuss each of the Five Worlds - Algorithmica, Heuristica, Pessiland, Minicrypt, and Cryptomania, Strictly speaking, there are other intermediate possibilities that Impagliazzo excluded which Arora and Barak calls "Weirdland", such as if \( \SAT \) takes superpolynomial time to solve, or the complexity of \( \SAT \) differs wildly depending on the input size.
+Here, we discuss each of the Five Worlds - Algorithmica, Heuristica, Pessiland,
+Minicrypt, and Cryptomania, Strictly speaking, there are other intermediate
+possibilities that Impagliazzo excluded which Arora and Barak calls "Weirdland",
+such as if $$ \SAT $$ takes superpolynomial time to solve, or the complexity of
+$$ \SAT $$ differs wildly depending on the input size. Do refer to their book mentioned in the [References](#references) section if you are interested.
 
-</div>
 
 ## Algorithmica
 
 <div>
 
-In Algorithmica, either \(P = NP\) or some moral equivalent like \(NP \subseteq
-BPP\) holds true.  This means that whenever we have a problem where it is easy
-to check whether a solution is valid (meaning it is in \( NP\)), we also have an
+In Algorithmica, either \( \P = \NP \) or some moral equivalent like \(\NP \subseteq
+\BPP\) holds true.  This means that whenever we have a problem where it is easy
+to check whether a solution is valid (meaning it is in \( \NP \)), we also have an
 algorithm to efficiently recover the solution.
 
 <br> <br>
@@ -72,8 +102,7 @@ in \(\NP\), which admits an efficient algorithm under our Algorithmica
 assumption.  Binary search can be performed on \(c\) to find a solution with the
 best value.  This will bring paradise to many areas of engineering and science.
 
-<br>
-<br>
+<br> <br>
 
 On the other hand, cryptography is now dead. Cryptography is founded on the
 assumption of one-way functions, where given some function \( f \), it is easy
@@ -82,6 +111,8 @@ recover \( x \) given \( y \). This is because one-way functions are in \( \NP
 \), which obliterates this assumption.
 
 </div>
+
+<br>
 
 ## Heuristica
 
@@ -113,6 +144,8 @@ with any puzzles that an adversary can't solve efficiently.
 
 </div>
 
+<br>
+
 ## Pessiland
 
 <div>
@@ -135,6 +168,8 @@ currently do in our world.
 
 </div>
 
+<br>
+
 ## Minicrypt
 
 <div>
@@ -152,23 +187,23 @@ Diffie-Hellman (DDH) assumption. The DDH states that given any cyclic group \( G
 \) with generator \( g \) and order \( q \), the following two probability
 distributions are computationally indistinguishable:
 
-$$ ( g^a, g^b, g^{ab})$$
-$$ ( g^a, g^b, g^c) $$
+$$ ( g^a, g^b, g^{ab})$$ $$ ( g^a, g^b, g^c) $$
 
 where \( a, b, c \in \mathbb{Z}_q \).
 
-<br>
-<br>
+<br> <br>
 
 RSA encryption relies on the assumption of the hardness of factorization, which
 is already untrue in the quantum computation model. This is thanks to Shor's
 algorithm developed in 1994 by Peter Shor, which is able to perform integer
 factorization in \( \BQP \), i.e in polynomial time on a quantum computer.  This
 has also caused a general shift among the cryptography community to start moving
-standards towards post-quantum cryptography, which relies on cryptosystems that are
-believed to be resistant to quantum computers.
+standards towards post-quantum cryptography, which relies on cryptosystems that
+are believed to be resistant to quantum computers.
 
 </div>
+
+<br>
 
 ## Cryptomania
 
@@ -183,24 +218,31 @@ too bad of a trade, if we consider the downsides of losing the ability to solve
 
 </div>
 
-# Closing Thoughts
+<br>
 
+# Some Closing Thoughts
+
+<div>
 I found it illuminating to consider a more nuanced debate of the computational
 possibilities of our world beyond just a simplistic \( \P = \NP? \) view. Most
 experts think that we are in Minicrypt or Cryptomania. It would be interesting
 to see if the cryptosystems that we rely so heavily on today (Diffie-Hellman,
 elliptic curve cryptography, etc) will be broken in the coming decades, since we
 have no real reason to believe that the assumptions are hard other than the fact
-that a ton of smart people have tried for years to break it and failed.
+that a ton of smart people have tried for years to break it and failed. 
+</div>
 
+<br>
 
 # References
 
-- [Personal View of Average-Case Complexity](https://www2.karlin.mff.cuni.cz/~krajicek/ri5svetu.pdf)
+- [Personal View of Average-Case
+Complexity](https://www2.karlin.mff.cuni.cz/~krajicek/ri5svetu.pdf)
 
 - [Average Case Complexity](
 https://www2.cs.sfu.ca/~kabanets/881/scribe_notes/lec8.pdf)
 
-- Arora, S., &amp; Barak, B. (2016). Computational Complexity: A Modern Approach. Cambridge University Press. 
+- Arora, S., &amp; Barak, B. (2016). Computational Complexity: A Modern
+Approach. Cambridge University Press. 
 
 *Banner picture: Denali National Park, Alaska*
