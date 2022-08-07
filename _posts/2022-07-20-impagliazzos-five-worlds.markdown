@@ -6,19 +6,17 @@ cover: assets/images/posts/denali.jpg
 class: post-template
 navigation: True
 author: fanpu
-toc: true
+toc: true 
 ---
 
-<div> 
-
-Most people have probably heard of the \(\P = \NP? \) problem in some shape or
+Most people have probably heard of the $$\P = \NP?$$ problem in some shape or
 form, which asks whether the class of languages decidable in deterministic
 polynomial time is the same as the class of languages decidable in
 non-deterministic polynomial time. An affirmative answer in either direction
 will have profound implications on complexity theory and on our world, as we
 will soon see.
 
-<br> <br>
+<div>
 
 It is generally believed that \( \P \neq \NP \) among complexity theorists, and
 in fact, it is not uncommon for many theorems to make use of even stronger
