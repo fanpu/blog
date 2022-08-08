@@ -64,7 +64,7 @@ exclude:
 #   - vendor/gems/
 #   - vendor/ruby/
 
-timezone: Asia/Singapore
+timezone: America/New_York
 
 # Liquid options
 # liquid:
