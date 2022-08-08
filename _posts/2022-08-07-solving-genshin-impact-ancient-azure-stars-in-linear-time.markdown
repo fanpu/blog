@@ -113,12 +113,12 @@ v)$$, since it implies that we just found a cycle! This runs in $$O(m)$$.
 Taking both steps together, we get an overall $$O(m)$$ running time, which is
 actually also $$O(n)$$ given our previous note that $$n \leq m$$. This is also
 the best achievable bound, since we certainly must examine all the inputs which
-already takes $$O(n)$$ time for the algorithm. It looks like Mona will be
-speeding through these puzzles in no time after all!
+already takes $$O(n)$$ time for the algorithm. It certainly looks like Mona will
+be speeding through these puzzles in no time after all!
+
+![Genshin Impact Mona](/assets/images/posts/mona_end.jpg){: width="100%"}
 
 Dear readers, let me know if you enjoyed this post in the comments below, and
 feel free to drop suggestions for future topics!
-
-![Genshin Impact Ancient Azure Starts Puzzle 2 Solved](/assets/images/posts/genshin-puzzle-2-solved.jpg){: width="100%"}
 
 *Banner picture: Mona Megistus, Genshin Impact. Copyrights and/or trademarks of any character and/or image used belong to miHoYo.*
