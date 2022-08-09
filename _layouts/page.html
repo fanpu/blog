@@ -19,7 +19,7 @@ into the {body} of the default.hbs template -->
 <!-- Everything inside the #post tags pulls data from the post -->
 <!-- #post -->
 
-<main id="site-main" class="site-main outer" role="main" style="background-image: url('/assets/images/worn_dots.png');">
+<main id="site-main" class="site-main outer" role="main">
     <div class="inner">
 
         <article class=" post-full {{ page.subclass }} {% unless page.cover %}no-image{% endunless %}">
@@ -34,13 +34,60 @@ into the {body} of the default.hbs template -->
             {% endif %}
 
             <section class="post-full-content">
-                {{ content }}
+                {{ content | toc }}
+
             </section>
 
+            {%- if page.comments != false and jekyll.environment == "production" -%}
+
+            <div id="disqus_thread"></div>
+            <script>
+                var disqus_config = function () {
+                    this.page.url = '{{ page.url | absolute_url }}';
+                    this.page.identifier = '{{ page.url | absolute_url }}';
+                };
+                (function () {
+                    var d = document, s = d.createElement('script');
+                    // not sure why sourcing config didn't work?
+                    // s.src = 'https://{{ site.disqus.shortname }}.disqus.com/embed.js';
+                    s.src = 'https://fanpu-blog.disqus.com/embed.js';
+                    s.setAttribute('data-timestamp', +new Date());
+                    (d.head || d.body).appendChild(s);
+                })();
+            </script>
+            <noscript>Please enable JavaScript to view the <a href="https://disqus.com/?ref_noscript"
+                    rel="nofollow">comments powered by Disqus.</a></noscript>
+            {%- endif -%}
+            <!-- If you use Disqus comments, just uncomment this block.
+            The only thing you need to change is "test-apkdzgmqhj" - which
+            should be replaced with your own Disqus site-id. -->
+            {% if site.disqus or page.disqus %}
+            <section class="post-full-comments">
+                <div id="disqus_thread"></div>
+                <script>
+                    var disqus_config = function () {
+                        this.page.url = '{{ site.url }}{{ site.baseurl }}';
+                        this.page.identifier = '{{ site.title }}';
+                    };
+                    (function () {
+                        var d = document, s = d.createElement('script');
+                        // not sure why sourcing config didn't work?
+                        // s.src = 'https://{{ site.disqus.shortname }}.disqus.com/embed.js';
+                        s.src = 'https://fanpu-blog.disqus.com/embed.js';
+                        s.setAttribute('data-timestamp', +new Date());
+                        (d.head || d.body).appendChild(s);
+                    })();
+                </script>
+            </section>
+            {% endif %}
         </article>
 
     </div>
+
+
 </main>
+
+
 
 <!-- /post -->
 
