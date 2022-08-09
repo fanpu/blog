@@ -146,8 +146,7 @@ into the {body} of the default.hbs template -->
                 <!-- /author  -->
             </footer>
 
-
-            {%- if page.comments != false -%}
+            {%- if page.comments != false and jekyll.environment == "production" -%}
 
             <div id="disqus_thread"></div>
             <script>
