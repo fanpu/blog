@@ -1,6 +1,6 @@
 ---
 layout: page
-title: Courses
+title: CMU Course Review
 current: courses
 class: page-template
 navigation: true
