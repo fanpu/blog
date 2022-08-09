@@ -7,6 +7,7 @@ class: post-template
 navigation: True
 author: fanpu
 toc: true 
+comments: true
 ---
 It is summer yet again, and miHoYo has blessed us with the *Summertime Odyssey*
 event that explores the (often dark and painful) backstories of the cast

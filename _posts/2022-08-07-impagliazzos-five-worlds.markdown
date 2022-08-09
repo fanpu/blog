@@ -7,6 +7,7 @@ class: post-template
 navigation: True
 author: fanpu
 toc: true 
+comments: true
 ---
 Most people have probably heard of the $$\P = \NP?$$ problem in some shape or
 form, which asks whether the class of languages decidable in deterministic

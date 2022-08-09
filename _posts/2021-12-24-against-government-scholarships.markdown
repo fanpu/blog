@@ -6,6 +6,8 @@ cover: assets/images/posts/yosemite_waterfall.jpg_resized
 class: post-template
 navigation: True
 author: fanpu
+toc: true
+comments: true
 ---
 
 Over the past few years, I've received numerous questions about studying abroad and whether it is advisable to take a government scholarship to do so from my juniors. 

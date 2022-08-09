@@ -7,6 +7,7 @@ class: post-template
 navigation: True
 author: fanpu
 toc: true
+comments: true
 ---
 
 Last week, I had the wonderful opportunity to participate in [Hwa Chong's
@@ -65,4 +66,5 @@ For participants and other interested readers, the slides used in my sharing are
 
 {% pdf "/assets/presentations/cmu-hci-alumni-sharing.pdf" no_link %}
 
-*Banner picture: Arapaho and Roosevelt National Forests, Colorado *
+<br>
+*Banner picture: Arapaho and Roosevelt National Forests, Colorado*

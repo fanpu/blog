@@ -6,6 +6,7 @@ cover: assets/images/posts/horse_lake_2.jpg_resized
 class: post-template
 navigation: True
 author: fanpu
+comments: true
 ---
 
 Universal types are very useful for performing generic programming, which allows you to use the same code over different types. For instance, the C++ STL (Standard Template Library) allows you to work on things like containers over any arbitrary type. You would surely not want to re-implement the logic for every concrete type that you use. Such a feature is known as parametric polymorphism. It is different from the other kind of polymorphism normally found in object-oriented languages that allows for overloading and run-time dispatch, which is known as ad-hoc polymorphism. 

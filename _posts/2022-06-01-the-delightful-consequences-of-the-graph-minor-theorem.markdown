@@ -6,6 +6,8 @@ cover: assets/images/posts/kenai_fjords_glacier.jpg
 class: post-template
 navigation: True
 author: fanpu
+toc: true 
+comments: true
 ---
 
 The graph minor theorem, also known as the Robertson–Seymour theorem, is generally regarded as the most important result in graph theory. 
@@ -98,7 +100,7 @@ but in fact Robertson and Seymour also showed in 1995 that this could be done ef
 To close off this post, I leave you with a final story about the remarkable implications of the graph minor theorem. Previously, it was unknown whether the problem of determining if a graph in 3D space can be embedded such that it is knotless is decidable (linkless embedding). However, the graph minor theorem not only showed that it was decidable, it gave a polynomial time algorithm for doing so!
 </div>
 
-#### References
+## References
 - Reinhard Diestel. *Graph Theory*. Springer, 2018.
 
 *Banner picture: Exit Glacier, Kenai Fjords National Park, Alaska*
