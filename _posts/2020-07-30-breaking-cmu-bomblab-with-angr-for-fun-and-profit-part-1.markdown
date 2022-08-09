@@ -6,6 +6,8 @@ cover: assets/images/posts/arapaho.jpg_resized
 class: post-template
 navigation: True
 author: fanpu
+toc: true
+comments: true
 ---
 
 I have recently been learning about [Angr](https://angr.io/), a binary analysis framework developed by UC Santa Barbara and Arizona State University. It caught my eye because of its versatility and utility in reverse engineering binaries whose disassembly and decompilation are hard to understand manually. Oftentimes, it is simply due to the fact that it was compiled from newer or relatively less popular languages like Rust or Haskell, where the state of currently publicly available decompilers leaves much to be desired. Angr's ability to perform symbolic execution therefore allows us to blackbox certain functionality within the program (or even the entire program) by attempting to find the right input for a desired output.

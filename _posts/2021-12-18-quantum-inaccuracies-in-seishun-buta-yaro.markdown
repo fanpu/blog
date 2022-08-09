@@ -6,6 +6,8 @@ cover: assets/images/posts/bunny_senpai.jpg
 class: post-template
 navigation: True
 author: fanpu
+toc: true
+comments: true
 ---
 
 I finished watching Seishun Buta Yaro (Rascal Does Not Dream of Bunny Girl Senpai) recently, and really enjoyed the anime. It explored themes of finding one's identity, and dealing with social anxiety during adolescent years. In the show, students are inflicted by a fictional disease called Adolescence Syndrome when they are severely affected by the things happening around them, whose symptoms depends on the specific reason why a person is mentally distraught. Rio Futaba, the president of the science club in the school, tries to explain the reasons for Adolescence Syndrome using quantum mechanics principles throughout the show. Unfortunately, most of it was poorly applied, and could be harmful in reinforcing misconceptions of quantum mehanics. In this post, I examine each of her claims and describe why they don't really make sense. This post is aimed at a general audience and requires no knowledge of quantum mechanics.

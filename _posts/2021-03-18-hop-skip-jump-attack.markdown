@@ -6,6 +6,8 @@ cover: assets/images/posts/sulphur_springs.jpg_resized
 class: post-template
 navigation: True
 author: fanpu
+toc: true
+comments: true
 ---
 
 Many machine learning algorithms have been shown to be susceptible to adversarial examples. For example, image classification neural networks can wrongly classify an image when a small perturbation, unnoticeable to the human eye, is added to the original image which it has previously correctly classified. The goal of an adversarial attack can thus be rephrased as an optimization problem to compute the "smallest" perturbation needed, such that the perturbed example will be misclassified.

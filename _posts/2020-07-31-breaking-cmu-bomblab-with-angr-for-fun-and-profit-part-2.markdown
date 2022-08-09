@@ -6,6 +6,8 @@ cover: assets/images/posts/emerald_lake.jpg_resized
 class: post-template
 navigation: True
 author: fanpu
+toc: true
+comments: true
 ---
 
 Welcome to Part 2 of this series on cracking CMU's Bomblab using Angr! If you are new, I would recommend starting with part 1 [here](breaking-cmu-bomblab-with-angr-for-fun-and-profit).

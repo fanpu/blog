@@ -6,8 +6,10 @@ cover: assets/images/posts/devils_postpile.jpg_resized
 class: post-template
 navigation: True
 author: fanpu
+toc: true
+comments: true
 ---
-In this post, we study the first deep reinforcement learning model that was successfully able to learn control policies directly from high dimensional sensory inputs, as applied to games on the Atari platform \cite{atari}. 
+In this post, we study the first deep reinforcement learning model that was successfully able to learn control policies directly from high dimensional sensory inputs, as applied to games on the Atari platform.
 
 This first model was a convolutional neural network (CNN) that takes in raw pixels as input and outputs the value function $$Q$$ estimating future rewards. This value estimate is then used to decide on the best action to take at the current time step. Back when this paper was written, deep nets were only commonly applied to supervised learning problems, where there is a corresponding label for every classification of the image; this was the first approach to show that it is possible to train a CNN even with sparse "rewards" and to solve the "credit assignment problem". This model was also shown to be able to generalize across multiple games: the same architecture was shown to perform decently on six Atari 2600 games in the Arcade Learning Environment, and even surpasses a human expert on three of them.
 

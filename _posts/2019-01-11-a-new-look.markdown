@@ -5,6 +5,8 @@ cover: assets/images/posts/wean_hall.jpg
 class: post-template
 navigation: True
 author: fanpu
+toc: true
+comments: true
 ---
 My Jekyll blog has been on the default [minima](https://github.com/jekyll/minima) theme since its inception. It was functional and served its purpose, but as someone who has extensive web development experience having designed and implemented sophisticated web interfaces back when I was working at [Saleswhale](https://saleswhale.com), I felt like I could definitely do much better.
 

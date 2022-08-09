@@ -5,6 +5,8 @@ cover: assets/images/saleswhale/saleswhale_offsite_resize.jpg
 class: post-template
 navigation: True
 author: fanpu
+toc: true
+comments: true
 ---
 This post is addressed to my future self, who (hopefully) would found a startup of his own someday. This is my last week at [Saleswhale](http://www.saleswhale.com) and I would like to pack as much wisdom into this post from my experiences there and from the wonderful people that I have talked to. It is a very personal post for me and it speaks straight from my heart. To be honest, I teared up a few times while writing this. I hope you will feel the sincerity in my words, and I hope
 it will inspire you.

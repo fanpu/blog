@@ -6,6 +6,8 @@ cover: assets/images/posts/autolab.png
 class: post-template
 navigation: True
 author: fanpu
+toc: true
+comments: true
 ---
 I joined the [Autolab](http://www.autolabproject.com/) team at the close of the semester this year. The Autolab team builds and maintains Autolab, an autograding platform for programming assignments that is currently being used by around 20 universities around the world. It is used very extensively in most computer science courses to grade programming assignments in Carnegie Mellon. In this post, I will share how I came to join Autolab, and the role that I am planning to play in it.
 

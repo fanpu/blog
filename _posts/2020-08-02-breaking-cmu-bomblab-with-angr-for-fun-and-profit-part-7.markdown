@@ -6,6 +6,8 @@ cover: assets/images/posts/campton.jpg_resized
 class: post-template
 navigation: True
 author: fanpu
+toc: true
+comments: true
 ---
 
 Welcome to the final part of cracking CMU's Bomblab with Angr. If you are new here, I would recommend starting with part 1 [here](breaking-cmu-bomblab-with-angr-for-fun-and-profit).

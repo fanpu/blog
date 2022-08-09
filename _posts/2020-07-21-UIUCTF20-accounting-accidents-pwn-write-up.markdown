@@ -6,6 +6,8 @@ cover: assets/images/posts/tallac_journey.jpg_resized
 class: post-template
 navigation: True
 author: fanpu
+toc: true
+comments: true
 ---
 
 UIUCTF20 was a really fun Animal Crossing themed CTF that ran from July 17-19 2020. While I have not played the game before, I somewhat knew what it was about from watching Youtubers play it, and also from memes about the turnip stock market. 

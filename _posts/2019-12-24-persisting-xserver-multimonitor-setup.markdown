@@ -5,6 +5,8 @@ cover: assets/images/posts/cut_winter.jpg_resized
 class: post-template
 navigation: True
 author: fanpu
+toc: true
+comments: true
 ---
 I have been using a multiple monitor setup on my Linux system for a long time, and one thing that always annoyed me was that the default monitor arrangement detected by X Server doesn't reflect its physical positioning (why should it?). Due to a combination of laziness and the fact that reordering it with nvidia-settings's X Server Display Configuration takes only a few seconds, I never bothered to find the time to find a proper fix for it. However, the fix is actually incredibly simple.
 

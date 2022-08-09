@@ -6,6 +6,8 @@ cover: assets/images/posts/erie.jpg_resized
 class: post-template
 navigation: True
 author: fanpu
+toc: true
+comments: true
 ---
 
 Welcome back to Part 4 of cracking CMU's Bomblab using Angr! If you just stumbled upon this, I would recommend starting with part 1 [here](breaking-cmu-bomblab-with-angr-for-fun-and-profit).

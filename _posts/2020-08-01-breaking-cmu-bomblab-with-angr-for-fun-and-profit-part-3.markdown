@@ -6,6 +6,8 @@ cover: assets/images/posts/lily_mountain.jpg
 class: post-template
 navigation: True
 author: fanpu
+toc: true
+comments: true
 ---
 
 We're back now with Part 3 of this series on cracking CMU's Bomblab using Angr! If you are new, I would recommend starting with part 1 [here](breaking-cmu-bomblab-with-angr-for-fun-and-profit).

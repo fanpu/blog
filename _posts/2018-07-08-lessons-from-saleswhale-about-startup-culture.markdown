@@ -5,6 +5,8 @@ cover: assets/images/saleswhale/saleswhale_laser_tag_resize.jpg
 class: post-template
 navigation: True
 author: fanpu
+toc: true
+comments: true
 ---
 08 July marks 8 months since I started working in Saleswhale (08 November 2017), and also the last month that I will be here before enrolling in college. It is an opportune time to look back and reflect on my growth as a software engineer and to collate the lessons that I have learned so that I may remember them in my future endeavors. Actually, given the stark contrast between academia and industry, I am quite certain that I will gradually lose sense of the things that I learned,
 especially those regarding working in teams and software engineering best practices.

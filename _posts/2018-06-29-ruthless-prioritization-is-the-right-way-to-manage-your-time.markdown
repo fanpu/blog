@@ -5,6 +5,7 @@ cover: assets/images/saleswhale/saleswhale_team_photo_fun_resize.jpg
 class: post-template
 navigation: True
 author: fanpu
+comments: true
 ---
 Last week I had the good fortune of having a one-on-one session with Gabriel, the CEO of [Saleswhale](https://saleswhale.com). One-on-one sessions in Saleswhale are for two people (usually a subordinate and superior) to talk to each other about anything in a safe and relaxed environment. Usually, it involves problems or issues that you might be facing, blockers that are preventing you from being fully productive, work performance, thoughts and concerns on recent developments, company direction and strategy, and so forth. However, as I rarely have the chance to go on a one-on-one with Gabriel I decided to ask him questions more pertinent to his role as a CEO. This has been something that I have been very curious to learn more about after my previous one-on-one with Ethan, who shared with me his experiences, challenges, and many thoughts as the CTO. In today’s post, I will share what I feel is probably the most important takeaway for me during the session with Gabriel.
 

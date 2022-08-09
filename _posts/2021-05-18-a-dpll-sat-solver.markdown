@@ -6,6 +6,8 @@ cover: assets/images/posts/tallac.jpg_resized
 class: post-template
 navigation: True
 author: fanpu
+toc: true
+comments: true
 ---
 
 Boolean satisfiability (SAT) solvers have played an important role in software and hardware verification, automatic test pattern generation, planning, scheduling, and solving challenging problems in algebra. 
@@ -106,7 +108,7 @@ It also took me a while to initially convince myself of the correctness of the a
 I hope you've found this post interesting and learned a thing or two. Let me know what you think in the comments!
 
 
-#### References:
+## References
 - Frank Van Harmelen, Vladimir Lifschitz, and Bruce Porter. *Handbook of knowledge representation*. Elsevier, 2010.
 - Jediah Katz. Algorithms for SAT.
 - Swords. Basics of SAT Solving Algorithms, Dec 2008.

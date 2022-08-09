@@ -6,6 +6,8 @@ cover: assets/images/posts/niagara_falls.jpg_resized
 class: post-template
 navigation: True
 author: fanpu
+toc: true
+comments: true
 ---
 
 This is Part 5 on cracking CMU's Bomblab with Angr. If you just stumbled upon this, I would recommend starting with part 1 [here](breaking-cmu-bomblab-with-angr-for-fun-and-profit).

@@ -6,6 +6,8 @@ cover: assets/images/posts/lake_placid.jpg_resized
 class: post-template
 navigation: True
 author: fanpu
+toc: true
+comments: true
 ---
 
 Hello from Part 6 of this series on cracking CMU's Bomblab with Angr. If you are new here, I would recommend starting with part 1 [here](breaking-cmu-bomblab-with-angr-for-fun-and-profit).

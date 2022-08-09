@@ -5,6 +5,8 @@ cover: assets/images/posts/rsync.png
 class: post-template
 navigation: True
 author: fanpu
+toc: true
+comments: true
 ---
 Static site generators like [Jekyll](https://jekyllrb.com) makes it easy to write and build static websites. However, this still comes with the problem of a suitable deployment method. I will share about my thought process and the best approach I found for tackling this problem.
 
