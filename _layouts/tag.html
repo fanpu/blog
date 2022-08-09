@@ -14,16 +14,17 @@ logo: 'assets/images/ghost.png'
 <!-- The big featured header, it uses blog cover image as a BG if available -->
 <!-- #tag -->
 {% include dynamic_tag_info.html %}
-<header class="site-header outer {% if cover or page.cover %}" style="background-image: url({{ site.baseurl }}{% if cover %}{{ cover }}{% else %}{{ page.cover }}{% endif%}) {% else %}no-cover{% endif %}">
+<header class="site-header outer {% if cover or page.cover %}"
+    style="background-image: url({{ site.baseurl }}{% if cover %}{{ cover }}{% else %}{{ page.cover }}{% endif%}) {% else %}no-cover{% endif %}">
     <div class="inner">
         {% include site-nav.html %}
         <div class="site-header-content">
             <h1 class="site-title">{{ page.tag | capitalizeall }}</h1>
             <h2 class="site-description">
                 {% if tag_description %}
-                    {{ tag_description }}
+                {{ tag_description }}
                 {% elsif page.tag %}
-    			    A collection of {{ paginator.total_posts }} posts
+                A collection of {{ paginator.total_posts }} posts
                 {% endif %}
             </h2>
         </div>
@@ -36,7 +37,7 @@ logo: 'assets/images/ghost.png'
     <div class="inner">
         <div class="post-feed">
             <!-- The tag below includes the markup for each post - partials/post-card.hbs -->
-            {%  include post-card.html %}
+            {% include post-card.html %}
         </div>
     </div>
 </main>
