@@ -2,7 +2,7 @@
 title: "Solving Genshin Impact's Ancient Azure Stars quest in Linear Time"
 layout: post
 tags: [general, code]
-cover: assets/images/posts/mona.jpg
+cover: assets/images/posts/mona.avif
 class: post-template
 navigation: True
 author: fanpu

@@ -1,7 +1,7 @@
 ---
 layout: post
 tags: [DevOps, code]
-cover: assets/images/posts/rsync.png
+cover: assets/images/posts/rsync.avif
 class: post-template
 navigation: True
 author: fanpu

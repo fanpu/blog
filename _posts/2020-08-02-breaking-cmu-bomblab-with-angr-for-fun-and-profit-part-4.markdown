@@ -2,7 +2,7 @@
 title: "Breaking CMU's Bomblab with Angr for Fun and Profit - Part 4"
 layout: post
 tags: [rev, ctf]
-cover: assets/images/posts/erie.jpg_resized
+cover: assets/images/posts/erie.avif
 class: post-template
 navigation: True
 author: fanpu

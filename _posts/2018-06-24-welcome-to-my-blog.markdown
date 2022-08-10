@@ -1,7 +1,7 @@
 ---
 layout: post
 tags: [jekyll, blog]
-cover: assets/images/posts/marina.jpg
+cover: assets/images/posts/marina.avif
 class: post-template
 navigation: True
 author: fanpu

@@ -1,7 +1,7 @@
 ---
 layout: post
 tags: [software engineering, startup, productivity]
-cover: assets/images/posts/drama.jpg
+cover: assets/images/posts/drama.avif
 class: post-template
 navigation: True
 author: fanpu

@@ -2,7 +2,7 @@
 title: "Impagliazzo's Five Worlds, or The Computational (Im)Possibilities of The World That We Live In"
 layout: post
 tags: [theory, code]
-cover: assets/images/posts/denali.jpg
+cover: assets/images/posts/denali.avif
 class: post-template
 navigation: True
 author: fanpu

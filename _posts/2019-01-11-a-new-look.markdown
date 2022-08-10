@@ -1,7 +1,7 @@
 ---
 layout: post
 tags: [Jekyll, blog]
-cover: assets/images/posts/wean_hall.jpg
+cover: assets/images/posts/wean_hall.avif
 class: post-template
 navigation: True
 author: fanpu

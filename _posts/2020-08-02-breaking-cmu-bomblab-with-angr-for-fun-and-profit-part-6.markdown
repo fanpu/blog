@@ -2,7 +2,7 @@
 title: "Breaking CMU's Bomblab with Angr for Fun and Profit - Part 6"
 layout: post
 tags: [rev, ctf]
-cover: assets/images/posts/lake_placid.jpg_resized
+cover: assets/images/posts/lake_placid.avif
 class: post-template
 navigation: True
 author: fanpu

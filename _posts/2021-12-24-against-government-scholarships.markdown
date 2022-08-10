@@ -2,7 +2,7 @@
 title: "Against Government Scholarships"
 layout: post
 tags: [general]
-cover: assets/images/posts/yosemite_waterfall.jpg_resized
+cover: assets/images/posts/yosemite_waterfall.avif
 class: post-template
 navigation: True
 author: fanpu

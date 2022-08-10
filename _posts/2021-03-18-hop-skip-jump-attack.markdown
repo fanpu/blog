@@ -2,7 +2,7 @@
 title: "HopSkipJumpAttack: An Efficient Adversarial Attack against Machine Learning Algorithms"
 layout: post
 tags: [machine learning]
-cover: assets/images/posts/sulphur_springs.jpg_resized
+cover: assets/images/posts/sulphur_springs.avif
 class: post-template
 navigation: True
 author: fanpu

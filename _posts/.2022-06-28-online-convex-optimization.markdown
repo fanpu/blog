@@ -2,7 +2,7 @@
 title: "A Proof of the Lower Bound for Online Convex Optimization"
 layout: post
 tags: [theory]
-cover: assets/images/posts/denali.jpg
+cover: assets/images/posts/denali.avif
 class: post-template
 navigation: True
 author: fanpu

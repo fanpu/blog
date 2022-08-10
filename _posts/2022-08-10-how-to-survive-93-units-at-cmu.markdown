@@ -2,11 +2,12 @@
 title: "How I Managed a 93 Units Workload at CMU"
 layout: post
 tags: [general]
-cover: assets/images/posts/oxford.jpg
+cover: assets/images/posts/oxford.avif
 class: post-template
 navigation: True
 author: fanpu
 toc: true
+published: false
 ---
 
 Senior spring is a time of opportunity.  You would have cleared most of your

@@ -2,7 +2,7 @@
 layout: post
 tags: [CMU, Autolab, DevOps, Infrastructure]
 title: My Involvement in the Autolab Project
-cover: assets/images/posts/autolab.png
+cover: assets/images/posts/autolab.avif
 class: post-template
 navigation: True
 author: fanpu

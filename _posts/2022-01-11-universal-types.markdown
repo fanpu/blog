@@ -2,7 +2,7 @@
 title: "Universal types, and your type checker doesn't suck as much as you think"
 layout: post
 tags: [code]
-cover: assets/images/posts/horse_lake_2.jpg_resized
+cover: assets/images/posts/horse_lake_2.avif
 class: post-template
 navigation: True
 author: fanpu

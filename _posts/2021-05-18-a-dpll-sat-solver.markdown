@@ -2,7 +2,7 @@
 title: "Writing a DPLL SAT Solver"
 layout: post
 tags: [code]
-cover: assets/images/posts/tallac.jpg_resized
+cover: assets/images/posts/tallac.avif
 class: post-template
 navigation: True
 author: fanpu

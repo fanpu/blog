@@ -2,7 +2,7 @@
 title: "Theorems for Free!"
 layout: post
 tags: [code]
-cover: assets/images/posts/tahoe.jpg_resized
+cover: assets/images/posts/tahoe.avif
 class: post-template
 navigation: True
 author: fanpu

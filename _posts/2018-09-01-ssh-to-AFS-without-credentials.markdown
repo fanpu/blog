@@ -2,7 +2,7 @@
 layout: post
 tags: [AFS, DevOps, code]
 title: SSH to Andrew File System (AFS) Without Credentials
-cover: assets/images/posts/lawn.jpg
+cover: assets/images/posts/lawn.avif
 class: post-template
 navigation: True
 author: fanpu

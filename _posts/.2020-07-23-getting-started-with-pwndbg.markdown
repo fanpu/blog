@@ -1,7 +1,7 @@
 ---
 layout: post
 tags: [ctf, code]
-cover: assets/images/posts/something.jpg
+cover: assets/images/posts/something.avif
 class: post-template
 navigation: True
 author: fanpu

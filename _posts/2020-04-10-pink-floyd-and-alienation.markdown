@@ -2,7 +2,7 @@
 title: "Pink Floyd and Alienation"
 layout: post
 tags: [general]
-cover: assets/images/posts/dark_side_of_the_moon.jpg
+cover: assets/images/posts/dark_side_of_the_moon.avif
 class: post-template
 navigation: True
 author: fanpu

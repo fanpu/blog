@@ -2,7 +2,7 @@
 title:  "UIUCTF20 Accounting Accidents Pwn Writeup"
 layout: post
 tags: [pwn, CTF]
-cover: assets/images/posts/tallac_journey.jpg_resized
+cover: assets/images/posts/tallac_journey.avif
 class: post-template
 navigation: True
 author: fanpu

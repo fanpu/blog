@@ -2,7 +2,7 @@
 title: "My Sharing at the Hwa Chong Undergrad Alumni Forum"
 layout: post
 tags: [general]
-cover: assets/images/posts/arapaho-lake.jpg
+cover: assets/images/posts/arapaho-lake.avif
 class: post-template
 navigation: True
 author: fanpu

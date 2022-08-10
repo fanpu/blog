@@ -1,7 +1,7 @@
 ---
 layout: post
 tags: [Linux, code]
-cover: assets/images/posts/college_of_engineering.jpg
+cover: assets/images/posts/college_of_engineering.avif
 class: post-template
 navigation: True
 author: fanpu
