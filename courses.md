@@ -5,7 +5,7 @@ current: courses
 class: page-template
 navigation: true
 permalink: /courses/
-cover: assets/images/ryan_mountain_joshua_tree.JPG_resized
+cover: assets/images/ryan_mountain_joshua_tree.avif
 navigation: True
 toc: True
 comments: True
@@ -15,6 +15,7 @@ Here, I talk about my thoughts on the courses that I took throughout my time at 
 Feel free to ask any questions about the courses at CMU, including those that I
 have not taken, in the comments section below.
 
+<button class="button is-active">hi </button>
 
 ## Courses
 ### Fall 2018

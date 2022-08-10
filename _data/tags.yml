@@ -1,12 +1,12 @@
 code:
   name: code
   description: On computer science, software engineering, and related topics
-  cover: assets/images/yosemite.jpg_resized
+  cover: assets/images/yosemite.avif
 general:
   name: general 
   description: For interesting things that don't exactly fit in anywhere
-  cover: assets/images/yosemite.jpg_resized
+  cover: assets/images/yosemite.avif
 startup:
   name: startup
   description: Lessons and thoughts about startups
-  cover: assets/images/yosemite.jpg_resized
+  cover: assets/images/yosemite.avif

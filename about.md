@@ -6,7 +6,7 @@ navigation: true
 class: page-template
 subclass: 'post page'
 permalink: /about/
-cover: assets/images/seven-magic-mountains.JPG_resized
+cover: assets/images/seven-magic-mountains.avif
 ---
 Hello! I am Fan Pu Zeng from Singapore, and I am currently based in Pittsburgh. I go by my first name Fan Pu. My amateur radio callsign is KC3UFE.
 
