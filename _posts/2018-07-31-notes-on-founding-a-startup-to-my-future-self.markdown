@@ -1,7 +1,7 @@
 ---
 layout: post
 tags: [software engineering, startups, saleswhale]
-cover: assets/images/saleswhale/saleswhale_offsite_resize.jpg
+cover: assets/images/saleswhale/saleswhale_offsite_resize.avif
 class: post-template
 navigation: True
 author: fanpu

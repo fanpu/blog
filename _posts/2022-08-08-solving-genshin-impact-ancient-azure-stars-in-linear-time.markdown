@@ -32,7 +32,7 @@ The premise is relatively simple: somewhere in the room (perhaps towards the
 roof), a target constellation is shown, such as the following:
 
 ![Genshin Impact Ancient Azure Starts Puzzle
-1](/assets/images/posts/genshin-puzzle-1.jpg){: width="100%"}
+1](/assets/images/posts/genshin-puzzle-1.avif){: width="100%"}
 
 There are several devices on the ground, initially all inactive, that will
 project a beam of light when activated, which is achieved by hitting it.
@@ -44,13 +44,13 @@ Your job is to rotate and activate the right devices such that the pattern
 formed by the beams corresponds to the desired target constellation. For
 the previous example, we have the following solution:
 
-![Genshin Impact Ancient Azure Starts Puzzle 1](/assets/images/posts/genshin-puzzle-1-solved.jpg){: width="100%"}
+![Genshin Impact Ancient Azure Starts Puzzle 1](/assets/images/posts/genshin-puzzle-1-solved.avif){: width="100%"}
 
 The puzzles seem to get progressively harder, with an increasing number of stars
 in the constellations, and an exponentially growing state space. Or do they?
 
 ![Genshin Impact Ancient Azure Starts Puzzle
-3](/assets/images/posts/genshin-puzzle-3.jpg){: width="100%"}
+3](/assets/images/posts/genshin-puzzle-3.avif){: width="100%"}
 
 ## An Algorithmic Perspective
 
@@ -117,7 +117,7 @@ the best achievable bound, since we certainly must examine all the inputs which
 already takes $$O(n)$$ time for the algorithm. It certainly looks like Mona will
 be speeding through these puzzles in no time after all!
 
-![Genshin Impact Mona](/assets/images/posts/mona_end.jpg){: width="100%"}
+![Genshin Impact Mona](/assets/images/posts/mona_end.avif){: width="100%"}
 
 Dear readers, let me know if you enjoyed this post in the comments below, and
 feel free to drop suggestions for future topics!

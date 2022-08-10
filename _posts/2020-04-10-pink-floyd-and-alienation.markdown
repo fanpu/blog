@@ -60,7 +60,7 @@ In addition to the two above, there are also other "absences" which are alluded 
 
 ## Alienation as Disunity
 
-![Dark Side of the Moon Album Cover](/assets/images/posts/dark_side_of_the_moon.jpg){: width="600px" }
+![Dark Side of the Moon Album Cover](/assets/images/posts/dark_side_of_the_moon.avif){: width="600px" }
 
 The iconic cover art for the Dark Side of the Moon (1973) is one of the most famous pop symbols today. Created by English designer Storm Thorgerson, it shows a white beam entering a prism and splitting into a rainbow of colors. "White is the combination of all colors, and here it represents unity. The prism, which for Waters represents society, separates us, diffracting unity" (Reisch). Societal constructs can break us apart and create absence in many ways. At home, overprotective or absent parents hinder the proper development of children, as we see in Mother (1979): "Mama's gonna put all her fears into you. / Mama's gonna keep you right here under her wing. / She won't let you fly, but she might let you sing". In The Happiest Days of Our Lives (1979), teachers were "Pouring their derision / Upon anything we did", pointing out how the emphasis on conformity and obedience stifles children's creativity and "authentic expression" (Reisch). Other examples of industry and the alienation of our labor, and most obviously the military and war, have been further elaborated previously.
 
