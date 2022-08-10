@@ -1,7 +1,7 @@
 ---
 title: "The Delightful Consequences of the Graph Minor Theorem"
 layout: post
-tags: [math]
+tags: [math, theory]
 cover: assets/images/posts/kenai_fjords_glacier.jpg
 class: post-template
 navigation: True
