@@ -17,4 +17,4 @@ for filename in os.listdir("."):
 
     avifname = basename + avif_ext
     os.system(f'magick {filename} {avifname}')
-    os.system(f'convert {avifname} -resize 1920x\> {avifname}')
+    os.system(f'convert {avifname} -resize 1024x\> {avifname}')
