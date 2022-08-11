@@ -14,8 +14,13 @@ University. Note that my experiences with some of these courses can be highly
 dependent on the professors, or due to the impact of virtual classes during the
 COVID-19 pandemic.
 
+Courses with a &#11088; are those that I found transformative,
+and those with a &#10084;&#65039; are those that I personally enjoyed a lot.
+
 Feel free to ask any questions about the courses at CMU, including those that I
 have not taken, in the comments section below.
+
+A lot of inspiration for this page came from [Wan Shen's CMU course review page](https://wanshenl.me/courses/reviews/).
 
 ---
 ### Fall 2018
@@ -78,6 +83,18 @@ Units: 48
 I dropped 15-312 Foundations of Programming Languages in the middle of the semester.
 
 ### Spring 2021
+- &#11088; 15-855 [**Graduate Computational Complexity
+Theory**](https://youtube.com/playlist?list=PLm3J0oaFux3b8Gg1DdaJOzYNsaXYLAOKH),
+[Ryan O'Donnell](http://www.cs.cmu.edu/~odonnell/)
+
+  Recordings from a past offering of the course can be found on this [Youtube
+  playlist](https://youtube.com/playlist?list=PLm3J0oaFux3b8Gg1DdaJOzYNsaXYLAOKH).
+
+- &#10084;&#65039; 21-301 [**Combinatorics**](https://www.math.cmu.edu/~jmackey/math301/syll.html),
+[John Mackey](https://scholar.google.com/citations?user=uOCVq1cAAAAJ&hl=en)
+
+- &#10084;&#65039; 85-102 **Introduction to Psychology**, Kody Manke
+
 - 10-701 [**Introduction to Machine
 Learning**](https://www.cs.cmu.edu/~aarti/Class/10701_Spring21/index.html),
 [Geoff Gordon](http://www.cs.cmu.edu/~ggordon/), [Aarti
@@ -85,17 +102,11 @@ Singh](http://www.cs.cmu.edu/~aarti/)
 
 - 15-354 [**Computation and Discrete Math**](https://www.cs.cmu.edu/~sutner/CDM/index.html), [Klaus Sutner](https://www.cs.cmu.edu/~sutner/index.html)
 
-- 15-440 [**Distributed Systems**](https://www.andrew.cmu.edu/course/15-440/), [Mahadev Satyanarayanan](http://www.cs.cmu.edu/~satya/), [Padmanabhan Pillai](https://www.andrew.cmu.edu/user/pspillai/)
+- 15-440 [**Distributed Systems**](https://www.andrew.cmu.edu/course/15-440/),
+[Mahadev Satyanarayanan](http://www.cs.cmu.edu/~satya/), [Padmanabhan
+Pillai](https://www.andrew.cmu.edu/user/pspillai/)
 
-- 15-855 [**Graduate Computational Complexity
-Theory**](https://youtube.com/playlist?list=PLm3J0oaFux3b8Gg1DdaJOzYNsaXYLAOKH),
-[Ryan O'Donnell](http://www.cs.cmu.edu/~odonnell/)
-
-  Recordings from a past offering of the course can be found on this [Youtube
-  playlist](https://youtube.com/playlist?list=PLm3J0oaFux3b8Gg1DdaJOzYNsaXYLAOKH).
-- 21-301 Combinatorics
-- 85-102 Introduction to Psychology
-- 98-242 StuCo: Introduction to Esoteric Programming Languages
+- 98-242 **StuCo: Introduction to Esoteric Programming Languages**, [Ari Cohn](https://wafflecohn.github.io/), Jonathan Loungani
 
 Units: 69
 
