@@ -16,7 +16,7 @@
 title: Fan Pu's Blog
 description: >- # this means to ignore newlines until "baseurl:"
   On computer science, software engineering, and life
-cover: assets/images/half_dome_edited.jpg
+cover: assets/images/half_dome.avif
 favicon: assets/images/favicon_new.ico
 baseurl: "/" # the subpath of your site, e.g. /blog
 url: "https://fanpu.io" # the base hostname & protocol for your site, e.g. http://example.com
