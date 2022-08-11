@@ -104,3 +104,6 @@ plugins: [jekyll-paginate, jekyll-feed, jekyll-toc]
 
 feed:
   path: feed.xml
+
+sass:
+  style: compressed
