@@ -1,23 +1,23 @@
 ---
 layout: page
-title: CMU Course Review
+title: CMU Course Review and Recommendations
 current: courses
 class: page-template
 navigation: true
 permalink: /courses/
 cover: assets/images/ryan_mountain_joshua_tree.avif
-navigation: True
 toc: True
 comments: True
 ---
-Here, I talk about my thoughts on the courses that I took throughout my time at Carnegie Mellon University, as well as observations on how my general academic focus and interests changed over the years.
+Here I share my thoughts on the courses that I took at Carnegie Mellon
+University. Note that my experiences with some of these courses can be highly
+dependent on the professors, or due to the impact of virtual classes during the
+COVID-19 pandemic.
 
 Feel free to ask any questions about the courses at CMU, including those that I
 have not taken, in the comments section below.
 
-<button class="button is-active">hi </button>
-
-## Courses
+---
 ### Fall 2018
 - 15-122 Principles of Imperative Computation
 - 15-151 Mathematical Foundations for Computer Science
@@ -78,10 +78,21 @@ Units: 48
 I dropped 15-312 Foundations of Programming Languages in the middle of the semester.
 
 ### Spring 2021
-- 10-701 Machine Learning (Ph.D)
-- 15-354 Computation and Discrete Math 
-- 15-440 Distributed Systems
-- 15-855 Graduate Computational Complexity Theory
+- 10-701 [**Introduction to Machine
+Learning**](https://www.cs.cmu.edu/~aarti/Class/10701_Spring21/index.html),
+[Geoff Gordon](http://www.cs.cmu.edu/~ggordon/), [Aarti
+Singh](http://www.cs.cmu.edu/~aarti/)
+
+- 15-354 [**Computation and Discrete Math**](https://www.cs.cmu.edu/~sutner/CDM/index.html), [Klaus Sutner](https://www.cs.cmu.edu/~sutner/index.html)
+
+- 15-440 [**Distributed Systems**](https://www.andrew.cmu.edu/course/15-440/), [Mahadev Satyanarayanan](http://www.cs.cmu.edu/~satya/), [Padmanabhan Pillai](https://www.andrew.cmu.edu/user/pspillai/)
+
+- 15-855 [**Graduate Computational Complexity
+Theory**](https://youtube.com/playlist?list=PLm3J0oaFux3b8Gg1DdaJOzYNsaXYLAOKH),
+[Ryan O'Donnell](http://www.cs.cmu.edu/~odonnell/)
+
+  Recordings from a past offering of the course can be found on this [Youtube
+  playlist](https://youtube.com/playlist?list=PLm3J0oaFux3b8Gg1DdaJOzYNsaXYLAOKH).
 - 21-301 Combinatorics
 - 85-102 Introduction to Psychology
 - 98-242 StuCo: Introduction to Esoteric Programming Languages
@@ -89,29 +100,68 @@ I dropped 15-312 Foundations of Programming Languages in the middle of the semes
 Units: 69
 
 ### Fall 2021
-- 15-317 Constructive Logic
-- 15-356 Introduction to Cryptography
-- 15-459 Quantum Computation
-- 15-462 Computer Graphics
-- 15-641 Computer Networks 
-- 18-746 Storage Systems 
-- 84-380 US Grand Strategy 
+- &#10084;&#65039; 15-459 [**Quantum
+Computation**](https://youtube.com/playlist?list=PLm3J0oaFux3YL5qLskC6xQ24JpMwOAeJz),
+[Ryan
+O'Donnell](http://www.cs.cmu.edu/~odonnell/)
+
+  Recordings from a past offering of the course can be found on this [Youtube
+  playlist](https://youtube.com/playlist?list=PLm3J0oaFux3YL5qLskC6xQ24JpMwOAeJz).
+
+- &#11088; 15-641 [**Computer Networks**](https://computer-networks.github.io/fa21/), [Peter Steenkiste
+](http://www.cs.cmu.edu/~prs/)
+
+- 15-317 [**Constructive Logic**](http://www.cs.cmu.edu/~crary/317-f21/), [Karl Crary](http://www.cs.cmu.edu/~crary/)
+
+- 15-356 [**Introduction to Cryptography**](https://www.cs.cmu.edu/~15356-f21/), [Elaine Shi](http://elaineshi.com/)
+
+- 15-462 [**Computer Graphics**](http://15462.courses.cs.cmu.edu/fall2021/), [Keenan Crane](http://www.cs.cmu.edu/~kmcrane/)
+
+- 18-746 **[Storage Systems](https://course.ece.cmu.edu/~ece746/)**, [Greg
+Ganger](http://users.ece.cmu.edu/~ganger/), [George
+Amvrosiadis](http://users.ece.cmu.edu/~gamvrosi/), [Huaicheng
+Li](https://huaicheng.github.io/)
+
+- 84-380 **US Grand Strategy**, Andrew Stravers
 
 Units: 75
 
 ### Spring 2022
+- &#11088; 10-725 &nbsp; **Convex Optimization**, [Yuanzhi
+Li](https://www.andrew.cmu.edu/user/yuanzhil/)
 
-- 10-725 Convex Optimization 
-- 15-312 Foundations of Programming Languages
-- 15-751 A Theorist's Toolkit
-- 15-819 Advanced Topics in Programming Language Theory
-- 16-385 Computer Vision 
-- 18-358 Special Topics in Communication - Introduction to Amateur Radio
-- 21-355 Principles of Real Analysis I
-- 21-484 Graph Theory 
-- 70-350 Acting for Business
+- 15-312 **Foundations of Programming Languages**, [Jan
+Hoffmann](https://www.cs.cmu.edu/~janh/)
+
+- &#11088; 15-751 **[A Theorist's
+Toolkit](https://www.youtube.com/playlist?list=PLm3J0oaFux3ZYpFLwwrlv_EHH9wtH6pnX)**,
+[Ryan O'Donnell](http://www.cs.cmu.edu/~odonnell/)
+
+  Recordings from a past offering of the course can be found on this [Youtube
+  playlist](https://www.youtube.com/playlist?list=PLm3J0oaFux3ZYpFLwwrlv_EHH9wtH6pnX).
+  It also includes recitation videos where Ryan goes through homework problems.
+
+- &#10084;&#65039; 21-355 **Principles of Real Analysis I**, [Robin
+Neumayer](https://www.math.cmu.edu/~rneumaye/)
+
+- &#10084;&#65039; 21-484 **Graph Theory**, [Wesley
+Pegden](https://www.math.cmu.edu/~wes/)
+
+- 15-819 **Advanced Topics in Programming Language Theory**, [Robert
+Harper](http://www.cs.cmu.edu/~rwh/)
+
+- 16-385 **[Computer Vision](http://16385.courses.cs.cmu.edu/spring2022/)**,
+[Matthew O'Toole](http://www.cs.cmu.edu/~motoole2/)
+
+- 18-358 **[Introduction to Amateur Radio](https://tomzajdel.com/ece358/)**,
+[Tom Zajdel (AI6CU)](https://tomzajdel.com/)
+
+- 70-350 **Acting for Business**, Evelyn Pierce
 
 Units: 93
+
+
+---
 
 ## Some CMU-Specific Things
 This FAQ is mostly geared towards people who are unfamiliar with CMU.
