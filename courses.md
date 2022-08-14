@@ -24,8 +24,8 @@ A lot of inspiration for this page came from [Wan Shen's CMU course review page]
 
 ---
 ### Fall 2018
+- &#10084;&#65039; 15-151 Mathematical Foundations for Computer Science
 - 15-122 Principles of Imperative Computation
-- 15-151 Mathematical Foundations for Computer Science
 - 21-120 Differential and Integral Calculus
 - 76-106 Writing about Literature and Art
 - 76-107 Writing about Data
@@ -40,9 +40,9 @@ Units: 55
 Most of the last few courses are just orientation courses that are not real classes with actual workload.
 
 ### Spring 2018
+- &#10084;&#65039; 15-251 Great Ideas in Theoretical Computer Science
 - 15-150 Principles of Functional Programming
 - 15-213 Introduction to Computer Systems
-- 15-251 Great Ideas in Theoretical Computer Science
 - 21-122 Integration and Approximation
 - 21-241 Matrices and Linear Transformations 
 - 98-317 StuCo: Type Theory (Hype for Types)
@@ -50,9 +50,24 @@ Most of the last few courses are just orientation courses that are not real clas
 Units: 57
 
 ### Fall 2019
-- 15-210 Parallel and Sequential Data Structures and Algorithms
-- 15-319 Cloud Computing
+- &#10084;&#65039; 15-319 Cloud Computing
+
+  [This post by Lisa
+  Hou](https://medium.com/@zhuojun.hou9270/how-is-cloud-computing-15619-15319-at-cmu-96893f5c2b0)
+  discusses the projects of the course in detail. 
+
+  I personally enjoyed this class a lot and the amount of industry knowledge
+  that I gained from the course was like having done 3 internships back-to-back,
+  which happened to make it really great interview prep as well.
+
+  I would recommend taking the class with friends as it is easy to get stuck in
+  weird errors of a complex system that you just learned, and to go for the
+  graduate 15-619 option if possible, as it includes a very transformative team
+  project that will stretch your wits in finding ways of improving the
+  throughput of a distributed web service in the cloud.
+  
 - 15-330 Introduction to Computer Security
+- 15-210 Parallel and Sequential Data Structures and Algorithms
 - 21-268 Multi-dimensional Calculus
 - 69-151 Introduction to Yoga
 - 98-349 StuCo: Design and Analysis of Logic Puzzle Games
@@ -62,9 +77,9 @@ Units: 52
 I dropped 21-373 Algebraic Structures in the last week of classes.
 
 ### Spring 2020
+- &#11088; 15-410 Operating Systems Design and Implementation
 - 15-259 Probability and Computing
 - 15-260 Statistics and Computing
-- 15-410 Operating Systems Design and Implementation
 - 15-451 Algorithm Design and Analysis
 - 33-228 Electronics I
 - 79-396 Music and Society in 19th and 20th Century Europe and the U.S. 
@@ -72,10 +87,10 @@ I dropped 21-373 Algebraic Structures in the last week of classes.
 Units: 61
 
 ### Fall 2020
+- &#10084;&#65039; 15-411 Compiler Design
+- &#11088; 15-455 Undergraduate Complexity Theory
 - 15-300 Research and Innovation in Computer Science
-- 15-411 Compiler Design
 - 15-445 Database Systems
-- 15-455 Undergraduate Complexity Theory
 - 98-212 StuCo: Competitive Computer Security
 
 Units: 48
@@ -121,12 +136,20 @@ O'Donnell](http://www.cs.cmu.edu/~odonnell/)
 
 - &#11088; 15-641 [**Computer Networks**](https://computer-networks.github.io/fa21/), [Peter Steenkiste
 ](http://www.cs.cmu.edu/~prs/)
-
+  
 - 15-317 [**Constructive Logic**](http://www.cs.cmu.edu/~crary/317-f21/), [Karl Crary](http://www.cs.cmu.edu/~crary/)
 
 - 15-356 [**Introduction to Cryptography**](https://www.cs.cmu.edu/~15356-f21/), [Elaine Shi](http://elaineshi.com/)
 
 - 15-462 [**Computer Graphics**](http://15462.courses.cs.cmu.edu/fall2021/), [Keenan Crane](http://www.cs.cmu.edu/~kmcrane/)
+
+  Recordings from a past offering of the course can be found on this [Youtube
+  playlist](https://youtube.com/playlist?list=PL9_jI1bdZmz2emSh0UQ5iOdT2xRHFHL7E).
+  In fact, when I took this course we were told to watch the lectures from this
+  playlist asynchronously before class, and lecture time was reserved for
+  in-class activities and Q&A. So together with the publicly available homework
+  materials from [the course website](http://15462.courses.cs.cmu.edu/fall2021/)
+  you can effectively self-study the class.
 
 - 18-746 **[Storage Systems](https://course.ece.cmu.edu/~ece746/)**, [Greg
 Ganger](http://users.ece.cmu.edu/~ganger/), [George
@@ -141,9 +164,6 @@ Units: 75
 - &#11088; 10-725 &nbsp; **Convex Optimization**, [Yuanzhi
 Li](https://www.andrew.cmu.edu/user/yuanzhil/)
 
-- 15-312 **Foundations of Programming Languages**, [Jan
-Hoffmann](https://www.cs.cmu.edu/~janh/)
-
 - &#11088; 15-751 **[A Theorist's
 Toolkit](https://www.youtube.com/playlist?list=PLm3J0oaFux3ZYpFLwwrlv_EHH9wtH6pnX)**,
 [Ryan O'Donnell](http://www.cs.cmu.edu/~odonnell/)
@@ -151,6 +171,9 @@ Toolkit](https://www.youtube.com/playlist?list=PLm3J0oaFux3ZYpFLwwrlv_EHH9wtH6pn
   Recordings from a past offering of the course can be found on this [Youtube
   playlist](https://www.youtube.com/playlist?list=PLm3J0oaFux3ZYpFLwwrlv_EHH9wtH6pnX).
   It also includes recitation videos where Ryan goes through homework problems.
+
+- &#10084;&#65039; 15-312 **Foundations of Programming Languages**, [Jan
+Hoffmann](https://www.cs.cmu.edu/~janh/)
 
 - &#10084;&#65039; 21-355 **Principles of Real Analysis I**, [Robin
 Neumayer](https://www.math.cmu.edu/~rneumaye/)
