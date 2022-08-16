@@ -22,6 +22,8 @@ have not taken, in the comments section below.
 
 A lot of inspiration for this page came from [Wan Shen's CMU course review page](https://wanshenl.me/courses/reviews/).
 
+Much of it is still a work in progress, apologies about the missing content from many courses.
+
 ---
 ### Fall 2018
 - &#10084;&#65039; 15-151 Mathematical Foundations for Computer Science
@@ -87,26 +89,44 @@ I dropped 21-373 Algebraic Structures in the last week of classes.
 Units: 61
 
 ### Fall 2020
-- &#10084;&#65039; 15-411 Compiler Design
-- &#11088; 15-455 Undergraduate Complexity Theory
-- 15-300 Research and Innovation in Computer Science
-- 15-445 [**Database Systems**](https://15445.courses.cs.cmu.edu/fall2020/), [Andy Pavlo](http://www.cs.cmu.edu/~pavlo/)
+- &#10084;&#65039; 15-411 [**Compiler
+Design**](https://www.cs.cmu.edu/afs/cs/academic/class/15411-f20/www/), [Seth
+Goldstein](http://www.cs.cmu.edu/~seth/)
+
+- &#11088; 15-455 **Undergraduate Complexity Theory**, [Venkatesan Guruswami
+](https://people.eecs.berkeley.edu/~venkatg/)
+
+- &#10084;&#65039; 15-445 [**Database Systems**](https://15445.courses.cs.cmu.edu/fall2020/), [Andy Pavlo](http://www.cs.cmu.edu/~pavlo/)
 
   Andy's lectures are a whole lot of fun, and it is hard to not be fired up by
-  his enthusiasm and energy for databases. Did I mention that he really loves
-  Wu-Tang Clan, and [once gave an extra credit question worth the entire final
-  if you can list all members of Wu-Tang
-  Clan](https://twitter.com/andy_pavlo/status/1204470956141547523).
+  his enthusiasm and energy for databases. You will get to build the major
+  components of a database through the class projects.  Did I also mention that
+  Andy really loves Wu-Tang Clan, and [once gave an extra credit question worth
+  the entire final if you can list all members of Wu-Tang
+  Clan](https://twitter.com/andy_pavlo/status/1204470956141547523)?
 
   Recordings from a past offering of the course can be found on this [Youtube
   playlist](https://youtube.com/playlist?list=PLSE8ODhjZXjbohkNBWQs_otTrBTrjyohi).
 
+- 15-300 **Research and Innovation in Computer Science**, [Bogdan
+Vasilescu](https://bvasiles.github.io/), [Jonathan
+Aldrich](https://www.cs.cmu.edu/~./aldrich/)
 
-- 98-212 StuCo: [**Competitive Computer Security**]({% link /assets/notes/98_212_Stuco_Syllabus.pdf %}), [Chris Lambert](https://github.com/cslamber)
+  The goal of this class is to encourage undergraduates to contact professors
+  and get into research. However, from what I saw people who already started
+  doing research before the class simply continued with their existing topics,
+  and those that were not engaged in research previously also did not continue
+  after the class. In other words, don't expect this class to suddenly turn you
+  into a researcher - the motivation must come from within.
+
+- 98-212 StuCo: [**Competitive Computer Security**]({% link
+/assets/notes/98_212_Stuco_Syllabus.pdf %}), [Chris
+Lambert](https://github.com/cslamber)
 
   This was a great class on popular cyber-security Capture-The-Flag (CTF)
   topics. The depth of the topics covered go beyond introductory pretty quickly,
-  so even CTF veterans will take away a lot from this course. 
+  so even CTF veterans will take away a lot from this course. Unfortunately, it
+  is unclear if/when the class will be offered again.
 
 Units: 48
 
