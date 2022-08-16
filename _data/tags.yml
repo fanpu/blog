@@ -1,6 +1,6 @@
 code:
   name: code
-  description: On computer science, software engineering, and related topics
+  description: On computer science, software engineering, and other related topics
   cover: assets/images/yosemite.avif
 general:
   name: general 
@@ -10,3 +10,8 @@ startup:
   name: startup
   description: Lessons and thoughts about startups
   cover: assets/images/yosemite.avif
+startup:
+  name: course-review
+  description: Posts about specific CMU courses
+  cover: assets/images/yosemite.avif
+
