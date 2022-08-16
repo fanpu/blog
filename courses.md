@@ -91,7 +91,14 @@ Units: 61
 - &#11088; 15-455 Undergraduate Complexity Theory
 - 15-300 Research and Innovation in Computer Science
 - 15-445 Database Systems
-- 98-212 StuCo: Competitive Computer Security
+- 98-212 StuCo: [**Competitive Computer Security**]({% link /assets/notes/98_212_Stuco_Syllabus.pdf %})
+
+  This was a great class on concepts in cyber-security Capture-The-Flag (CTF)
+  competitions taught by [Chris Lambert](https://github.com/cslamber). The depth
+  of the topics covered go beyond introductory pretty quickly, so even CTF
+  veterans will take away a lot from this course. The syllabus is mirrored [here]({% link /assets/notes/98_212_Stuco_Syllabus.pdf %}).
+
+
 
 Units: 48
 

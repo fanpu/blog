@@ -40,7 +40,7 @@ transfer between a client and server using our TCP stack, and then using
 `tcpdump` to perform packet capture and generate network I/O graphs. We
 performed close analysis on the TCP sawtooth patterns on these graphs, to come
 up with our own TCP congestion control protocol that has to non-trivially
-improve on both throughout and Jain's Fairness Index (for fairness when multiple
+improve on both throughput and Jain's Fairness Index (for fairness when multiple
 connections connect on the same link) as compared to TCP Reno.
 
 {% include image.html file="/assets/images/posts/tcp_reno_state_diagram.avif"
@@ -264,5 +264,10 @@ of encouraging more people to consider taking them. Check out the [Course
 Reviews]( {% link courses.md %}) page for more.
 
 I hope you found this post useful! Feel free to ask any questions in the comments section below. If you have taken the class before and would like to chime in with some thoughts, please feel more than welcome to also mention them below.
+
+## Acknowledgments
+Special thanks to [Jenny Fish](https://jennyafish.github.io/) for kindly
+proofreading and providing feedback on this post before it was published. She
+took the class the same semester that I did.
 
 <br>
