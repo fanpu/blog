@@ -90,15 +90,23 @@ Units: 61
 - &#10084;&#65039; 15-411 Compiler Design
 - &#11088; 15-455 Undergraduate Complexity Theory
 - 15-300 Research and Innovation in Computer Science
-- 15-445 Database Systems
-- 98-212 StuCo: [**Competitive Computer Security**]({% link /assets/notes/98_212_Stuco_Syllabus.pdf %})
+- 15-445 [**Database Systems**](https://15445.courses.cs.cmu.edu/fall2020/), [Andy Pavlo](http://www.cs.cmu.edu/~pavlo/)
 
-  This was a great class on concepts in cyber-security Capture-The-Flag (CTF)
-  competitions taught by [Chris Lambert](https://github.com/cslamber). The depth
-  of the topics covered go beyond introductory pretty quickly, so even CTF
-  veterans will take away a lot from this course. The syllabus is mirrored [here]({% link /assets/notes/98_212_Stuco_Syllabus.pdf %}).
+  Andy's lectures are a whole lot of fun, and it is hard to not be fired up by
+  his enthusiasm and energy for databases. Did I mention that he really loves
+  Wu-Tang Clan, and [once gave an extra credit question worth the entire final
+  if you can list all members of Wu-Tang
+  Clan](https://twitter.com/andy_pavlo/status/1204470956141547523).
+
+  Recordings from a past offering of the course can be found on this [Youtube
+  playlist](https://youtube.com/playlist?list=PLSE8ODhjZXjbohkNBWQs_otTrBTrjyohi).
 
 
+- 98-212 StuCo: [**Competitive Computer Security**]({% link /assets/notes/98_212_Stuco_Syllabus.pdf %}), [Chris Lambert](https://github.com/cslamber)
+
+  This was a great class on popular cyber-security Capture-The-Flag (CTF)
+  topics. The depth of the topics covered go beyond introductory pretty quickly,
+  so even CTF veterans will take away a lot from this course. 
 
 Units: 48
 
@@ -143,8 +151,20 @@ O'Donnell](http://www.cs.cmu.edu/~odonnell/)
 
 - &#11088; 15-641 [**Computer Networks**](https://computer-networks.github.io/fa21/), [Peter Steenkiste
 ](http://www.cs.cmu.edu/~prs/)
+
+  I dedicated an [entire post]({% post_url
+  2022-08-15-cmu-computer-networks-review %}) to review this course. Trust me,
+  it's worth a read! But the TLDR is this course is very different from other
+  systems courses, and you will likely stand to gain a lot from it even if you
+  already have a lot of systems experience.
   
 - 15-317 [**Constructive Logic**](http://www.cs.cmu.edu/~crary/317-f21/), [Karl Crary](http://www.cs.cmu.edu/~crary/)
+
+  It can be hard to see how this class is relevant without subsequently taking
+  other PL classes. I found the theoretical foundations gained from this course
+  immensely helpful for preparing for 15-312 and 15-819. However, if you are
+  only planning to take a single PL class, I would recommend another course that
+  is more immediately applicable.
 
 - 15-356 [**Introduction to Cryptography**](https://www.cs.cmu.edu/~15356-f21/), [Elaine Shi](http://elaineshi.com/)
 
