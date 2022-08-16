@@ -269,5 +269,3 @@ I hope you found this post useful! Feel free to ask any questions in the comment
 Special thanks to [Jenny Fish](https://jennyafish.github.io/) for kindly
 proofreading and providing feedback on this post before it was published. She
 took the class the same semester that I did.
-
-<br>
