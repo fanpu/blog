@@ -99,6 +99,7 @@ GEM
       unicode-display_width (~> 1.1, >= 1.1.1)
     tilt (1.4.1)
     unicode-display_width (1.8.0)
+    webrick (1.7.0)
 
 PLATFORMS
   ruby
@@ -111,6 +112,7 @@ DEPENDENCIES
   jekyll-pdf-embed
   jekyll-toc
   tzinfo-data
+  webrick (~> 1.7)
 
 BUNDLED WITH
    2.3.8
