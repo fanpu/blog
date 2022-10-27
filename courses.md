@@ -241,6 +241,18 @@ Harper](http://www.cs.cmu.edu/~rwh/)
 
 Units: 93
 
+### Fall 2022
+- &#11088; 15-859 CC &nbsp; **[Algorithms for Big Data](https://www.cs.cmu.edu/~dwoodruf/teaching/15859-fall22/index.html)**, [David Woodruff](http://www.cs.cmu.edu/~dwoodruf/)
+- &#10084;&#65039; 15-859 OO &nbsp; **[Randomness in Computation](https://www.cs.cmu.edu/~praveshk/randomness.html)**, [Pravesh Kothari](https://www.cs.cmu.edu/~praveshk/)
+- &#11088; 10-708 &nbsp; **[Probablistic Graphical Models](https://andrejristeski.github.io/10708-F22/)**, [Andrej Risteski](https://www.andrew.cmu.edu/user/aristesk/)
+- 15-784 &nbsp; **[Foundations of Cooperative AI](https://www.cs.cmu.edu/~15784/)**, [Vincent Conitzer](https://www.cs.cmu.edu/~conitzer/), [Caspar Oesterheld](https://www.andrew.cmu.edu/user/coesterh/), [Tuomas Sandholm](https://www.cs.cmu.edu/~sandholm/)
+- 10-617 &nbsp; **[Intermediate Deep Learning](https://rsalakhucmu.github.io/10417-22/)**, [Ruslan Salakhutdinov](https://www.cs.cmu.edu/~rsalakhu/)
+- 10-703 &nbsp; **[Deep Reinforcement Learning](https://cmudeeprl.github.io/703website_f22/)**, [Katerina Fragkiadaki](https://www.cs.cmu.edu/~katef/)
+- 21-651 &nbsp; **General Topology**, [Florian Frick](https://www.math.cmu.edu/~ffrick/)
+- 17-603 &nbsp; **Communications for Software Leaders I**, [Dominick (Nick) Frollini](https://www.linkedin.com/in/frollini/)
+- 15-604 &nbsp; **Immigration Course**, [Dave Eckhardt](https://www.cs.cmu.edu/~davide/)
+
+Units: 90
 
 ---
 
