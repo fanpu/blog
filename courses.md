@@ -455,13 +455,127 @@ Units: 93
 
 ### Fall 2022
 - &#11088; 15-859 CC &nbsp; **[Algorithms for Big Data](https://www.cs.cmu.edu/~dwoodruf/teaching/15859-fall22/index.html)**, [David Woodruff](http://www.cs.cmu.edu/~dwoodruf/)
+
+  Woodruff is one of the giants in sketching and numerical linear algebra, having developed many of its most important algorithms.
+  There is even a sklearn function called the [Clarkson-Woodruff transform](https://docs.scipy.org/doc/scipy/reference/generated/scipy.linalg.clarkson_woodruff_transform.html) that is named after him.
+
+  His teaching is extremely clear as he makes sure to justify and explain every step used in a proof. The analysis for many
+  sketching algorithms is highly non-trivial, but Woodruff manages to pull off explaining it in a way that reads like a storybook.
+  He cares deeply about the class and the student's learning, and one thing that still amazes me to this day is how he will respond to my
+  Piazza questions on a weekend in 2 minutes consistently. I even made a [meme about it](https://t.co/zSg7KwmJkN).
+
+  The homework problems are long but rewarding, and you will become initimately
+  familiar with all sorts of linear algebra manipulations and properties. 
+
+  One caveat is that the weekly lectures are 3-hours with a 10-minute break in the middle. Given how dense the lectures are, this can be quite
+  taxing, so bring snacks or caffeine if needed.
+
 - &#10084;&#65039; 15-859 OO &nbsp; **[Randomness in Computation](https://www.cs.cmu.edu/~praveshk/randomness.html)**, [Pravesh Kothari](https://www.cs.cmu.edu/~praveshk/)
+
+  I had limited exposure to most of the topics in this course (mostly from
+  Theorist's Toolkit 15-751, Graduate Complexity Theory 15-855, and Graph Theory
+  21-484) such as spectral graph theory, expander graphs, derandomization, etc,
+  and this course helped to solidify and reinforce my understanding.
+  It also proved a lot of things that did not have time to be proved in those earlier classes.
+  Overall I felt that Pravesh is a great lecturer, and the topics covered are very interesting
+  and applicable. The course was offered for the first time this semester, so there
+  were a few rough edges (i.e in the proof of Cheeger's inequality he initially
+  did not want to prove it in terms of the Laplacian of the graph to avoid
+  introducing new concepts and notations, but doing so ended up being more confusing
+  than helpful), but overall it is quite a good class. The homework problems
+  are reasonable and the workload is on the lighter side.
+
 - &#11088; 10-708 &nbsp; **[Probablistic Graphical Models](https://andrejristeski.github.io/10708-F22/)**, [Andrej Risteski](https://www.andrew.cmu.edu/user/aristesk/)
+  
+  This class has a reputation of being one of the hardest ML classes, but I
+  think it is actually an excellent class that is very well-taught, so I hope
+  that this reputation does not discourage people interested in the content from
+  taking it.  The class can be categorized into three module: representation,
+  inference, and learning. In the representation module, you will learn about
+  how joint distributions of several variables can be represented efficiently by
+  various models, taking into factors such as causal relationships.  In the
+  inference module, you will learn that sampling from such models is very hard
+  in general (assuming $$\P \neq \NP$$), and develop probabilistic ways of 
+  sampling from them such as Monte-Carlo Markov-Chain and Variational Inference methods.
+  In the final module, you will learn how such models can be fitted to training data.
+  Graphical models form the backbone of many modern machine learning techniques like
+  generative adversarial networks (GANs) and diffusion models, and the way that
+  Andrej teaches all of these topics in a rigorous way to provide a solid
+  mathematical understanding of how they work is essential for keeping up
+  to date with the state-of-the-art in this field.
+
 - 15-784 &nbsp; **[Foundations of Cooperative AI](https://www.cs.cmu.edu/~15784/)**, [Vincent Conitzer](https://www.cs.cmu.edu/~conitzer/), [Caspar Oesterheld](https://www.andrew.cmu.edu/user/coesterh/), [Tuomas Sandholm](https://www.cs.cmu.edu/~sandholm/)
+
+  I did not enjoy this course as much as I would have liked for several reasons.
+  The way that the content was presented was relatively hand-wavey, the slides
+  are not very organized, and there are many slides which are essentially
+  summaries of papers that the professors wrote, which made it too high-level to
+  be able to concretely understand anything. That said, the course is being
+  offered for the first time, so it will probably improve in subsequent iterations.
+
 - 10-617 &nbsp; **[Intermediate Deep Learning](https://rsalakhucmu.github.io/10417-22/)**, [Ruslan Salakhutdinov](https://www.cs.cmu.edu/~rsalakhu/)
+
+  Ruslan is one of the household names in the machine learning community (he
+  invented the Dropout technique to prevent overfitting which is now standard in
+  neural network architectures), and I was very excited to be able to take this
+  class with such a legend in the field. I really enjoy his lectures, and he
+  made many remarks about what was happening in the field when various
+  techniques were being introduced as he was introducing them, which really
+  gives you a sense of how the field has evolved over the last few decades from
+  a man who has seen and been through it all.
+
+  However, I think the course infrastructure requires more improvement. Some of
+  the starter code for the assignments are quite poorly written and contain many
+  inconsistencies and wrong/outdated documentation, which leads to a fair amount
+  of frustration from students. One particularly annoying inconsistency was how
+  the data formats of their starter code were transposed from Homework 1 to
+  Homework 2. My guess is that someone tried to update the assignment but
+  did not have time to fully go through to fix all the inconsistencies before
+  it was released.
+
+  Many people ask about whether they should take 11-485/785 (Introduction to
+  Deep Learning) offered by the Language Technologies Institute (LTI), or this
+  class offered by the Machine Learning Department (MLD). The main difference is
+  that 11-485/785 is more hands-on and practical (most assignments are working
+  on Kaggle datasets), whereas 10-417/617 is more
+  theoretical.
+ 
 - 10-703 &nbsp; **[Deep Reinforcement Learning](https://cmudeeprl.github.io/703website_f22/)**, [Katerina Fragkiadaki](https://www.cs.cmu.edu/~katef/)
+
+  After the middle of the semester, I found it pretty hard to focus and
+  understand what is going on in the class. I also frequently found it hard to
+  understand the professor's explanations, and she speaks very quickly. I think
+  a big reason for my confusion is that the class assumes that you have done the
+  paper readings before each lecture (my workload meant it was infeasible for me
+  to do that), and so I gained very little from lecture.  So please avoid my
+  mistake and do your readings before the lecture if you take this class!
+  
+  The homework for this class is really fun as you get to implement reinforcement learning
+  algorithms for agents in various OpenAI Gym environments. All assignments are
+  done in groups of up to 3, so remember to grab a friend or two if you're taking this class.
+  
 - 21-651 &nbsp; **General Topology**, [Florian Frick](https://www.math.cmu.edu/~ffrick/)
+
+  This class generalizes many concepts that is taught in an undergraduate
+  analysis course from metric spaces in $$\mathbb{R}^n$$ to arbitrary
+  topological spaces.  It took some time for me to un-learn some of the things
+  that I implicitly assumed was just always true, i.e while in a metric space
+  you learn that all sequences contains a convergent subsequences in compact
+  sets, this is no longer true in arbitrary topological spaces. Much of the content
+  have connections and parallels to other deeper areas of mathematics, which
+  I found very beautiful.
+
 - 17-603 &nbsp; **Communications for Software Leaders I**, [Dominick (Nick) Frollini](https://www.linkedin.com/in/frollini/)
+
+  This course felt like an MBA class. It is a required class for Masters of Software
+  Engineering (MSE) students, and one thing that I did not expect was how much
+  the course was geared towards international students (i.e there was quite some
+  emphasis on what is appropriate for US customs and norms), which is 
+  understandable as most of the MSE students taking the class are international.
+  I found the segments about how to give oral presentations useful, but did not
+  gain as much from other topics, in particular those concerning written
+  communication.
+
 - 15-604 &nbsp; **Immigration Course**, [Dave Eckhardt](https://www.cs.cmu.edu/~davide/)
 
 Units: 90
