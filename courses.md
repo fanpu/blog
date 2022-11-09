@@ -137,13 +137,46 @@ I dropped 15-312 Foundations of Programming Languages in the middle of the semes
 Theory**](https://youtube.com/playlist?list=PLm3J0oaFux3b8Gg1DdaJOzYNsaXYLAOKH),
 [Ryan O'Donnell](http://www.cs.cmu.edu/~odonnell/)
 
+  This was my first graduate theory class, and needless to say I struggled a lot
+  with the homework. Interpreting the homework problem was oftentimes
+  a challenge in itself, and there were problems that I was stuck on for days,
+  which at the time was really depressing and led to me questioning my intelligence
+  and aptitude. However, in hindsight I grew a lot from this experience,
+  and the euphoria of finally solving something that you have been struggling
+  with for ages is indescribable. I gained a lot more confidence in my
+  mathematical abilities, and became better in engaging in long periods
+  of deep thought about a problem.
+
   Recordings from a past offering of the course can be found on this [Youtube
   playlist](https://youtube.com/playlist?list=PLm3J0oaFux3b8Gg1DdaJOzYNsaXYLAOKH).
 
 - &#10084;&#65039; 21-301 [**Combinatorics**](https://www.math.cmu.edu/~jmackey/math301/syll.html),
 [John Mackey](https://scholar.google.com/citations?user=uOCVq1cAAAAJ&hl=en)
 
+  I loved 15-151 (Concepts in Mathematics) and after that class I swore that if
+  Mackey ever taught another class, I will take it for sure. Mackey is just as
+  great and fun in Combinatorics as he was in Concepts. The homework is
+  challenging, and the exams even more so. After the first midterm (where the
+  variance was really high) he explained that he had to make the course
+  challenging because there were many people who already came in with a lot of
+  math competition background, the bulk of which involves combinatorics, and he
+  did not want them to be bored. Unfortunately I did not have such a background
+  and struggled with solving all the problems during the stressful time-crunch
+  of the 50 minute midterm (I can't really think creatively when I am stressed),
+  and this class ended up being the only B that I got in my undergraduate
+  career (all others A). That said, I don't really care about my GPA and my main
+  goal is to optimize for learning, so I am still very glad I took this class.
+  Not having a 4.0 also ironically gave me more courage to take a more challenging
+  course schedule in the future, as I no longer had to worry about losing my
+  perfect GPA.
+
 - &#10084;&#65039; 85-102 **Introduction to Psychology**, Kody Manke
+  
+  My view of psychology was pretty misguided (think Sigmund Freud, Carl Jung)
+  before coming into this class, and it ended up being one of my favorite geneds.
+  Kody is a very energetic and fun lecturer, and the class helped to open my eyes
+  to many social phenomenom that I encounter in daily life, such as stereotype
+  threat and priming.
 
 - 10-701 [**Introduction to Machine
 Learning**](https://www.cs.cmu.edu/~aarti/Class/10701_Spring21/index.html),
@@ -156,6 +189,16 @@ Singh](http://www.cs.cmu.edu/~aarti/)
 [Mahadev Satyanarayanan](http://www.cs.cmu.edu/~satya/), [Padmanabhan
 Pillai](https://www.andrew.cmu.edu/user/pspillai/)
 
+  Having already taken 15-410 (Operating Systems) which covers many concurrency
+  and cache coherence concepts, 15-319 (Cloud Computing) which has an entire
+  module on distributed consensus protocols, 15-445 (Database Systems) which
+  talks about distributed databases, I did not really get much out of this
+  course and wish I had taken something else. The projects were fairly
+  straightforward compared to the other systems classes I have already taken.
+  This course is usually considered the easiest systems class and I would only
+  recommened it if you are new to systems or if this is the only systems class
+  that you are planning to take.
+
 - 98-242 **StuCo: Introduction to Esoteric Programming Languages**, [Ari Cohn](https://wafflecohn.github.io/), Jonathan Loungani
 
 Units: 69
@@ -165,6 +208,20 @@ Units: 69
 Computation**](https://youtube.com/playlist?list=PLm3J0oaFux3YL5qLskC6xQ24JpMwOAeJz),
 [Ryan
 O'Donnell](http://www.cs.cmu.edu/~odonnell/)
+
+  This course covers the theoretical aspects of quantum computing, starting from
+  the Elitzur-Vaidman bomb algorithm (I bet this already got your attention) to
+  classical results like Shor's and Grover's algorithm. The class starts off initially
+  relatively slowly, but then ramps up in the middle half. 
+
+  A curious trait of this class is that all weekly homeworks are optional, but you can turn
+  in two selected problems per week to offset the weightage of your midterms and final exam.
+  As a result, it is possible to score worse in the class if you turn in garbage for
+  your homework but do well on the exam. My personal recommendation and what I
+  did is to always do all the problems and turn in all the selected problems so that
+  you can receive feedback. I only missed turning in homework for one week due to
+  many overlapping deadlines from other classes. This approach helps you stay on
+  track with the class and improves your confidence of your abilities during the midterms.
 
   Recordings from a past offering of the course can be found on this [Youtube
   playlist](https://youtube.com/playlist?list=PLm3J0oaFux3YL5qLskC6xQ24JpMwOAeJz).
@@ -251,6 +308,14 @@ Li](https://huaicheng.github.io/)
 
 - 84-380 **US Grand Strategy**, Andrew Stravers
 
+  As someone who is interested in history and geopolitics I really liked this
+  class. It offers a critical and balanced examination of past US foreign policy
+  and grand strategy under various administrations. It was refreshing to see
+  opinions which are not just variants of US/West is good and
+  Russia/China/non-democracies are bad which permeates online discourse.
+  Classes are structured such that the first hour is spent on lecturing, and the
+  remaining 20 minutes is spent on group discussions.
+
 Units: 75
 
 ### Spring 2022
@@ -326,7 +391,7 @@ Neumayer](https://www.math.cmu.edu/~rneumaye/)
   The pace of the course under Robin is faster than most standard analysis classes,
   where we covered up to Chapter 7 (Sequences and Series of Functions) in Rudin.
   I enjoyed the class so much that I wanted to take another analysis class in the
-  future, which led me to take 21-651 General Topology in the subsequent semester.
+  future, which led me to take General Topology (21-651) in the subsequent semester.
   If you are interested in taking analysis, I cannot recommend doing it with Robin
   enough.
 
@@ -350,11 +415,39 @@ Pegden](https://www.math.cmu.edu/~wes/)
 - 15-819 **Advanced Topics in Programming Language Theory**, [Robert
 Harper](http://www.cs.cmu.edu/~rwh/)
 
+  The class covered many advanced topics in PL theory where there isn't much
+  publicly available resources on, so when I got confused during lecture
+  it was quite hard to find other materials online to supplement my learning.
+  Very often I would end up on the nLab wiki, and I'm pretty sure
+  anyone who has visited that knows that it's not entirely the best place
+  for beginners to understand anything.
+
+  The class is offered pass/fail to reduce stress, and homeworks are assigned weekly.
+  You will be asked to re-do questions that you get wrong as Bob really wants
+  to make sure that you understand the material. I think I generally had
+  a ok-understanding of what was going on in the class until the segment on
+  logical frameworks, where it became very abstract. I still hope to 
+  rectify this gap in understanding someday when I have time, perhaps by playing
+  around with Twelf.
+
 - 16-385 **[Computer Vision](http://16385.courses.cs.cmu.edu/spring2022/)**,
 [Matthew O'Toole](http://www.cs.cmu.edu/~motoole2/)
 
+  I took this class as a follow-up to Computer Graphics (15-462).  Many computer
+  vision techniques covered will abuse linear algebra heavily, so if you were
+  not already an expert in SVD decompositions and making use of
+  eigenvalues/eigenvectors for engineering, this course will definitely make you
+  one. You will also get very comfortable with convolutions and some elementary
+  Fourier analysis. A major part of the course also covers convolutional neural
+  networks, which is the mainstay of many modern computer vision methods. 
+
 - 18-358 **[Introduction to Amateur Radio](https://tomzajdel.com/ece358/)**,
 [Tom Zajdel (AI6CU)](https://tomzajdel.com/)
+
+  To be very honest I was a pretty bad student for this course. Given the 
+  workload of my other classes, I had to skip many lectures and only studied
+  extensively for the FCC licensing exam, because passing the exam
+  is the only requirement for passing the class.
 
 - 70-350 **Acting for Business**, Evelyn Pierce
 
