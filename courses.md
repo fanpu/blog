@@ -188,7 +188,24 @@ O'Donnell](http://www.cs.cmu.edu/~odonnell/)
 
 - 15-356 [**Introduction to Cryptography**](https://www.cs.cmu.edu/~15356-f21/), [Elaine Shi](http://elaineshi.com/)
 
+  I found the class relatively easy as I had already taken 15-330 prior to this, and so I only started seeing
+  new content near the middle of the course. The last part of the course covers
+  blockchains and distributed consensus protocols, which is one of Elaine's major research areas.
+  There were some pretty cool content like oblivious data structures,
+  multi-party computation, and zero-knowledge proofs, but personally I wished
+  that it went faster and covered more content like lattice-based and post-quantum cryptography.
+
 - 15-462 [**Computer Graphics**](http://15462.courses.cs.cmu.edu/fall2021/), [Keenan Crane](http://www.cs.cmu.edu/~kmcrane/)
+
+  The course assignments are pretty fun. and there's many moments of instant
+  gratification, such as when you see your ray tracer paint a beautiful image
+  of light refracting through glass balls. The course staff cares deeply about
+  the class and there's a very active Discord server for the class to ask questions,
+  get help, and post memes. While I think I am pretty competent at systems debugging,
+  I found that debugging graphics code required a completely different set of
+  skills since the visible effect of bugs are usually the result of many
+  different matrix operations, which can be quite unintuitive to trace back to
+  the source. It was a great learning experience for me.
 
   Recordings from a past offering of the course can be found on this [Youtube
   playlist](https://youtube.com/playlist?list=PL9_jI1bdZmz2emSh0UQ5iOdT2xRHFHL7E).
@@ -203,6 +220,35 @@ Ganger](http://users.ece.cmu.edu/~ganger/), [George
 Amvrosiadis](http://users.ece.cmu.edu/~gamvrosi/), [Huaicheng
 Li](https://huaicheng.github.io/)
 
+  During the first lecture, the professor talked about NAND flash alll the way
+  down to the gory details about how it is implemented with MOSFET cells, and
+  how reads, writes, and erases are performed at the voltage control level. I
+  knew nothing about ECE, had no idea what was going on, and thought that if
+  the entire course was going to be so low-level (since it is from the ECE
+  department after all) I was probably going to drop the class.
+
+  Fortunately, that was not necessary as most of the subsequent lectures stayed
+  at the layer of abstraction of the software level, and therefore don't
+  be afraid to take this class if you are not a ECE major. 
+
+  There are two big assignments in the class. In the first project, you will
+  implement a Flash Translation Layer (FTL) for a SSD, and optimize your
+  implementation such that it preserves the lifespan of the SSD for as long as
+  possible for different workloads. This is because NAND flash can only tolerate a
+  certain number of erases before it fails. In the second project, you will
+  implement a FUSE-based filesystem (cloudFS) that automatically saves large objects
+  to the cloud (i.e AWS S3), performs optimizations like de-deduplicating
+  identical segments of stored files, and extend it to be able to 
+  read/write large files that can fit on the cloud but not on disk
+  by performing segment-based read/write operations.
+
+  Overall I thought it was a good class that provides you with a good sense of
+  where the bottlenecks of various I/O-based workloads could lie (i.e database
+  queries) for different filesystem designs, which is quite useful for
+  optimizing the performance of many real-world systems you might work on in the future.
+  It also gives you a good understanding of how many distributed filesystems (NFS, AFS, Google Filesystem)
+  and storage systems (Google BigTable) that big tech companies use works.
+
 - 84-380 **US Grand Strategy**, Andrew Stravers
 
 Units: 75
@@ -211,9 +257,43 @@ Units: 75
 - &#11088; 10-725 &nbsp; **Convex Optimization**, [Yuanzhi
 Li](https://www.andrew.cmu.edu/user/yuanzhil/)
 
+  I did not enjoy 10-701 as it covered a lot of content, but did not go into much detail about many topics,
+  and I felt like there was no true understanding and everything was very hand-wavey. That
+  experience made me hesistant to take any other ML classes.
+  
+  10-725 changed that for me, as Yuanzhi Li started from first principles and
+  rigorously proved how many machine learning algorithms can converge in some
+  amount of steps given various assumptions. For instance, just in the 
+  second lecture you will learn how gradient descent can converge to the optimum
+  up to an epsilon error in a number of states which is proportionate to a
+  chosen learning rate, given assumptions on the smoothness of a convex optimization
+  landscape. This will then be extended to more complicated settings such as stochastic gradient
+  descent, gradient descent with momentum (ADAM), distributed gradient descent, and even
+  quantum optimization.
+
+  Yuanzhi Li also understands that the students taking the class have very
+  different learning objectives, and therefore the homework contains a mix of
+  required and bonus problems, where the bonus problems are usually
+  significantly more challenging than the required ones, but are tailored for
+  people who really want to get deep into this stuff. The grading policy is
+  extremely gentle and you essentially only have to score just half the points
+  on the required problems to get an A-. The late day policy is also extremely
+  generous (14 days), so it is quite a good class to take if you want some
+  flexibility in your schedule.
+
 - &#11088; 15-751 **[A Theorist's
 Toolkit](https://www.youtube.com/playlist?list=PLm3J0oaFux3ZYpFLwwrlv_EHH9wtH6pnX)**,
 [Ryan O'Donnell](http://www.cs.cmu.edu/~odonnell/)
+
+  This class aims to prepare students for doing theoretical computer science (TCS)
+  research in the future. It covers a wide range of topics that frequently crop up in
+  TCS research (see the playlist below for a taste), and the homework is challenging
+  but fun. 
+  I have been previously exposed to a number of the topics covered in previous
+  courses, but still found many of the topics new to me such as spectral graph
+  theory and semidefinite relaxations incredibly cool.  It is usually only
+  offered once every few years, so if you have any interest in doing TCS-related
+  research I would highly recommend that you take the class.
 
   Recordings from a past offering of the course can be found on this [Youtube
   playlist](https://www.youtube.com/playlist?list=PLm3J0oaFux3ZYpFLwwrlv_EHH9wtH6pnX).
@@ -222,11 +302,50 @@ Toolkit](https://www.youtube.com/playlist?list=PLm3J0oaFux3ZYpFLwwrlv_EHH9wtH6pn
 - &#10084;&#65039; 15-312 **Foundations of Programming Languages**, [Jan
 Hoffmann](https://www.cs.cmu.edu/~janh/)
 
+  The programming portion of the homework is the most fun part of this class.
+  You will get to write typecheckers and implement the dynamics of various
+  well-specified languages, starting from the simple lambda calculus to
+  concurrent Algol (which is Golang-like). This class is great for 
+  appreciating language design and understanding the pitfalls and
+  antipatterns that pervades most programming languages used in industry.
+
 - &#10084;&#65039; 21-355 **Principles of Real Analysis I**, [Robin
 Neumayer](https://www.math.cmu.edu/~rneumaye/)
+  
+  It is true that different sections of math classes taught by different
+  professors are run like entirely different classes, so your experience with
+  any math class highly depends on which professor you are with. I am really
+  glad that I took the class under Robin, whose passion for teaching, and care
+  and concern shown towards students (in one of the first few lectures she took
+  some time to have everyone introduce themselves so she can know everyone on a
+  more personal level), made me really enjoy the class and the subject matter.
+  It also helped that she followed Rudin pretty closely, so anything that I was
+  unclear about can be easily checked. Her weekly homework has reasonable
+  difficulty and is quite fun.
+
+  The pace of the course under Robin is faster than most standard analysis classes,
+  where we covered up to Chapter 7 (Sequences and Series of Functions) in Rudin.
+  I enjoyed the class so much that I wanted to take another analysis class in the
+  future, which led me to take 21-651 General Topology in the subsequent semester.
+  If you are interested in taking analysis, I cannot recommend doing it with Robin
+  enough.
 
 - &#10084;&#65039; 21-484 **Graph Theory**, [Wesley
 Pegden](https://www.math.cmu.edu/~wes/)
+
+  The class was quite fast-paced and many times I felt quite lost during the
+  longer proofs (some of them took multiple classes to prove). I definitely had
+  to review the content after each lecture to get a better sense of the proof
+  technique. However, this is more due to the complicated setup of many of the
+  proofs. Wesley is a great teacher and I really appreciate how he would
+  re-explain the key ideas many times in different methods so that we can
+  understand them better. His exams are reasonable, and he will send out a
+  review sheet between each midterm where you are only expected to remember the
+  statements for some of the more complicated
+  theorems, instead of being able to reproduce them fully.
+  
+  The textbook for the clas (Graph Theory by Diestel) is quite tersely written
+  as it is intended for a graduate audience, so definitely do not miss lectures!
 
 - 15-819 **Advanced Topics in Programming Language Theory**, [Robert
 Harper](http://www.cs.cmu.edu/~rwh/)
