@@ -9,6 +9,7 @@ permalink: /about/
 cover: assets/images/seven-magic-mountains.avif
 ---
 Hello! I am Fan Pu Zeng from Singapore, and I am currently based in Pittsburgh. I go by my first name Fan Pu. My amateur radio callsign is [KC3UFE](https://www.fccbulletin.com/callsign/?q=KC3UFE).
+Follow me on [Twitter!](https://twitter.com/{{ site.twitter_username }})
 
 I recently graduated with a degree in Computer Science from [Carnegie Mellon University](https://www.cmu.edu/), and am currently pursuing another year of Master's in Computer Science at the same place.
 
@@ -25,5 +26,7 @@ here!
 
 
 *Opinions expressed are solely my own and do not express the views or opinions of my employer.*
+
+{% twitter https://twitter.com/FanPu_Zeng maxwidth=500 limit=5 %}
 
 <br>

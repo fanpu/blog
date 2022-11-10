@@ -41,3 +41,7 @@ gem "jekyll-assets", group: :jekyll_plugins
 
 
 gem "webrick", "~> 1.7"
+
+gem 'jekyll-gist'
+
+gem 'jekyll-twitter-plugin'

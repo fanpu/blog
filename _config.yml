@@ -15,13 +15,15 @@
 # in the templates via {{ site.myvariable }}.
 title: Fan Pu's Blog
 description: >- # this means to ignore newlines until "baseurl:"
-  On computer science, software engineering, and life
+  Computer Science, Software Engineering, and Thoughts
 cover: assets/images/half_dome.avif
 favicon: assets/images/favicon_new.ico
 baseurl: "/" # the subpath of your site, e.g. /blog
 url: "https://fanpu.io" # the base hostname & protocol for your site, e.g. http://example.com
 github_username:  fanpu
 linkedin_username:  zengfanpu
+twitter_username:  FanPu_Zeng
+# twitter: FanPu_Zeng
 
 # Social info
 navigation: True # show the navbar links
@@ -100,10 +102,11 @@ permalink: pretty
 
 # gems and other configs
 plugins_dir: [_plugins]
-plugins: [jekyll-paginate, jekyll-feed, jekyll-toc]
+plugins: [jekyll-paginate, jekyll-feed, jekyll-toc, jekyll-gist, jekyll-twitter-plugin]
 
 feed:
   path: feed.xml
 
 sass:
   style: compressed
+

@@ -109,7 +109,7 @@ Most of the last few courses are just orientation courses that are not real clas
   
 - 21-122 Integration and Approximation, [Eric Baer](http://www.stat.uchicago.edu/~ebaer/)
 
-  Eric is now at UChicago, although I also liked him as a lecturer.
+  I liked his lectures, although Eric is now at UChicago.
 
 - 21-241 Matrices and Linear Transformations, [Irina Gheorghiciuc
 ](https://www.cmu.edu/math/people/faculty/gheorghiciuc.html)
@@ -117,7 +117,7 @@ Most of the last few courses are just orientation courses that are not real clas
   I personally liked Irina's to-the-point, no-nonsense teaching style.
   Her lectures are quite clear and interesting.
 
-- [98-317 StuCo: Type Theory (Hype for Types)](https://hypefortypes.github.io/)
+- [98-317 StuCo: Type Theory (Hype for Types)](https://hypefortypes.github.io/S19/), Jeanne Luning Prak, [Vijay Ramamurthy](https://vijayramamurthy.com/), [Chris Grossack](https://grossack.site/), [Charles Yuan](https://people.csail.mit.edu/chenhuiy/)
   
   We were given a crash course of SML in the first week, as everything else
   in the course depended on that, and it was required for the weekly homework. I
