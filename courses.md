@@ -362,7 +362,7 @@ Goldstein](http://www.cs.cmu.edu/~seth/)
 
 
 - &#11088; 15-455 **Undergraduate Complexity Theory**, [Venkatesan Guruswami
-](https://people.eecs.berkeley.edu/~venkatg/)
+](https://people.eecs.berkeley.edu/~venkatg/), [Jonathan Mosheiff](https://www.cs.bgu.ac.il/~mosheiff/)
 
   I really enjoyed 15-251 Great Theoretical Ideas in Computer Science under
   Venkat, and decided to take this class with him as well. Undergraduate
@@ -379,6 +379,10 @@ Goldstein](http://www.cs.cmu.edu/~seth/)
   Unfortunately, Venkat is now no longer at CMU, but has moved to Berkeley,
   which in my opinion is a very great loss for CMU's theory community.
   He is truly an amazing lecturer.
+
+  Recordings from a past offering of the course by Ryan O'Donnell can be found
+  on this [Youtube
+  playlist](https://www.youtube.com/playlist?list=PLm3J0oaFux3YL5vLXpzOyJiLtqLp6dCW2).
   
 - &#10084;&#65039; 15-445 [**Database Systems**](https://15445.courses.cs.cmu.edu/fall2020/), [Andy Pavlo](http://www.cs.cmu.edu/~pavlo/)
 
