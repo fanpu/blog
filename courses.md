@@ -92,10 +92,118 @@ Units: 61
 - &#10084;&#65039; 15-411 [**Compiler
 Design**](https://www.cs.cmu.edu/afs/cs/academic/class/15411-f20/www/), [Seth
 Goldstein](http://www.cs.cmu.edu/~seth/)
+  
+  Compilers is the other "star" systems class in CMU apart from OS.  The best
+  part of the course were the labs by far.  They are done in groups of 2, and
+  you can choose to use OCaml (best-supported, most people use this), C++ (ok
+  support), or Rust (very limited support, maybe better now?). Why
+  not be the next legend to write it in JavaScript? (please don't: reasoning will be given later).  There are 6 labs
+  in total, with each lab depending on previous labs. They are as follows:
+
+  1. Lab 1: You will implement lexing, parsing, typechecking, 
+  register allocation, and code generation in x86
+  for a very simple language that only performs arithmetic
+  for integers.
+
+  2. Lab 2: You extend the language that your compiler 
+  can compile to boolean
+  expressions (including integer comparisons that results in booleans),
+  conditional expressions, while and for loops.
+
+  3. Lab 3: The language that your compiler supports now includes
+  function prototypes, function declarations, typedefs.
+  It will be necessary to perform some tail-call optimizations to
+  avoid stack overflows on some of the test cases that performs
+  recursive calls.
+
+  4. Lab 4: Your compiler must now be able to allocate/free memory
+  on the heap, deal with pointers & deferencing, support structs
+  and field dereferencing/selection, support allocation
+  and de-allocation of fixed-sized arrays of a given type.
+
+  5. Lab 5: In my opinion, this lab was the most fun. The goal is to implement
+  various compiler optimizations such as strength reduction, single static
+  assignment (SSA), improved register allocation, aggressive deadcode
+  elimination, partial redundancy elimination, etc. You need to beat `gcc -O1`
+  in order to receive full credit, and it is possible to earn bonus points if
+  you can beat it further. There is a scoreboard as well, which encourages teams
+  to be competitive and creative with their optimizations. <br><br>
+  The running joke about Lab 5 is that many teams spend most of it implementing
+  SSA, but then run out of time to actually build optimizations on top of it.
+  This is because SSA is just a mechanism for transforming your intermediate
+  representation into a form that is more suitable for implementing many other
+  globla optimizations, but implementing it just by itself without optimizations
+  does not speed things up and instead makes your code slower since code in SSA
+  form is longer. <br><br>
+  This lab allows you to go as crazy as you want, and you can work on whatever
+  optimizations that interests you the most personally. For instance,
+  in the past there was a group that wrote an optimization to vectorize
+  operations using SIMD extensions. It did not really improve the
+  performance of the binary by a lot on most of the test cases, since
+  most of them are testing performance on other cases like deadcode elimination
+  or loop optimizations, but it was a cool project nonetheless.
+
+  6. Lab 6: In the last lab, you are asked to write your own proposal
+  for extending your compiler, and then to implement it. My group
+  chose to add object-oriented features to the language, including inheritance,
+  access modifiers (i.e `private/public/protected`), and runtime polymorphism via vtables.
+
+  Ok, so I mentioned previously that you shouldn't use some weird language
+  for compilers unless you really know what you are doing. This is because
+  in Lab 5, the amount of time given to your compiler to compile each
+  file is limited. Some of the more advanced optimizations are actually
+  very computationally expensive, and therefore you want to make sure
+  that the language that you use is fast, or otherwise you know how to
+  make it fast. There are many teams using OCaml that lost points on Lab 5
+  because their compiler could not compile many of the test cases in time (this
+  can be avoided by optimizing your compiler code, even if it's heap-based like
+  OCaml, although it might be trickier since people are generally less familiar
+  with how to write performant OCaml code). We also faced compiler runtime
+  issues with a few test cases initially even though we were on C++, but we were
+  able to resolve all of them by performing some optimizations.
+
+  Another fun part about this course is that on top of the test cases provided
+  to you for each lab, you will also have to write at least 20 programs to be
+  submitted as test cases, which will be added to the common pool of test cases
+  that everyone will be evaluated on. This creates some sort of cat-and-mouse
+  game where over the years the tests get increasingly harder and catch even
+  more edge cases, and your compiler must be faster and be more robust. Some of
+  the test cases even revealed bugs in the reference compiler. Of course, there
+  is a limit to how adversarial the programs can be - the reference compiler 
+  must be able to compile them within the time limit. Our team did something
+  quite evil by binary searching for the parameters determining the difficulty
+  of our programs that barely passes the threshold of what the reference
+  compiler can accept, which tripped up quite a number of other teams.
+
+  Another piece of advice for this class is that you cannot afford to fall behind on any of the
+  labs. This is because each lab depends on the successful implementation of
+  previous labs, and your compiler will be run against test cases in previous
+  labs. In other words, if you are failing 5 test cases in Lab 2, then you will
+  at minimum continue to fail all 5 of them in Lab 3 because they will
+  re-appear. This makes it critically important to get everything right for each
+  lab when it is due, if not the amount of points that you lose will continue to
+  compound to subsequent labs.
+
 
 - &#11088; 15-455 **Undergraduate Complexity Theory**, [Venkatesan Guruswami
 ](https://people.eecs.berkeley.edu/~venkatg/)
 
+  I really enjoyed 15-251 Great Theoretical Ideas in Computer Science under
+  Venkat, and decided to take this class with him as well. Undergraduate
+  Complexity Theory (UCT) is considered to be the follow-up class to 15-251.
+  The lecture pacing was quite fast, and he covered a lot of advanced topics
+  which would usually only be touched upon in a graduate class (i.e parameterized complexity, pseudorandomness), but all for the
+  better. The homeworks and exams are notoriously difficult and I ended up
+  spending much more time on this class than I expected to (~20 hours/week), but
+  it was a great preparation for the follow-up 15-855 Graduate Complexity Theory
+  course that I took next semester. Also, don't worry too much
+  about doing extremely well on his exams because they are always generously
+  curved at the end.
+
+  Unfortunately, Venkat is now no longer at CMU, but has moved to Berkeley,
+  which in my opinion is a very great loss for CMU's theory community.
+  He is truly an amazing lecturer.
+  
 - &#10084;&#65039; 15-445 [**Database Systems**](https://15445.courses.cs.cmu.edu/fall2020/), [Andy Pavlo](http://www.cs.cmu.edu/~pavlo/)
 
   Andy's lectures are a whole lot of fun, and it is hard to not be fired up by
@@ -130,7 +238,7 @@ Lambert](https://github.com/cslamber)
 
 Units: 48
 
-I dropped 15-312 Foundations of Programming Languages in the middle of the semester.
+I dropped 15-312 Foundations of Programming Languages in the middle of the semester, as UCT ended up taking much more time than I anticipated, and so that I could spend more time on compilers.
 
 ### Spring 2021
 - &#11088; 15-855 [**Graduate Computational Complexity
@@ -183,8 +291,37 @@ Learning**](https://www.cs.cmu.edu/~aarti/Class/10701_Spring21/index.html),
 [Geoff Gordon](http://www.cs.cmu.edu/~ggordon/), [Aarti
 Singh](http://www.cs.cmu.edu/~aarti/)
 
+  I did not really enjoy this class, and felt that it tried to cover too much
+  too quickly, which led to a very shallow and surface-level understanding of
+  many topics. Maybe this is the whole point of an introductory survey class,
+  and maybe my lack of background in the area also led to me feeling oftentimes
+  very confused about what is going on. I don't feel like I remembered
+  a lot from this class, and none of the homework assignments were memorable.
+
+  Unfortunately, there are not many great options for introductory ML classes.  
+  People I knew who took the undergraduate Introduction to ML class (10-315)
+  complained about it being hand-wavey and not rigorous, and 10-601 is sort of
+  an in-between.  As such, if you are a motivated and mathematically mature
+  student, 10-701 would still probably be your best option for an ML class.
+  Another choice would be 10-715, which is geared towards Ph.D students in the
+  Machine Learning Department (MLD) and is the fastest-paced and most
+  challenging option.
+  
 - 15-354 [**Computation and Discrete Math**](https://www.cs.cmu.edu/~sutner/CDM/index.html), [Klaus Sutner](https://www.cs.cmu.edu/~sutner/index.html)
 
+  Klaus has a reputation of trying to add abstract algebra in everything that he
+  teaches. This was definitely true in his trademark class Computation and
+  Discrete Math (CDM), where he condensed a semester's worth of material from 21-373
+  Algebraic Structures covering groups, rings, and fields into two lectures, and
+  for good measure also threw in some discussion about Galois theory.  This
+  culminated in a formal introduction of Polya counting, algebraic feedback
+  shift registers, and many other algebraic applications.
+
+  There was also a lot of discussion about advanced concepts in automata theory
+  in the first part of the course, building upon the basics introduced in 15-251
+  Great Theoretical Ideas in Computer Science. This was his research area and
+  was therefore unsurprising.
+  
 - 15-440 [**Distributed Systems**](https://www.andrew.cmu.edu/course/15-440/),
 [Mahadev Satyanarayanan](http://www.cs.cmu.edu/~satya/), [Padmanabhan
 Pillai](https://www.andrew.cmu.edu/user/pspillai/)
