@@ -22,7 +22,8 @@ have not taken, in the comments section below.
 
 A lot of inspiration for this page came from [Wan Shen's CMU course review page](https://wanshenl.me/courses/reviews/).
 
-Some details about earlier semesters is still a work in progress, apologies about the missing content from many courses.
+This page was recently updated on 11/9/2022 to help students decide the classes
+they may want to take ahead of course registration week.
 
 ---
 ### Fall 2018
@@ -44,7 +45,7 @@ Some details about earlier semesters is still a work in progress, apologies abou
 - [15-122 Principles of Imperative Computation](https://www.cs.cmu.edu/~15122/)
 
   I was quite bored during lecture as I already knew most of the content
-  due to my competitive programming background.
+  due to my competitive programming background. The assignments were still pretty cool though.
 
 - 21-120 Differential and Integral Calculus
 
