@@ -22,17 +22,65 @@ have not taken, in the comments section below.
 
 A lot of inspiration for this page came from [Wan Shen's CMU course review page](https://wanshenl.me/courses/reviews/).
 
-Much of it is still a work in progress, apologies about the missing content from many courses.
+Some details about earlier semesters is still a work in progress, apologies about the missing content from many courses.
 
 ---
 ### Fall 2018
-- &#10084;&#65039; 15-151 Mathematical Foundations for Computer Science
-- 15-122 Principles of Imperative Computation
+- &#10084;&#65039; [15-151 Mathematical Foundations for Computer Science](https://www.math.cmu.edu/~jmackey/151_128/welcome.html), [John Mackey](https://www.cmu.edu/math/people/faculty/mackey.html)
+
+  It is said that the best predictor of a student's success is how well
+  they did in 15-151. Having been through the whole process,
+  I can testify that it is indeed true. Much of computer science depends
+  on math, and you need a strong and firm foundation in discrete 
+  mathematics and proof writing in order to succeed in all subsequent classes.
+
+  Seriousness aside, Mackey is an amazing lecturer. In fact, I would go so far
+  as to say his lectures are more like a performance, full of wit and humor.  I
+  will always remember how after the first lecture everyone stood up and gave
+  him a standing ovation. I believe that was the first and only time I have ever
+  seen 200 students in a packed lecture hall give a standing ovation after a
+  lecture.
+
+- [15-122 Principles of Imperative Computation](https://www.cs.cmu.edu/~15122/)
+
+  I was quite bored during lecture as I already knew most of the content
+  due to my competitive programming background.
+
 - 21-120 Differential and Integral Calculus
+
+  I could not transfer AP credit from A-Level H2 Mathematics as the SEAB course code
+  changed while I was serving National Service as they modified the syllabus and
+  split it into H2 Further Mathematics and H2 Mathematics, and was therefore
+  forced to take the class by my first-year advisor. It was honestly largely a
+  waste of time, but it was also the only class that I took at CMU where I was
+  classmates with college football players. It was quite funny because I was the
+  only Asian kid in the class, and since I already knew all the content, I would
+  always go up to the blackboard and write up the answers to all the TA's
+  questions during recitation, to the applause of all the other kids. The whole
+  scene is quite stereotypical but it's also funny, and having this experience
+  is perhaps the only silver lining of taking this class.
+  
 - 76-106 Writing about Literature and Art
+
+  I enjoyed the assigned readings of literature from different cultures,
+  and the class discussions were also quite engaging. 
+
 - 76-107 Writing about Data
+
+  Found this class relatively dry, and most of the content seemed obvious and boring.
+
 - 80-100 Introduction to Philosophy
+  
+  I had some prior interest and experience with philosophy, and found this a
+  really interesting class that covered a good amount of topics.  However, the
+  workload was quite high for a gen-ed (2 sets of assignments and readings per
+  week), and I don't think I could have tolerated the workload if I had taken it
+  beyond freshmen year.
+
 - 07-131 Great Practical Ideas in Computer Science
+
+  Teaches you the tools of the trade like Git, Vim, etc.
+
 - 15-051 Discrete Math Primer
 - 99-101 Computing at Carnegie Mellon
 - 07-128 First Year Immigration Course
@@ -42,12 +90,34 @@ Units: 55
 Most of the last few courses are just orientation courses that are not real classes with actual workload.
 
 ### Spring 2018
-- &#10084;&#65039; 15-251 Great Ideas in Theoretical Computer Science
-- 15-150 Principles of Functional Programming
-- 15-213 Introduction to Computer Systems
-- 21-122 Integration and Approximation
-- 21-241 Matrices and Linear Transformations 
-- 98-317 StuCo: Type Theory (Hype for Types)
+- &#10084;&#65039; [15-251 Great Ideas in Theoretical Computer Science](http://www.cs.cmu.edu/~15251/), [Venkatesan Guruswami](https://people.eecs.berkeley.edu/~venkatg/), [Vipul Goyal](https://www.cs.cmu.edu/~goyal/)
+
+  The class was very well-taught and structured.  Homeworks are done in the form
+  of weekly writing sessions, where you have to reproduce proofs to selected
+  homework problems independently in an exam-like setting. This helps to ensure
+  that all students fully understand the proofs that they write up.
+
+- [15-150 Principles of Functional Programming](http://www.cs.cmu.edu/~15150/)
+
+- [15-213 Introduction to Computer Systems](https://www.cs.cmu.edu/~213/), [Seth Goldstein](http://www.cs.cmu.edu/~seth/), [Brandon Lucia](https://brandonlucia.com/)
+
+  This class unlocks all other systems classes, and many classes also have this
+  as a requirement to ensure that students have had experience implementing
+  large projects. Much of what is covered will form the bread and butter of
+  subsequent systems classes, and many of the topics will also be extremely
+  useful in your future career as a software engineer.
+  
+- 21-122 Integration and Approximation, [Eric Baer](http://www.stat.uchicago.edu/~ebaer/)
+
+  Eric is now at UChicago, although I also liked him as a lecturer.
+
+- 21-241 Matrices and Linear Transformations, [Irina Gheorghiciuc
+](https://www.cmu.edu/math/people/faculty/gheorghiciuc.html)
+
+  I personally liked Irina's to-the-point, no-nonsense teaching style.
+  Her lectures are quite clear and interesting.
+
+- [98-317 StuCo: Type Theory (Hype for Types)](https://hypefortypes.github.io/)
 
 Units: 57
 
@@ -68,10 +138,40 @@ Units: 57
   project that will stretch your wits in finding ways of improving the
   throughput of a distributed web service in the cloud.
   
-- 15-330 Introduction to Computer Security
-- 15-210 Parallel and Sequential Data Structures and Algorithms
-- 21-268 Multi-dimensional Calculus
+- 15-330 Introduction to Computer Security, [Bryan Parno](https://www.andrew.cmu.edu/user/bparno/)
+
+  Bryan is a great lecturer, and the course is divided into 3 portions: binary
+  exploitation, cryptography, and web security. I took this course because I
+  wanted better knowledge of topics in computer security, so that I can get better at playing Capture-The-Flag (CTF) competitions with
+  the [Plaid Parliament of Pwning (PPP)](https://pwning.net/).
+
+  I personally think it is a form of gross negligence if you ever write critical
+  software systems without having a good understanding of computer security,
+  especially if you ever touch or deal with anything related to cryptography, or
+  maintain critical and sensitive user-facing platforms like banking systems.
+  The number of software engineers who still don't know the difference between
+  private and public keys is stupefying, and you really don't want to cause your
+  company to get hacked or lose customer data because of a lack of understanding
+  of fundamental security concepts.
+
+- [15-210 Parallel and Sequential Data Structures and Algorithms](https://www.diderot.one/courses/44)
+
+  I found the course okay, some portions were interesting but
+  I don't remember being very excited by any topic in particular. I already
+  knew quite a lot of the algorithms from doing competitive programming
+  in high school, so it was relatively easy.
+
+- 21-268 Multi-dimensional Calculus, [Jack Schaeffer](https://www.cmu.edu/math/people/faculty/schaeffer-j.html)
+
+  This is the honors version of 21-259 Calculus in Three Dimensions, and I would
+  recommend mathematically strong students take this (or 21-269 Vector
+  Analysis if they are on the math honors track). It covers more content
+  and is more rigorous.
+
 - 69-151 Introduction to Yoga
+
+  Took this for fun because I attended a lot of free yoga classes at the office while I was interning at Asana.
+
 - 98-349 StuCo: Design and Analysis of Logic Puzzle Games
 
 Units: 52
@@ -79,12 +179,88 @@ Units: 52
 I dropped 21-373 Algebraic Structures in the last week of classes.
 
 ### Spring 2020
-- &#11088; 15-410 Operating Systems Design and Implementation
-- 15-259 Probability and Computing
+- &#11088; [15-410 Operating Systems Design and Implementation](https://www.cs.cmu.edu/~410/), [Dave Eckhardt](http://www.cs.cmu.edu/~davide/), [Brian Railing](http://www.cs.cmu.edu/~bpr/), [Dave O'Hallaron](http://www.cs.cmu.edu/~droh/)
+  
+  This is probably the most "famous" systems class at CMU.
+  The [slides from the first
+  lecture](https://www.cs.cmu.edu/~410/lectures/L01a_OS.pdf) will probably give
+  you a good sense of how the class is like.
+
+  A few pieces of advice:
+  1. Start early and aim to finish 2-3 days before the deadline. It is hard to debug a complicated kernel under stress, and you will always find a few
+  more bugs just when you thought you were done.
+  2. Choose your partner wisely. Preferably they will be someone that
+  you have worked with before. Avoid choosing your significant other
+  as your partner - this class is very stressful and it will introduce
+  many fault-lines into your relationship.
+
+  I will probably write a dedicated, separate post for this class someday.
+
+- [15-259 Probability and Computing](https://www.cs.cmu.edu/~harchol/PnC/class.html)
+  
+  Mor is absolutely amazing at teaching and in maintaining student's interest
+  during classes. She will give out chocolates in class if you answer a
+  question, leading to very high in-class participation. People fight
+  to get seated closer to the front, so that it is more likely that they
+  will get called on to answer questions.
+
+  Aside from that, her teaching is very clear and she has a wonderfully
+  written textbook that accompanies the course. Homework problems
+  are on the challenging side, but also very fun.
+  
+  If you are a CS major with a strong mathematical background, you should
+  definitely take this class to satisfy your probability requirement instead of
+  taking the one from the statistics department (which is not as rigorous). This
+  course is tailored for CS students and covers many topics that are pervasive
+  in CS research, such as concentration bounds including Chernoff and Hoeffding,
+  classical randomized algorithms, and Markov Chains.
+
 - 15-260 Statistics and Computing
-- 15-451 Algorithm Design and Analysis
-- 33-228 Electronics I
-- 79-396 Music and Society in 19th and 20th Century Europe and the U.S. 
+
+  This class is offered as a mini, meant to accompany 15-259 Probability and
+  Computing. It allows CS students to satisfy satistics requirement for some ML
+  or graduate statistics classes without having to take another introductory
+  statistic course.
+
+- 15-451 [Algorithm Design and Analysis](http://www.cs.cmu.edu/~15451-s20/), [Danny Sleator](http://www.cs.cmu.edu/~sleator/), [David Woodruff](http://www.cs.cmu.edu/~dwoodruf/)
+
+  This is the main algorithms class of CMU, and Danny Sleator and Splay Trees
+  (which he invented) are the heart of it. Since students are expected to have
+  already completed several other introductory algorithms and theory classes
+  prior to taking this, the course covers many more advanced topics.
+
+  One misconception that many people have is that they need to take 15-451
+  before they know 'enough' algorithms to feel confident enough to apply for
+  software engineering jobs and pass the interview. Most of the content covered
+  in 15-451 are probably out of scope for most interviews (nobody is going to
+  ask you to code max-flow, or prove LP duality, or write Rabin-Miller hashing
+  from memory during a 30-minute interview). The only relevant topic for
+  interview preparation is probably dynamic programming, but given that DP
+  was already covered in 15-210, there is really no reason to wait for this
+  class.
+
+- [33-228 Electronics I](http://www-meg.phys.cmu.edu/physics_33228/), [Jeffrey Peterson](https://www.cmu.edu/physics/people/faculty/peterson.html), [Ben Hunt](https://www.cmu.edu/physics/people/faculty/hunt.html), [Simranjeet Singh](https://www.cmu.edu/physics/people/faculty/singh.html)
+
+  I took this class to satisfy my lab requirement. I personally thought
+  that this is the best class for the lab requirement for CS majors, since it
+  introduces you to the basics of circuits and electronics, which seems
+  quite useful as there are no other CS classes that does anything comparable.
+  One of the most memorable projects was in building a 555 timer from scratch
+  (not using the IC) with resistors, transistors, capacitors, and voltage
+  dividers. It made me realize that if debugging software was bad,
+  debugging hardware is on a whole new level.
+
+- 79-396 Music and Society in 19th and 20th Century Europe and the U.S., [Naum Kats](https://www.cmu.edu/dietrich/modlang/about-us/filter/adjunct/naum-kats.html)
+
+  This was a relatively low-stress and fun class, where each week you would
+  watch a live play, musical, or orchestral concert, and also visit art
+  galleries and museums. The weekly homework is just to write a one-page
+  reflection of the experience, and apart from that there are only two
+  book reviews to complete. It was quite a good class to take to destress
+  from my other more demanding classes.
+
+  
+
 
 Units: 61
 
