@@ -118,6 +118,17 @@ Most of the last few courses are just orientation courses that are not real clas
   Her lectures are quite clear and interesting.
 
 - [98-317 StuCo: Type Theory (Hype for Types)](https://hypefortypes.github.io/)
+  
+  We were given a crash course of SML in the first week, as everything else
+  in the course depended on that, and it was required for the weekly homework. I
+  would say that taking this concurrently with 15-150 definitely made 15-150
+  much easier, but at the time I was also pretty lost during many of the
+  lectures in this class. Somehow I was able to complete all the programming
+  assignments despite understanding very little from the lecture, which goes to
+  show how much a strongly typed functional language can inform and guide your
+  code. It was only a few years later after having taken both 15-312
+  Foundations of Programming Languages and 15-317 Constructive Logic that I
+  could fully appreciate much of the content in hindsight.
 
 Units: 57
 
