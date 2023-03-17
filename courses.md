@@ -320,7 +320,7 @@ Goldstein](http://www.cs.cmu.edu/~seth/)
   SSA, but then run out of time to actually build optimizations on top of it.
   This is because SSA is just a mechanism for transforming your intermediate
   representation into a form that is more suitable for implementing many other
-  globla optimizations, but implementing it just by itself without optimizations
+  global optimizations, but implementing it just by itself without optimizations
   does not speed things up and instead makes your code slower since code in SSA
   form is longer. <br><br>
   This lab allows you to go as crazy as you want, and you can work on whatever
